@@ -1,0 +1,2522 @@
+[
+  {
+    "slug": "accessibility-engineer",
+    "title": "Accessibility Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Audits and refactors web apps for WCAG 2.1/2.2 AA and AAA: ARIA, keyboard operability and screen reader support. Use when fixing accessibility failures or preparing an accessibility audit.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/accessibility-engineer"
+  },
+  {
+    "slug": "ai-data-remediation-engineer",
+    "title": "AI Data Remediation Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds self-healing data pipelines that detect, classify and correct data anomalies using local models and semantic clustering. Use when data quality breaks repeatedly and manual cleanup does not scale.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ai-data-remediation-engineer"
+  },
+  {
+    "slug": "ai-engineer",
+    "title": "AI Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Develops and deploys ML models into production: training, serving, evaluation and integration. Use when shipping a model. Not for eval harnesses - use ai-eval-suite-builder.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ai-engineer"
+  },
+  {
+    "slug": "ai-eval-suite-builder",
+    "title": "AI Eval Suite Builder",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds LLM evaluation harnesses: regression datasets, scoring rubrics, prompt drift detection and benchmarks. Use when replacing eyeballed output quality with automated evals.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ai-eval-suite-builder"
+  },
+  {
+    "slug": "android-developer",
+    "title": "Android Developer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds native Android apps in Kotlin and Jetpack Compose with Material 3, MVVM/MVI and Hilt. Use for Android-specific work. For cross-platform, use mobile-app-builder.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/android-developer"
+  },
+  {
+    "slug": "api-lifecycle-engineer",
+    "title": "API Lifecycle Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs, documents, mocks and tests REST, GraphQL and gRPC APIs with OpenAPI and contract testing. Use when designing an API surface. For GraphQL schema depth, use graphql-api-designer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/api-lifecycle-engineer"
+  },
+  {
+    "slug": "appsec-architect",
+    "title": "Appsec Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Runs application security reviews: STRIDE threat modelling, OWASP Top 10 code auditing and secure design. Use when threat modelling a system. Not for live testing - use penetration-tester.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/appsec-architect"
+  },
+  {
+    "slug": "autonomous-optimization-architect",
+    "title": "Autonomous Optimization Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs systems that tune themselves - autoscaling, adaptive parameters and feedback-driven optimisation with safe bounds. Use when a system needs to self-correct rather than be tuned by hand.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/autonomous-optimization-architect"
+  },
+  {
+    "slug": "backend-architect",
+    "title": "Backend Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs backend systems: service boundaries, database architecture, API structure and cloud infrastructure. Use when designing a backend. Not for whole-system architecture - use software-architect.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/backend-architect"
+  },
+  {
+    "slug": "blockchain-security-auditor",
+    "title": "Blockchain Security Auditor",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Audits smart contracts and on-chain systems for reentrancy, access control flaws, oracle manipulation and economic exploits. Use when reviewing contract security before deployment.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/blockchain-security-auditor"
+  },
+  {
+    "slug": "bug-explainer",
+    "title": "Bug Explainer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Turns an error message or stack trace into a plain explanation of what broke, why, and what to check next. Use when a trace is opaque. Not for systematic root-cause work - use debugging-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/bug-explainer"
+  },
+  {
+    "slug": "changelog-writer",
+    "title": "Changelog Writer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes changelogs in Keep a Changelog format with categorised entries and audience-appropriate wording. Use when preparing a release note from commits or a diff.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/changelog-writer"
+  },
+  {
+    "slug": "ci-cd-pipeline-builder",
+    "title": "CI CD Pipeline Builder",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds CI/CD pipelines with build, test, security scan and deploy stages across common providers. Use when setting up or repairing a pipeline. Not for infrastructure itself - use iac-provisioner.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ci-cd-pipeline-builder"
+  },
+  {
+    "slug": "cloud-security-architect",
+    "title": "Cloud Security Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs cloud security: identity and access boundaries, network segmentation, key management and workload isolation across AWS, Azure and GCP. Use when securing a cloud estate.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/cloud-security-architect"
+  },
+  {
+    "slug": "code-comment-writer",
+    "title": "Code Comment Writer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes comments and docstrings that explain intent and non-obvious decisions rather than restating the code. Use when documenting a function or module for the next reader.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/code-comment-writer"
+  },
+  {
+    "slug": "code-reviewer",
+    "title": "Code Reviewer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Reviews code for correctness, performance, security, readability, test coverage and architectural fit. Use when reviewing a diff or PR before merge.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/code-reviewer"
+  },
+  {
+    "slug": "code-translator",
+    "title": "Code Translator",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Translates code between languages while preserving behaviour, idiom and test coverage. Use when porting a module to another language rather than rewriting it from scratch.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/code-translator"
+  },
+  {
+    "slug": "codebase-onboarding-engineer",
+    "title": "Codebase Onboarding Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Maps an unfamiliar codebase: entry points, data flow, key abstractions and where to make a first change. Use when joining a project. Not for modernising it - use legacy-code-modernizer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/codebase-onboarding-engineer"
+  },
+  {
+    "slug": "compliance-auditor",
+    "title": "Compliance Auditor",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Prepares for SOC 2, ISO 27001, HIPAA and PCI-DSS audits: readiness assessment, control mapping and evidence collection. Use when preparing for a technical audit. Name the framework.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/compliance-auditor"
+  },
+  {
+    "slug": "composio",
+    "title": "Composio",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Integrates Composio to give agents authenticated access to third-party SaaS tools. Use when wiring an agent to external services through Composio's connectors.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/composio"
+  },
+  {
+    "slug": "create-skill",
+    "title": "Create Skill",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Scaffolds a new Agent Skill: frontmatter with a trigger-rich description under 250 chars, structured body and supporting files. Use when authoring a new skill. Not for reviewing one - use skill-linter.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/create-skill"
+  },
+  {
+    "slug": "cron-job-planner",
+    "title": "Cron Job Planner",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs cron schedules with timezone handling, overlap prevention, failure alerting and dependency ordering. Use when scheduling recurring jobs or fixing overlapping runs.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/cron-job-planner"
+  },
+  {
+    "slug": "data-engineer",
+    "title": "Data Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds data pipelines, lakehouse architectures and data infrastructure. Use for implementation and operation. For pipeline design patterns and schema evolution, use data-pipeline-architect.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/data-engineer"
+  },
+  {
+    "slug": "data-pipeline-architect",
+    "title": "Data Pipeline Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs ETL/ELT pipelines, data quality validation, schema evolution and streaming versus batch architecture. Use when choosing an approach. For building it, use data-engineer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/data-pipeline-architect"
+  },
+  {
+    "slug": "database-optimizer",
+    "title": "Database Optimizer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Diagnoses and fixes slow queries: execution plans, index design, N+1 access patterns and denormalisation trade-offs. Use when a database is the bottleneck.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/database-optimizer"
+  },
+  {
+    "slug": "database-schema-designer",
+    "title": "Database Schema Designer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs SQL schemas with relationships, indexes, constraints and normalisation suited to the access patterns. Use when modelling a new schema. Not for tuning an existing one - use database-optimizer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/database-schema-designer"
+  },
+  {
+    "slug": "debugging-strategist",
+    "title": "Debugging Strategist",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Applies systematic debugging: binary search isolation, hypothesis-driven log analysis, memory and race condition profiling. Use when a bug resists guessing. Not for reading one trace - use bug-explainer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/debugging-strategist"
+  },
+  {
+    "slug": "dependency-upgrade-auditor",
+    "title": "Dependency Upgrade Auditor",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Audits dependencies for outdated versions, CVEs, license compliance and breaking-change risk, and sequences the upgrade. Use when planning a dependency bump or clearing a security alert.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/dependency-upgrade-auditor"
+  },
+  {
+    "slug": "deployment-checklist",
+    "title": "Deployment Checklist",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Produces pre- and post-deployment verification checklists covering migrations, feature flags, rollback and smoke checks. Use when preparing a release cutover.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/deployment-checklist"
+  },
+  {
+    "slug": "devops-automator",
+    "title": "Devops Automator",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Automates infrastructure and cloud operations: provisioning, configuration management and operational tooling. Use for day-to-day DevOps. For pipelines, use ci-cd-pipeline-builder.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/devops-automator"
+  },
+  {
+    "slug": "ecommerce-cms-architect",
+    "title": "eCommerce CMS Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Architects CMS-based commerce: cart pipelines, checkout flows, payment gateway integration and PCI-aware handling. Use when building or hardening an online store.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ecommerce-cms-architect"
+  },
+  {
+    "slug": "email-intelligence-engineer",
+    "title": "Email Intelligence Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Extracts structured, reasoning-ready data from raw email threads for agents and automation. Use when turning messy inbox content into usable structured records.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/email-intelligence-engineer"
+  },
+  {
+    "slug": "embedded-firmware-engineer",
+    "title": "Embedded Firmware Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes bare-metal and RTOS firmware for ESP32/ESP-IDF, ARM Cortex-M, STM32 and Nordic nRF. Use when developing or debugging firmware on constrained hardware.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/embedded-firmware-engineer"
+  },
+  {
+    "slug": "environment-setup-guide",
+    "title": "Environment Setup Guide",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes local development setup guides with dependency installation, configuration, seed data and a verification step. Use when onboarding developers onto a project's tooling.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/environment-setup-guide"
+  },
+  {
+    "slug": "error-boundary-designer",
+    "title": "Error Boundary Designer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs error handling: boundaries, fallback UIs, retry strategy, circuit breakers and degradation paths. Use when failures cascade or surface as blank screens.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/error-boundary-designer"
+  },
+  {
+    "slug": "evidence-collector",
+    "title": "Evidence Collector",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Runs QA that demands visual proof, defaulting to finding several concrete issues with screenshots. Use when verifying a change actually works rather than trusting that it does.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/evidence-collector"
+  },
+  {
+    "slug": "feishu-integration-developer",
+    "title": "Feishu Integration Developer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds on the Feishu (Lark) Open Platform: bots, mini programs, approval flows and API integration. Use when integrating with Feishu.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/feishu-integration-developer"
+  },
+  {
+    "slug": "filament-optimizer",
+    "title": "Filament Optimizer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Tunes 3D printing filament profiles: temperature, flow, retraction and cooling against material and printer. Use when print quality problems trace to material settings.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/filament-optimizer"
+  },
+  {
+    "slug": "finops-engineer",
+    "title": "FinOps Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Analyses and reduces cloud cost: unit economics, showback/chargeback, rightsizing and commitment planning. Use when cloud spend outpaces usage or needs allocating to teams.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/finops-engineer"
+  },
+  {
+    "slug": "frontend-developer",
+    "title": "Frontend Developer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Implements web UIs in React, Vue or Angular with attention to performance and correctness. Use when building frontend features. Not for visual design - use ui-designer or frontend-design.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/frontend-developer"
+  },
+  {
+    "slug": "git-commit-writer",
+    "title": "Git Commit Writer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes Conventional Commits messages with correct type, scope and breaking-change footers. Use when committing. Not for PR descriptions - use pr-description-writer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/git-commit-writer"
+  },
+  {
+    "slug": "git-workflow-architect",
+    "title": "Git Workflow Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs branching and release strategy: trunk-based or GitFlow, protection rules, review policy and release tagging. Use when a team's git process causes conflicts or unclear release state.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/git-workflow-architect"
+  },
+  {
+    "slug": "graphql-api-designer",
+    "title": "GraphQL API Designer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs GraphQL schemas: types, queries and mutations, resolver patterns, pagination and N+1 avoidance. Use for GraphQL specifically. For REST or gRPC, use api-lifecycle-engineer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/graphql-api-designer"
+  },
+  {
+    "slug": "iac-provisioner",
+    "title": "IaC Provisioner",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes Terraform, Pulumi or CloudFormation with modular resources, state management and drift detection. Use when provisioning infrastructure as code.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/iac-provisioner"
+  },
+  {
+    "slug": "incident-commander",
+    "title": "Incident Commander",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Runs incident response: severity classification, diagnostic triage, stakeholder comms, mitigation and post-mortem. Use when a production incident is active or when writing the post-mortem afterwards.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/incident-commander"
+  },
+  {
+    "slug": "ios-developer",
+    "title": "iOS Developer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds native iOS apps in Swift and SwiftUI following Apple HIG, with Combine and App Store requirements. Use for iOS-specific work. For cross-platform, use mobile-app-builder.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ios-developer"
+  },
+  {
+    "slug": "it-service-manager",
+    "title": "IT Service Manager",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Runs IT service management: incident, problem and change processes, service catalogue and SLA tracking. Use when structuring an IT support function.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/it-service-manager"
+  },
+  {
+    "slug": "legacy-code-modernizer",
+    "title": "Legacy Code Modernizer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Maps dependencies and debt hotspots in a legacy codebase and plans incremental migration with strangler-fig staging. Use when modernising without a rewrite. For the cutover, use migration-engineer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/legacy-code-modernizer"
+  },
+  {
+    "slug": "load-testing-engineer",
+    "title": "Load Testing Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs and runs load tests with k6, Locust or JMeter using realistic traffic patterns and baselines. Use when validating capacity or finding a breaking point.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/load-testing-engineer"
+  },
+  {
+    "slug": "migration-engineer",
+    "title": "Migration Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Executes zero-downtime migrations: database cutovers, cloud-to-cloud moves and monolith decomposition with rollback. Use when moving live data or traffic. For planning debt reduction, use legacy-code-modernizer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/migration-engineer"
+  },
+  {
+    "slug": "minimal-change-engineer",
+    "title": "Minimal Change Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Makes the smallest correct change to fix a problem, resisting incidental refactors and scope creep. Use when a codebase is fragile and the diff must stay reviewable.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/minimal-change-engineer"
+  },
+  {
+    "slug": "mobile-app-builder",
+    "title": "Mobile App Builder",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds mobile apps across native and cross-platform frameworks. Use when the platform is undecided or the app targets both. For platform-specific depth, use ios-developer or android-developer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/mobile-app-builder"
+  },
+  {
+    "slug": "monorepo-planner",
+    "title": "Monorepo Planner",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Structures monorepos with Turborepo, Nx or pnpm workspaces, build caching and affected-module detection. Use when a repo's builds are slow or its boundaries unclear.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/monorepo-planner"
+  },
+  {
+    "slug": "multi-agent-systems-architect",
+    "title": "Multi Agent Systems Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs multi-agent systems: role decomposition, message passing, shared state and failure isolation. Use when one agent is not enough and coordination becomes the problem.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/multi-agent-systems-architect"
+  },
+  {
+    "slug": "n8n",
+    "title": "N8n",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds n8n automation workflows: node wiring, credentials, error branches and scheduling. Use when automating in n8n. Not for governance review - use automation-governance-architect.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/n8n"
+  },
+  {
+    "slug": "new-client-system",
+    "title": "New Client System",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Sets up the onboarding system for a new client engagement: intake, access, environments, communication cadence and deliverable tracking. Use when starting client work.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/new-client-system"
+  },
+  {
+    "slug": "observability-engineer",
+    "title": "Observability Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Instruments services with OpenTelemetry traces, metrics and structured logs, and designs SLO/SLI dashboards and alerts. Use when incidents are hard to diagnose or alerts are noisy.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/observability-engineer"
+  },
+  {
+    "slug": "orgscript-engineer",
+    "title": "Orgscript Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Encodes organisational processes as executable scripts and templates so recurring work runs consistently. Use when a process lives only in people's heads.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/orgscript-engineer"
+  },
+  {
+    "slug": "penetration-tester",
+    "title": "Penetration Tester",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Conducts authorised penetration tests and red team operations against networks, applications and cloud. Use for live offensive testing. For design review, use appsec-architect.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/penetration-tester"
+  },
+  {
+    "slug": "performance-optimizer",
+    "title": "Performance Optimizer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Profiles and optimises performance across frontend Core Web Vitals, backend queries and infrastructure. Use when something is slow and the cause is not yet known.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/performance-optimizer"
+  },
+  {
+    "slug": "platform-engineer",
+    "title": "Platform Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds internal developer platforms: golden path templates, self-service provisioning and developer experience. Use when developers wait on tickets to ship.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/platform-engineer"
+  },
+  {
+    "slug": "pr-description-writer",
+    "title": "PR Description Writer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes pull request descriptions with context, motivation, approach, testing performed and review guidance. Use when opening a PR. Not for commit messages - use git-commit-writer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/pr-description-writer"
+  },
+  {
+    "slug": "prompt-engineer",
+    "title": "Prompt Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Crafts, tests and systematically optimises LLM prompts, turning vague instructions into reliable production behaviour. Use when a prompt is inconsistent or needs evaluating.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/prompt-engineer"
+  },
+  {
+    "slug": "rapid-prototyper",
+    "title": "Rapid Prototyper",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds a working prototype fast, choosing throwaway shortcuts deliberately and marking what must be rebuilt. Use when validating an idea rather than shipping it.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/rapid-prototyper"
+  },
+  {
+    "slug": "readme-generator",
+    "title": "Readme Generator",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes project READMEs with purpose, install steps, usage examples, configuration and contribution notes. Use when a project has no README or an unusable one.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/readme-generator"
+  },
+  {
+    "slug": "refactor-assistant",
+    "title": "Refactor Assistant",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Identifies code smells and proposes refactorings - extract method, replace conditional with polymorphism, introduce parameter object - with safe sequencing. Use when improving structure without changing behaviour.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/refactor-assistant"
+  },
+  {
+    "slug": "regex-builder",
+    "title": "Regex Builder",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds and explains regular expressions, with a breakdown of each component and the cases they match. Use when writing a non-trivial pattern or debugging one that misfires.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/regex-builder"
+  },
+  {
+    "slug": "secops-intelligence-engineer",
+    "title": "Secops Intelligence Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes threat detection rules, correlates SIEM/SOC telemetry and maps adversary behaviour to MITRE ATT&CK. Use when building detections or triaging security events.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/secops-intelligence-engineer"
+  },
+  {
+    "slug": "setup-codex-precheck",
+    "title": "Setup Codex Precheck",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Runs pre-flight checks before a Codex session: environment, dependencies, credentials and repo state. Use when preparing a repository for agent-driven work.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/setup-codex-precheck"
+  },
+  {
+    "slug": "software-architect",
+    "title": "Software Architect",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Designs whole-system architecture: domain-driven design, architectural patterns and technical decision records. Use for system-level design. For backend specifics, use backend-architect.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/software-architect"
+  },
+  {
+    "slug": "solidity-smart-contract-engineer",
+    "title": "Solidity Smart Contract Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes Solidity for EVM: contract architecture, gas optimisation, upgradeable proxies and DeFi patterns. Use when building contracts. For auditing them, use blockchain-security-auditor.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/solidity-smart-contract-engineer"
+  },
+  {
+    "slug": "sre-site-reliability-engineer",
+    "title": "SRE Site Reliability Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Practises SRE: SLOs, error budgets, chaos engineering and toil reduction. Use when setting reliability targets. For instrumentation, use observability-engineer.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/sre-site-reliability-engineer"
+  },
+  {
+    "slug": "tech-stack-advisor",
+    "title": "Tech Stack Advisor",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Evaluates technology options against requirements, team skill, scalability and total cost of ownership. Use when choosing a stack or justifying a technology decision.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/tech-stack-advisor"
+  },
+  {
+    "slug": "test-writer",
+    "title": "Test Writer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Writes test suites covering happy paths, edge cases and failure modes for a function, component or API. Use when adding coverage or writing tests before an implementation.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/test-writer"
+  },
+  {
+    "slug": "trigger-dev",
+    "title": "Trigger Dev",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds Trigger.dev background jobs: task definitions, retries, scheduling and observability. Use when running long or scheduled work off the request path. For visual no-code automation, use n8n.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/trigger-dev"
+  },
+  {
+    "slug": "typescript-migrator",
+    "title": "Typescript Migrator",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Plans and executes JavaScript to TypeScript migration with incremental strictness, type strategy and tsconfig staging. Use when adding types to an existing JS codebase.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/typescript-migrator"
+  },
+  {
+    "slug": "voice-ai-integration-engineer",
+    "title": "Voice AI Integration Engineer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds speech transcription pipelines with Whisper-style models and cloud ASR, from audio ingestion to structured output. Use when adding transcription or voice input to a product.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/voice-ai-integration-engineer"
+  },
+  {
+    "slug": "webhook-handler-builder",
+    "title": "Webhook Handler Builder",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds webhook receivers with signature verification, idempotent processing, retries and dead letter queues. Use when receiving webhooks that must not double-process or silently drop.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/webhook-handler-builder"
+  },
+  {
+    "slug": "wechat-mini-program-developer",
+    "title": "Wechat Mini Program Developer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Builds WeChat Mini Programs with WXML/WXSS/WXS, WeChat APIs, payments and the review process. Use when developing for the WeChat Mini Program platform.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/wechat-mini-program-developer"
+  },
+  {
+    "slug": "workflow-optimizer",
+    "title": "Workflow Optimizer",
+    "category": "Developer",
+    "repo": "skills-developer",
+    "description": "Analyses and automates business workflows to cut handoffs, waiting and rework. Use when improving an existing process. For a full redesign before automating, use workflow-redesign-consultant.",
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/workflow-optimizer"
+  },
+  {
+    "slug": "aeo-foundations",
+    "title": "Aeo Foundations",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Establishes answer engine optimisation basics: structuring content so AI assistants can quote it, with entity clarity and citable claims. Use when starting AEO work. Not for auditing existing visibility - use ai-citation-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/aeo-foundations"
+  },
+  {
+    "slug": "affiliate-program-designer",
+    "title": "Affiliate Program Designer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Designs affiliate and referral programmes: commission structure, partner tiers, attribution tracking and fraud prevention. Use when launching a referral programme or fixing one that attracts the wrong partners.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/affiliate-program-designer"
+  },
+  {
+    "slug": "ai-citation-strategist",
+    "title": "AI Citation Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Audits brand visibility in ChatGPT, Claude, Gemini and Perplexity, and diagnoses why competitors get cited instead. Use when checking AI search presence. Not for groundwork - use aeo-foundations.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/ai-citation-strategist"
+  },
+  {
+    "slug": "app-store-optimizer",
+    "title": "App Store Optimizer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Optimises App Store and Play listings: keywords, screenshots, conversion rate and discoverability. Use when a listing underperforms or preparing an app launch.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/app-store-optimizer"
+  },
+  {
+    "slug": "bilibili-content-strategist",
+    "title": "Bilibili Content Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Grows Bilibili channels: UP-owner growth, danmaku culture, algorithm behaviour and branded content. Use when building a presence on Bilibili or adapting content for that audience.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/bilibili-content-strategist"
+  },
+  {
+    "slug": "book-co-author",
+    "title": "Book Co Author",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Turns voice notes, fragments and positioning into a structured thought-leadership book for founders and operators. Use when developing a book from scattered material. Not for fiction - use longform-book-author.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/book-co-author"
+  },
+  {
+    "slug": "carousel-growth-engine",
+    "title": "Carousel Growth Engine",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Generates TikTok and Instagram carousels from a website URL, producing multi-slide viral formats. Use when producing carousel content at volume from existing site material.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/carousel-growth-engine"
+  },
+  {
+    "slug": "china-e-commerce-operator",
+    "title": "China E Commerce Operator",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Runs Taobao, Tmall, Pinduoduo and JD operations: listing optimisation, campaign mechanics and store performance. Use when operating a China domestic store. For export markets, use cross-border-ecommerce-operator.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/china-e-commerce-operator"
+  },
+  {
+    "slug": "china-market-localization-strategist",
+    "title": "China Market Localization Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Turns trend signals into China go-to-market plans across Douyin, Xiaohongshu and WeChat. Use when entering or repositioning in the China market beyond translation.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/china-market-localization-strategist"
+  },
+  {
+    "slug": "cold-email-writer",
+    "title": "Cold Email Writer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes cold outreach sequences with research-based hooks, value-first messaging, objection prehandling and follow-up cadence. Use when writing cold emails. Not for ICP strategy - use outbound-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/cold-email-writer"
+  },
+  {
+    "slug": "community-post-writer",
+    "title": "Community Post Writer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes forum posts and discussion prompts for Discord, Reddit, Slack and brand communities. Use when seeding a discussion or posting somewhere that punishes marketing tone.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/community-post-writer"
+  },
+  {
+    "slug": "competitor-analyser",
+    "title": "Competitor Analyser",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Analyses competitors on positioning, pricing, feature gaps, channels and content. Use when sizing up a rival or building a battlecard. Not for market trend scanning - use trend-researcher.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/competitor-analyser"
+  },
+  {
+    "slug": "content-calendar-builder",
+    "title": "Content Calendar Builder",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds content calendars with theme mapping, channel distribution, cadence and seasonal campaigns. Use when planning a publishing schedule. Not for a single launch week - use launch-week-planner.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/content-calendar-builder"
+  },
+  {
+    "slug": "content-repurposer",
+    "title": "Content Repurposer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Turns long-form articles, podcasts and webinars into channel-specific derivative assets. Use when maximising reach from existing material. Not for thread-to-article specifically - use thread-to-blog-converter.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/content-repurposer"
+  },
+  {
+    "slug": "conversion-rate-optimizer",
+    "title": "Conversion Rate Optimizer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Analyses conversion funnels, forms A/B hypotheses and optimises landing pages and behavioural triggers. Use when a funnel leaks. Not for the statistics of the test - use a-b-test-designer.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/conversion-rate-optimizer"
+  },
+  {
+    "slug": "cross-border-ecommerce-operator",
+    "title": "Cross Border eCommerce Operator",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Runs Amazon, Shopee, Lazada, AliExpress, Temu and TikTok Shop operations plus international logistics. Use when selling across borders. For China domestic platforms, use china-e-commerce-operator.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/cross-border-ecommerce-operator"
+  },
+  {
+    "slug": "email-strategist",
+    "title": "Email Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Designs lifecycle email programmes: segmentation, automation flows, cadence and deliverability. Use when planning an email programme. Not for cold outreach - use cold-email-writer.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/email-strategist"
+  },
+  {
+    "slug": "growth-hacker",
+    "title": "Growth Hacker",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Runs data-driven acquisition experiments: viral loops, funnel optimisation and channel testing. Use when hunting scalable acquisition. Not for the experiment log - use experiment-tracker.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/growth-hacker"
+  },
+  {
+    "slug": "hashtag-researcher",
+    "title": "Hashtag Researcher",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Researches platform-specific hashtags by reach, competition, trending velocity and audience relevance. Use when choosing hashtags for a post or building a reusable tag set.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/hashtag-researcher"
+  },
+  {
+    "slug": "influencer-outreach-strategist",
+    "title": "Influencer Outreach Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Designs influencer programmes: creator identification, outreach templates, collaboration structures and ROI measurement. Use when running creator partnerships or pricing a collaboration.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/influencer-outreach-strategist"
+  },
+  {
+    "slug": "instagram-curator",
+    "title": "Instagram Curator",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds Instagram presence: visual storytelling, grid aesthetics, Reels and Stories formats and community building. Use when growing an Instagram account or planning its content mix.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/instagram-curator"
+  },
+  {
+    "slug": "instantly-campaign",
+    "title": "Instantly Campaign",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Configures and runs Instantly cold email campaigns: inbox warmup, sequence setup, sending limits and deliverability monitoring. Use when operating outreach inside Instantly.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/instantly-campaign"
+  },
+  {
+    "slug": "landing-page-copywriter",
+    "title": "Landing Page Copywriter",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes landing page copy: above-the-fold hook, benefit-led body, social proof and friction-reducing CTAs. Use when writing a landing page. Not for ad copy - use paid-media-copywriter.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/landing-page-copywriter"
+  },
+  {
+    "slug": "launch-week-planner",
+    "title": "Launch Week Planner",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Plans a launch week day by day: content schedule, press outreach, social amplification and community activation. Use when coordinating a launch moment. Not for ongoing cadence - use content-calendar-builder.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/launch-week-planner"
+  },
+  {
+    "slug": "livestream-commerce-coach",
+    "title": "Livestream Commerce Coach",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Coaches livestream selling: show structure, product sequencing, hook cadence and conversion moments. Use when running or improving a live shopping stream.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/livestream-commerce-coach"
+  },
+  {
+    "slug": "multi-platform-publisher",
+    "title": "Multi Platform Publisher",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Adapts and schedules one piece of content across multiple platforms, respecting each one's format and norms. Use when publishing the same message everywhere without it reading as copy-paste.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/multi-platform-publisher"
+  },
+  {
+    "slug": "newsletter-writer",
+    "title": "Newsletter Writer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes newsletters with subject lines that get opened, scannable structure and value-dense sections. Use when writing a recurring newsletter or improving open and retention rates.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/newsletter-writer"
+  },
+  {
+    "slug": "paid-media-copywriter",
+    "title": "Paid Media Copywriter",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes direct-response ad copy, headlines and creative briefs for Google Ads, Meta and LinkedIn within platform limits. Use when writing ads. Not for landing pages - use landing-page-copywriter.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/paid-media-copywriter"
+  },
+  {
+    "slug": "pinterest-strategist",
+    "title": "Pinterest Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds Pinterest strategy: pin design, board architecture, keyword SEO, Idea Pins and shopping catalogue. Use when growing Pinterest traffic or setting up product pins.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/pinterest-strategist"
+  },
+  {
+    "slug": "podcast-pitch-writer",
+    "title": "Podcast Pitch Writer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes podcast guest pitches with show-specific angles, topic hooks and a one-sheet media kit. Use when pitching yourself as a guest. Not for running a show - use podcast-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/podcast-pitch-writer"
+  },
+  {
+    "slug": "podcast-strategist",
+    "title": "Podcast Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Develops podcast concepts, episode outlines, guest prep, show notes and distribution. Use when planning or improving a show. Not for pitching as a guest - use podcast-pitch-writer.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/podcast-strategist"
+  },
+  {
+    "slug": "pr-and-communications-manager",
+    "title": "PR And Communications Manager",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Handles media relations, press releases, crisis communications and executive thought leadership. Use when pitching press, announcing news, or responding to a reputational issue.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/pr-and-communications-manager"
+  },
+  {
+    "slug": "pricing-strategist",
+    "title": "Pricing Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Designs pricing models - freemium, tiered, usage-based, per-seat - with value metric and willingness-to-pay analysis. Use when structuring packaging. Not for a single price change - use pricing-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/pricing-strategist"
+  },
+  {
+    "slug": "private-domain-operator",
+    "title": "Private Domain Operator",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds WeCom private domain ecosystems: SCRM, segmented community operations and Mini Program integration. Use when running owned-audience operations on WeChat.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/private-domain-operator"
+  },
+  {
+    "slug": "product-hunt-launcher",
+    "title": "Product Hunt Launcher",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Runs a Product Hunt launch: maker profile, hunter outreach, launch-day scheduling and community engagement. Use when launching on Product Hunt specifically.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/product-hunt-launcher"
+  },
+  {
+    "slug": "reddit-community-builder",
+    "title": "Reddit Community Builder",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds authentic Reddit presence with value-first contribution and subreddit-specific norms. Use when marketing on Reddit without getting removed or downvoted.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/reddit-community-builder"
+  },
+  {
+    "slug": "search-engine-optimizer",
+    "title": "Search Engine Optimizer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Runs on-page, technical and off-page SEO: audits, keyword clustering and structured data. Use when diagnosing rankings or fixing technical SEO. Not for writing the article - use seo-article-writer.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/search-engine-optimizer"
+  },
+  {
+    "slug": "seo-article-writer",
+    "title": "SEO Article Writer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes long-form articles targeting search intent with keyword-led headings, internal links and schema. Use when writing an article to rank. Not for site-wide SEO - use search-engine-optimizer.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/seo-article-writer"
+  },
+  {
+    "slug": "short-video-editing-coach",
+    "title": "Short Video Editing Coach",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Coaches short-video post-production across CapCut Pro, Premiere Pro, DaVinci Resolve and Final Cut. Use when editing short-form video or fixing pacing and retention in an edit.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/short-video-editing-coach"
+  },
+  {
+    "slug": "social-content-creator",
+    "title": "Social Content Creator",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes posts, threads and carousels for LinkedIn, X, Threads and Instagram. Use when creating individual social posts. Not for the overall plan - use social-media-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/social-content-creator"
+  },
+  {
+    "slug": "social-media-strategist",
+    "title": "Social Media Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Plans organic social strategy: channel mix, content calendars, engagement tactics and growth playbooks. Use when setting social direction. Not for writing individual posts - use social-content-creator.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/social-media-strategist"
+  },
+  {
+    "slug": "testimonial-extractor",
+    "title": "Testimonial Extractor",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Pulls testimonials out of reviews, surveys and interviews and sorts them by use case and objection handled. Use when building social proof from existing customer feedback.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/testimonial-extractor"
+  },
+  {
+    "slug": "tiktok-strategist",
+    "title": "Tiktok Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds TikTok presence: hook patterns, algorithm behaviour, trend participation and community norms. Use when growing on TikTok or diagnosing why videos stall.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/tiktok-strategist"
+  },
+  {
+    "slug": "twitter-engager",
+    "title": "Twitter Engager",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds X/Twitter presence through real-time engagement, replies and thought leadership. Use when growing an account by participating. Not for research - use x-twitter-intelligence-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/twitter-engager"
+  },
+  {
+    "slug": "video-optimizer",
+    "title": "Video Optimizer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Optimises YouTube performance: retention, chaptering, titles, thumbnails and cross-platform distribution. Use when videos underperform. Not for the script - use video-script-writer.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/video-optimizer"
+  },
+  {
+    "slug": "video-script-writer",
+    "title": "Video Script Writer",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Writes scripts for YouTube, explainers, product demos, webinars and social video with hook-led structure. Use when scripting a video. Not for editing or optimisation - use video-optimizer.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/video-script-writer"
+  },
+  {
+    "slug": "viral-hook-generator",
+    "title": "Viral Hook Generator",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Generates hook variations for a topic across platforms and psychological angles. Use when the opening line is the problem, or when testing multiple hooks before committing to one.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/viral-hook-generator"
+  },
+  {
+    "slug": "wechat-official-account",
+    "title": "Wechat Official Account",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Runs a WeChat Official Account: article formatting, publishing cadence, menu structure and follower growth. Use when operating an Official Account.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/wechat-official-account"
+  },
+  {
+    "slug": "x-twitter-intelligence-analyst",
+    "title": "X Twitter Intelligence Analyst",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Researches X/Twitter for trends, account monitoring and evidence-backed audience insight from public signals. Use when researching a topic or account. Not for posting - use twitter-engager.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/x-twitter-intelligence-analyst"
+  },
+  {
+    "slug": "youtube-b-roll-maker",
+    "title": "Youtube B Roll Maker",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Produces B-roll clips to cover narration and add visual variety to a video. Use when a talking segment needs visual support. Not for thumbnails or overlays - use youtube-thumbnail-maker.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/youtube-b-roll-maker"
+  },
+  {
+    "slug": "youtube-clipper",
+    "title": "Youtube Clipper",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Finds the strongest moments in a long video and cuts them into short clips with hooks and timestamps. Use when repurposing long-form video into shorts. For original B-roll, use youtube-b-roll-maker.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/youtube-clipper"
+  },
+  {
+    "slug": "zhihu-strategist",
+    "title": "Zhihu Strategist",
+    "category": "Marketing",
+    "repo": "skills-marketing",
+    "description": "Builds Zhihu credibility through question answering, long-form knowledge posts and community norms. Use when establishing thought leadership on Zhihu.",
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/zhihu-strategist"
+  },
+  {
+    "slug": "accounts-payable-agent",
+    "title": "Accounts Payable Agent",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Executes vendor payments, contractor invoices and recurring bills across fiat, crypto and stablecoin rails. Use when automating accounts payable or reconciling outgoing payments across rails.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/accounts-payable-agent"
+  },
+  {
+    "slug": "agentic-identity-and-trust-architect",
+    "title": "Agentic Identity And Trust Architect",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Designs identity, authentication and trust verification for autonomous agents in multi-agent systems. Use when agents must prove who they are or delegate authority safely.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/agentic-identity-and-trust-architect"
+  },
+  {
+    "slug": "agents-orchestrator",
+    "title": "Agents Orchestrator",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Orchestrates a multi-agent development pipeline, sequencing agents and passing state between them. Use when coordinating several agents through an end-to-end workflow.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/agents-orchestrator"
+  },
+  {
+    "slug": "automation-governance-architect",
+    "title": "Automation Governance Architect",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Audits business automations (n8n-first) for value, risk and maintainability before they are built. Use when deciding whether to automate something, or reviewing a sprawling automation estate.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/automation-governance-architect"
+  },
+  {
+    "slug": "business-strategist",
+    "title": "Business Strategist",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Runs management-consulting analysis: competitive positioning, market entry, business model design and growth strategy. Use when evaluating a strategic move or structuring a strategy review.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/business-strategist"
+  },
+  {
+    "slug": "change-management-consultant",
+    "title": "Change Management Consultant",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Guides organisations through structural and process change: impact assessment, stakeholder planning and adoption tracking. Use when a change programme needs external structure. For AI rollouts, use change-management-leader.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/change-management-consultant"
+  },
+  {
+    "slug": "chief-of-staff",
+    "title": "Chief Of Staff",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Runs the operating cadence behind a leader: priority triage, meeting and decision hygiene, follow-through on commitments. Use when leadership throughput is the bottleneck rather than strategy.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/chief-of-staff"
+  },
+  {
+    "slug": "civil-engineer",
+    "title": "Civil Engineer",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Performs structural and civil analysis against Eurocode, ACI, AISC, ASCE, AS/NZS, CSA, GB, IS and DIN. Use when checking a structural approach or comparing code requirements. Name the code; a licensed engineer must sign off.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/civil-engineer"
+  },
+  {
+    "slug": "corporate-training-designer",
+    "title": "Corporate Training Designer",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Designs enterprise training: needs analysis, curriculum structure, blended delivery and evaluation. Use when building a training programme. Not for individual study plans - use study-plan-builder.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/corporate-training-designer"
+  },
+  {
+    "slug": "cultural-intelligence-strategist",
+    "title": "Cultural Intelligence Strategist",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Detects invisible exclusion and adapts product and content for global and intersectional audiences. Use when localising beyond translation, or checking whether something lands outside its origin culture.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/cultural-intelligence-strategist"
+  },
+  {
+    "slug": "customer-success-manager",
+    "title": "Customer Success Manager",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Owns the customer relationship after onboarding: adoption tracking, health reviews and escalation. Use when managing an account's ongoing success. Not for renewals - use renewal-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/customer-success-manager"
+  },
+  {
+    "slug": "data-consolidation-agent",
+    "title": "Data Consolidation Agent",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Consolidates extracted sales data into live dashboards with territory, rep and pipeline summaries. Use when merging multiple sales exports into one reporting view.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/data-consolidation-agent"
+  },
+  {
+    "slug": "data-privacy-officer",
+    "title": "Data Privacy Officer",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Runs the privacy programme: data mapping, lawful basis, DSAR handling, retention and breach response. Use when standing up privacy operations or assessing a processing activity. Name the jurisdiction.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/data-privacy-officer"
+  },
+  {
+    "slug": "developer-advocate",
+    "title": "Developer Advocate",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Builds developer community and content, improves developer experience and drives adoption. Use when launching to developers, writing technical content, or diagnosing why a DX funnel leaks.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/developer-advocate"
+  },
+  {
+    "slug": "document-generator",
+    "title": "Document Generator",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Generates PDF, PPTX, DOCX and XLSX files from code with real formatting, charts and tables. Use when producing a document programmatically rather than by hand.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/document-generator"
+  },
+  {
+    "slug": "esg-sustainability-officer",
+    "title": "ESG Sustainability Officer",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Builds ESG reporting and sustainability programmes: materiality assessment, metrics and disclosure frameworks. Use when preparing an ESG report or selecting a disclosure standard. Name the framework and reporting year.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/esg-sustainability-officer"
+  },
+  {
+    "slug": "government-digital-presales-consultant",
+    "title": "Government Digital Presales Consultant",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Handles China government digital transformation presales: policy interpretation, solution design, bid documents and POC planning. Use when pursuing a ToG opportunity in that market.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/government-digital-presales-consultant"
+  },
+  {
+    "slug": "grant-writer",
+    "title": "Grant Writer",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Writes grant applications for nonprofits, research institutions and social enterprises: prospect research, letters of inquiry and full proposals. Use when applying for funding or strengthening a rejected proposal.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/grant-writer"
+  },
+  {
+    "slug": "healthcare-compliance-auditor",
+    "title": "Healthcare Compliance Auditor",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Audits healthcare marketing against China's Advertising Law, Medical Advertisement Measures and Drug Administration Law. Use when reviewing medical claims for that market. A qualified reviewer must sign off.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/healthcare-compliance-auditor"
+  },
+  {
+    "slug": "hiring-plan-org-chart-builder",
+    "title": "Hiring Plan Org Chart Builder",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Designs org charts, headcount plans, levelling frameworks and hiring priority matrices by growth stage. Use when planning a team's shape or sequencing hires against budget.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/hiring-plan-org-chart-builder"
+  },
+  {
+    "slug": "hr-onboarding",
+    "title": "Hr Onboarding",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Runs employee onboarding: orientation, documentation, compliance tracking, benefits enrolment and culture integration. Use when designing or fixing a new-hire process.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/hr-onboarding"
+  },
+  {
+    "slug": "identity-graph-operator",
+    "title": "Identity Graph Operator",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Operates a shared identity graph so every agent in a multi-agent system resolves 'who is this' the same way. Use when identity resolution is inconsistent across agents or data sources.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/identity-graph-operator"
+  },
+  {
+    "slug": "language-translator",
+    "title": "Language Translator",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Translates text while preserving register, idiom and domain terminology, flagging what does not carry across. Use when translating content that must read natively rather than literally.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/language-translator"
+  },
+  {
+    "slug": "legal-practice-assistant",
+    "title": "Legal Practice Assistant",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Supports legal practice: document review, clause analysis, client intake and UTBMS/LEDES billing categorisation. Use when reviewing legal documents or structuring intake. A lawyer must review the result.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/legal-practice-assistant"
+  },
+  {
+    "slug": "loan-officer-assistant",
+    "title": "Loan Officer Assistant",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Supports loan origination: application intake, document checklists, eligibility screening and file preparation for underwriting. Use when processing a loan application. Name the jurisdiction and lending rules.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/loan-officer-assistant"
+  },
+  {
+    "slug": "lsp-index-engineer",
+    "title": "Lsp Index Engineer",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Builds and tunes Language Server Protocol indexes for fast symbol resolution across large codebases. Use when code intelligence is slow or incomplete on a big repository.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/lsp-index-engineer"
+  },
+  {
+    "slug": "m-and-a-integration-manager",
+    "title": "M And A Integration Manager",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Plans post-merger integration: day-one readiness, systems and process consolidation, and synergy tracking. Use when integrating an acquisition or sequencing integration workstreams.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/m-and-a-integration-manager"
+  },
+  {
+    "slug": "mcp-builder",
+    "title": "MCP Builder",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Designs, builds and tests Model Context Protocol servers exposing tools, resources and prompts to agents. Use when building an MCP server or debugging why a tool is not being called.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/mcp-builder"
+  },
+  {
+    "slug": "medical-billing-coder",
+    "title": "Medical Billing Coder",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Assigns ICD-10, CPT and HCPCS codes, checks documentation support and reduces claim denials. Use when coding an encounter or investigating a denial. A certified coder must review the result.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/medical-billing-coder"
+  },
+  {
+    "slug": "model-qa-evaluator",
+    "title": "Model QA Evaluator",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Audits ML and statistical models end to end: documentation review, data reconstruction, replication and calibration testing. Use when independently validating a model before it is relied on.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/model-qa-evaluator"
+  },
+  {
+    "slug": "operations-manager",
+    "title": "Operations Manager",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Runs day-to-day operations: process ownership, capacity planning, exception handling and performance tracking. Use when operations are reactive. Not for redesigning the process - use workflow-redesign-consultant.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/operations-manager"
+  },
+  {
+    "slug": "organizational-psychologist",
+    "title": "Organizational Psychologist",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Applies organisational psychology to team dynamics, motivation, conflict and structure. Use when diagnosing why a team underperforms for reasons that are not skill or process.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/organizational-psychologist"
+  },
+  {
+    "slug": "pricing-analyst",
+    "title": "Pricing Analyst",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Analyses pricing: willingness to pay, elasticity, packaging and margin impact of a price change. Use when setting or changing a price, or modelling a packaging change.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/pricing-analyst"
+  },
+  {
+    "slug": "real-estate-advisor",
+    "title": "Real Estate Advisor",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Writes property listings, runs comparative market analysis and guides buyer and seller transaction steps. Use when marketing a property or valuing one against comparables. Name the market.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/real-estate-advisor"
+  },
+  {
+    "slug": "regulatory-compliance-officer",
+    "title": "Regulatory Compliance Officer",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Maps regulatory requirements to controls across fintech, healthcare and data privacy, with gap analysis and audit preparation. Use when preparing for an audit. Name the regulation and jurisdiction.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/regulatory-compliance-officer"
+  },
+  {
+    "slug": "report-distribution-agent",
+    "title": "Report Distribution Agent",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Schedules, formats and distributes recurring reports to the right recipients across channels. Use when automating a reporting cadence or fixing inconsistent report delivery.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/report-distribution-agent"
+  },
+  {
+    "slug": "salesforce-architect",
+    "title": "Salesforce Architect",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Architects Salesforce solutions: multi-cloud design, integration patterns, governor limits, deployment strategy and data model governance. Use when designing or untangling a Salesforce implementation.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/salesforce-architect"
+  },
+  {
+    "slug": "supply-chain-strategist",
+    "title": "Supply Chain Strategist",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Plans supply chain and procurement: strategic sourcing, supplier development, quality control and digitalisation. Use when reducing supply risk, sourcing a category, or diagnosing a fragile supply chain.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/supply-chain-strategist"
+  },
+  {
+    "slug": "talent-acquisition-manager",
+    "title": "Talent Acquisition Manager",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Runs recruitment operations: sourcing channels, assessment frameworks and hiring compliance, with depth on China's hiring platforms. Use when building a hiring process or improving candidate quality.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/talent-acquisition-manager"
+  },
+  {
+    "slug": "workflow-architect",
+    "title": "Workflow Architect",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Maps complete workflow trees for a system or user journey: happy paths, branch conditions and failure states. Use when specifying behaviour exhaustively before building.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/workflow-architect"
+  },
+  {
+    "slug": "zk-steward",
+    "title": "ZK Steward",
+    "category": "Specialized",
+    "repo": "skills-specialized",
+    "description": "Maintains a Zettelkasten knowledge base in Luhmann's method: atomic notes, dense linking and emergent structure. Use when curating a linked note archive rather than a folder hierarchy.",
+    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/zk-steward"
+  },
+  {
+    "slug": "a-b-test-designer",
+    "title": "A B Test Designer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Designs statistically valid A/B tests: hypothesis, variants, sample size and success metric. Use when planning a conversion test or checking whether a result is significant. Not for running the experiment log - use experiment-tracker.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/a-b-test-designer"
+  },
+  {
+    "slug": "animation-planner",
+    "title": "Animation Planner",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Plans UI animation: what moves, easing, duration and what it communicates, without harming usability. Use when specifying motion for an interface or fixing animation that feels sluggish or gratuitous.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/animation-planner"
+  },
+  {
+    "slug": "brand-guardian",
+    "title": "Brand Guardian",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Develops and enforces brand identity: positioning, voice, visual consistency and usage rules. Use when defining a brand system or auditing work for consistency. Not for logo design - use logo-brand-mark-designer.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/brand-guardian"
+  },
+  {
+    "slug": "build-premium-website",
+    "title": "Build Premium Website",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Designs and builds high-end marketing websites with considered typography, layout and motion. Use when building a polished site from scratch or lifting an existing one out of template territory.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/build-premium-website"
+  },
+  {
+    "slug": "color-palette-generator",
+    "title": "Color Palette Generator",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Builds accessible palettes using colour theory with WCAG contrast ratios and dark/light variants. Use when creating a palette or fixing contrast failures. Not for dark mode conversion - use dark-mode-adapter.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/color-palette-generator"
+  },
+  {
+    "slug": "component-namer",
+    "title": "Component Namer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Suggests semantic, consistent component names following design system conventions. Use when naming components, resolving naming disputes, or bringing a sprawling component library back to a convention.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/component-namer"
+  },
+  {
+    "slug": "dark-mode-adapter",
+    "title": "Dark Mode Adapter",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Maps a light palette to dark mode, preserving hierarchy and contrast and handling elevation and shadow. Use when adding dark mode. Not for creating the original palette - use color-palette-generator.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/dark-mode-adapter"
+  },
+  {
+    "slug": "design-critique",
+    "title": "Design Critique",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Critiques a design against heuristics: visual hierarchy, typography, spacing, colour, accessibility and interaction. Use when reviewing a design or wanting specific, structured feedback rather than an opinion.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-critique"
+  },
+  {
+    "slug": "figma-to-copy",
+    "title": "Figma To Copy",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Replaces Lorem Ipsum with real, contextual copy sized to the component. Use when filling a Figma mockup with realistic text. Not for interface microcopy in production - use ux-copy-writer.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/figma-to-copy"
+  },
+  {
+    "slug": "frontend-design",
+    "title": "Frontend Design",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Builds distinctive, production-grade frontend interfaces with real working code, avoiding generic AI-template aesthetics. Use when implementing a UI that has to look considered rather than default.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/frontend-design"
+  },
+  {
+    "slug": "heatmap-interpreter",
+    "title": "Heatmap Interpreter",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Reads click, scroll and attention heatmaps to find UX friction, missed CTAs and false affordances. Use when interpreting session data or diagnosing why a page underperforms.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/heatmap-interpreter"
+  },
+  {
+    "slug": "icon-brief-writer",
+    "title": "Icon Brief Writer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Writes icon design briefs specifying metaphor, style, grid, stroke weight and usage context. Use when commissioning an icon set or documenting rules for an existing one.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/icon-brief-writer"
+  },
+  {
+    "slug": "image-prompt-engineer",
+    "title": "Image Prompt Engineer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Writes detailed prompts for AI image generation, translating a visual concept into subject, lighting, lens, composition and style. Use when a generated image keeps missing the intent.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/image-prompt-engineer"
+  },
+  {
+    "slug": "inclusive-visuals-designer",
+    "title": "Inclusive Visuals Designer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Generates culturally accurate, non-stereotypical imagery, countering default biases in image models. Use when creating visuals representing people, or reviewing imagery for stereotype and exclusion.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/inclusive-visuals-designer"
+  },
+  {
+    "slug": "logo-brand-mark-designer",
+    "title": "Logo Brand Mark Designer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Develops logomarks, logotypes and adaptive logo systems with usage guidelines. Use when creating or refining a brand mark. Not for the wider brand system - use brand-guardian.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/logo-brand-mark-designer"
+  },
+  {
+    "slug": "motion-graphics-producer",
+    "title": "Motion Graphics Producer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Specifies motion graphics: keyframes, timing, audio sync points and export settings for video and web. Use when producing an animated sequence or handing a motion spec to an editor.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/motion-graphics-producer"
+  },
+  {
+    "slug": "onboarding-flow-designer",
+    "title": "Onboarding Flow Designer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Designs onboarding: progressive disclosure, tooltip tours, empty states and activation milestones. Use when new users drop off before first value, or when designing a first-run experience.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/onboarding-flow-designer"
+  },
+  {
+    "slug": "print-packaging-designer",
+    "title": "Print Packaging Designer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Produces print-ready packaging with bleed, die lines, CMYK/Pantone profiles and material specs. Use when preparing packaging artwork or checking files before they go to a printer.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/print-packaging-designer"
+  },
+  {
+    "slug": "responsive-breakpoint-advisor",
+    "title": "Responsive Breakpoint Advisor",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Defines breakpoint strategy, fluid type scales and adaptive layout behaviour across devices. Use when setting breakpoints or fixing layouts that break between sizes.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/responsive-breakpoint-advisor"
+  },
+  {
+    "slug": "typography-system-builder",
+    "title": "Typography System Builder",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Builds type systems: scale, font pairing, hierarchy rules, line height and vertical rhythm. Use when establishing typography for a product or fixing inconsistent text styles.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/typography-system-builder"
+  },
+  {
+    "slug": "ui-designer",
+    "title": "UI Designer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Designs visual systems, component libraries and precise interface layouts. Use when building a UI or component set. Not for research or flows - use ux-researcher or ux-architect.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ui-designer"
+  },
+  {
+    "slug": "user-persona-builder",
+    "title": "User Persona Builder",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Builds research-backed personas with behaviours, goals, frustrations and journey-stage context. Use when synthesising research into personas, or replacing invented personas with evidenced ones.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/user-persona-builder"
+  },
+  {
+    "slug": "ux-architect",
+    "title": "UX Architect",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Provides implementation-ready UX foundations: information architecture, CSS system structure and developer handoff guidance. Use when bridging design and build, or structuring a frontend system.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ux-architect"
+  },
+  {
+    "slug": "ux-copy-writer",
+    "title": "UX Copy Writer",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Writes interface microcopy: button labels, error messages, empty states, tooltips, confirmation dialogs and accessible text. Use when writing production UI text. Not for mockup filler - use figma-to-copy.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ux-copy-writer"
+  },
+  {
+    "slug": "ux-researcher",
+    "title": "UX Researcher",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Plans and analyses user research: usability testing, behavioural analysis and turning findings into design decisions. Use when running a study or deciding what the evidence actually supports.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ux-researcher"
+  },
+  {
+    "slug": "visual-storyteller",
+    "title": "Visual Storyteller",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Builds visual narratives and multimedia brand storytelling: sequence, pacing and message through design. Use when telling a story visually rather than presenting information.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/visual-storyteller"
+  },
+  {
+    "slug": "whimsy-injector",
+    "title": "Whimsy Injector",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Adds personality and delight to an interface - microinteractions, copy moments, easter eggs - without harming usability. Use when a product feels correct but lifeless.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/whimsy-injector"
+  },
+  {
+    "slug": "youtube-popup-graphic",
+    "title": "Youtube Popup Graphic",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Creates YouTube popup and overlay graphics matched to a reference image or channel theme. Use when producing an on-screen graphic for a video. Not for thumbnails - use youtube-thumbnail-maker.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/youtube-popup-graphic"
+  },
+  {
+    "slug": "youtube-thumbnail-maker",
+    "title": "Youtube Thumbnail Maker",
+    "category": "Design",
+    "repo": "skills-design",
+    "description": "Designs YouTube thumbnails with high-contrast focal points and text legible at small sizes. Use when making a thumbnail for a video. Not for in-video overlays - use youtube-popup-graphic.",
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/youtube-thumbnail-maker"
+  },
+  {
+    "slug": "ai-governance-architect",
+    "title": "AI Governance Architect",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Designs AI governance: responsible AI policy, model risk assessment, bias auditing and human-in-the-loop oversight. Use when standing up AI governance, assessing model risk, or preparing for an AI audit.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/ai-governance-architect"
+  },
+  {
+    "slug": "board-deck-builder",
+    "title": "Board Deck Builder",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Drafts board decks: executive summary, financial dashboard, initiative updates and governance agenda. Use when preparing a board meeting. Not for fundraising decks - use investor-pitch-deck-writer.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/board-deck-builder"
+  },
+  {
+    "slug": "business-plan-outliner",
+    "title": "Business Plan Outliner",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Builds business plans with market analysis, value proposition, revenue model, competitive positioning, go-to-market and financial projections. Use when writing a business plan or pressure-testing a new venture.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/business-plan-outliner"
+  },
+  {
+    "slug": "change-management-leader",
+    "title": "Change Management Leader",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Plans organisational change for technology and AI rollouts using ADKAR and Kotter: stakeholder alignment, training and adoption metrics. Use when a rollout meets resistance. For general process change, use change-management-consultant.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/change-management-leader"
+  },
+  {
+    "slug": "client-proposal-writer",
+    "title": "Client Proposal Writer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Drafts client proposals with scope, deliverable timeline, pricing, case-study evidence and engagement terms. Use when responding to a client brief. Not for formal RFPs - use proposal-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/client-proposal-writer"
+  },
+  {
+    "slug": "contract-clause-explainer",
+    "title": "Contract Clause Explainer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Explains contract clauses in plain language, flags risk and suggests protective amendments. Use when reviewing an NDA, SaaS agreement or MSA. Name the jurisdiction; a lawyer must review the result.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/contract-clause-explainer"
+  },
+  {
+    "slug": "decision-framework",
+    "title": "Decision Framework",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Applies structured decision frameworks - RACI, Eisenhower, weighted scoring, decision trees - to a business choice. Use when a multi-stakeholder decision is stuck. Not for thinking models - use mental-model-teacher.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/decision-framework"
+  },
+  {
+    "slug": "experiment-tracker",
+    "title": "Experiment Tracker",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Designs and tracks A/B tests and feature experiments: hypothesis, sample size, guardrail metrics and readout. Use when running an experiment or judging whether a result is real. For test design depth, use a-b-test-designer.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/experiment-tracker"
+  },
+  {
+    "slug": "feedback-giver",
+    "title": "Feedback Giver",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Writes constructive feedback using Situation-Behavior-Impact for performance reviews, peer reviews and 360s. Use when delivering difficult feedback or writing a review that has to land without defensiveness.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/feedback-giver"
+  },
+  {
+    "slug": "investor-pitch-deck-writer",
+    "title": "Investor Pitch Deck Writer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Builds investor decks: problem-solution narrative, TAM/SAM/SOM sizing, traction, business model and the ask. Use when raising a round. Not for board reporting - use board-deck-builder.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/investor-pitch-deck-writer"
+  },
+  {
+    "slug": "jira-workflow-steward",
+    "title": "Jira Workflow Steward",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Enforces Jira-linked Git workflow: traceable commits, structured pull requests and release-safe branching. Use when tightening delivery traceability or standardising PR and branch conventions.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/jira-workflow-steward"
+  },
+  {
+    "slug": "job-description-writer",
+    "title": "Job Description Writer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Writes role-accurate job descriptions with responsibilities, required versus preferred qualifications, pay transparency and team context. Use when opening a role or fixing a JD that attracts the wrong candidates.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/job-description-writer"
+  },
+  {
+    "slug": "meeting-summariser",
+    "title": "Meeting Summariser",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Turns meeting notes or transcripts into decisions, action items with owners and deadlines, and a parking lot. Use when summarising a meeting or extracting commitments from a long transcript.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/meeting-summariser"
+  },
+  {
+    "slug": "negotiation-strategist",
+    "title": "Negotiation Strategist",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Prepares negotiations: BATNA assessment, concession planning and scripts for contracts, vendor terms and compensation. Use when preparing for a negotiation or when a deal has stalled on price.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/negotiation-strategist"
+  },
+  {
+    "slug": "notion-database-architect",
+    "title": "Notion Database Architect",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Designs Notion workspaces with linked databases, rollups, formula fields, views and templates. Use when building a Notion system or fixing a workspace that has outgrown its structure.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/notion-database-architect"
+  },
+  {
+    "slug": "okr-designer",
+    "title": "OKR Designer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Writes measurable objectives and key results with cascading alignment from company to team to individual. Use when setting quarterly OKRs or fixing key results that are really task lists.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/okr-designer"
+  },
+  {
+    "slug": "product-manager",
+    "title": "Product Manager",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Owns the product lifecycle: discovery, strategy, roadmap, stakeholder alignment, go-to-market and outcome measurement. Use for product direction. Not for sprint mechanics - use sprint-prioritizer.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/product-manager"
+  },
+  {
+    "slug": "productivity-audit",
+    "title": "Productivity Audit",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Audits individual or team workflows for time sinks, context-switching cost and tool sprawl. Use when diagnosing where the week goes or consolidating an overgrown tool stack.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/productivity-audit"
+  },
+  {
+    "slug": "project-manager",
+    "title": "Project Manager",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Converts a spec into scoped, sequenced tasks with realistic estimates and explicit dependencies. Use when turning requirements into a plan. Not for cross-team coordination - use project-shepherd.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/project-manager"
+  },
+  {
+    "slug": "project-shepherd",
+    "title": "Project Shepherd",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Coordinates cross-functional projects: timeline management, dependency tracking and stakeholder alignment. Use when a project spans teams. Not for breaking a spec into tasks - use project-manager.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/project-shepherd"
+  },
+  {
+    "slug": "sop-writer",
+    "title": "SOP Writer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Writes standard operating procedures anyone can follow: numbered steps, owners, inputs, outputs and escalation paths. Use when documenting a repeatable process or onboarding someone into an undocumented one.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/sop-writer"
+  },
+  {
+    "slug": "sprint-prioritizer",
+    "title": "Sprint Prioritizer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Plans sprints: feature prioritisation, capacity allocation and scope trade-offs. Use when planning a sprint or cutting scope against a date. Not for product strategy - use product-manager.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/sprint-prioritizer"
+  },
+  {
+    "slug": "studio-operations",
+    "title": "Studio Operations",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Runs day-to-day studio operations: process optimisation, resource coordination and throughput. Use when operations are ad hoc. Not for multi-project portfolio calls - use studio-producer.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/studio-operations"
+  },
+  {
+    "slug": "studio-producer",
+    "title": "Studio Producer",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Orchestrates creative and technical projects across a portfolio: resource allocation and cross-project sequencing. Use when balancing multiple projects. Not for daily ops - use studio-operations.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/studio-producer"
+  },
+  {
+    "slug": "trend-researcher",
+    "title": "Trend Researcher",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Identifies emerging market trends, analyses competitors and sizes opportunities with sourced evidence. Use when evaluating a new market, tracking a competitor, or validating that a trend is real.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/trend-researcher"
+  },
+  {
+    "slug": "upwork",
+    "title": "Upwork",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Builds an Upwork freelance profile and positioning: specialism, proof points and rate strategy. Use when setting up a profile or repositioning to win better work. Not for individual bids - use upwork-proposal.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/upwork"
+  },
+  {
+    "slug": "upwork-proposal",
+    "title": "Upwork Proposal",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Writes a proposal for a specific Upwork job: mirrors the client's stated pain, gives targeted proof and a clear next step. Use when bidding on a posting. Not for profile setup - use upwork.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/upwork-proposal"
+  },
+  {
+    "slug": "vendor-procurement-manager",
+    "title": "Vendor Procurement Manager",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Runs vendor selection: RFI/RFP process, scoring matrices, contract negotiation and performance tracking. Use when choosing a SaaS vendor, negotiating renewal terms, or comparing bids.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/vendor-procurement-manager"
+  },
+  {
+    "slug": "workflow-redesign-consultant",
+    "title": "Workflow Redesign Consultant",
+    "category": "Business",
+    "repo": "skills-business",
+    "description": "Maps current-state processes, finds bottlenecks and waste, and redesigns the workflow before any AI is added. Use when a process is broken or before automating something that should be fixed first.",
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/workflow-redesign-consultant"
+  },
+  {
+    "slug": "blender-add-on-engineer",
+    "title": "Blender Add On Engineer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Builds Blender Python add-ons, asset validators, exporters and pipeline automation. Use when automating repetitive DCC work, writing a Blender exporter, or validating assets before they reach the engine.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/blender-add-on-engineer"
+  },
+  {
+    "slug": "game-audio-engineer",
+    "title": "Game Audio Engineer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Integrates FMOD and Wwise, builds adaptive music systems, spatial audio and audio performance budgets. Use when wiring audio middleware, designing adaptive music, or cutting audio memory and voice count.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-audio-engineer"
+  },
+  {
+    "slug": "game-designer",
+    "title": "Game Designer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Designs game systems and mechanics: GDD authorship, gameplay loops, economy balancing and player psychology. Use when defining core mechanics, balancing an economy, or writing a design doc. Not for level layout - use level-designer.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-designer"
+  },
+  {
+    "slug": "game-monetization-designer",
+    "title": "Game Monetization Designer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Designs free-to-play economies, battle passes and cosmetic shops with anti-predatory guardrails. Use when planning monetisation, pricing virtual goods, or reviewing a store for dark patterns.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-monetization-designer"
+  },
+  {
+    "slug": "godot-gameplay-scripter",
+    "title": "Godot Gameplay Scripter",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Writes Godot 4 gameplay code: GDScript 2.0, C# interop, node composition and type-safe signals. Use when structuring Godot scenes or debugging signal wiring. Not for netcode - use godot-multiplayer-engineer.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/godot-gameplay-scripter"
+  },
+  {
+    "slug": "godot-multiplayer-engineer",
+    "title": "Godot Multiplayer Engineer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Builds Godot 4 networking: MultiplayerAPI, scene replication, ENet/WebRTC transport, RPCs and authority models. Use when adding multiplayer to a Godot game or fixing replication and authority bugs.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/godot-multiplayer-engineer"
+  },
+  {
+    "slug": "godot-shader-developer",
+    "title": "Godot Shader Developer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Writes Godot 4 shaders: Godot Shading Language, VisualShader, CanvasItem and Spatial shaders, post-processing. Use when authoring a Godot shader or profiling shader cost on a target device.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/godot-shader-developer"
+  },
+  {
+    "slug": "level-designer",
+    "title": "Level Designer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Designs level layout, pacing, encounter placement and environmental narrative. Use when blocking out a level, fixing pacing, or planning encounters. Not for mechanics themselves - use game-designer.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/level-designer"
+  },
+  {
+    "slug": "narrative-designer",
+    "title": "Narrative Designer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Designs branching dialogue, lore architecture and environmental storytelling aligned to the GDD. Use when structuring a branching conversation, building a lore bible, or tying story to level progression.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/narrative-designer"
+  },
+  {
+    "slug": "playtest-feedback-analyzer",
+    "title": "Playtest Feedback Analyzer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Structures playtest sessions and sorts responses into UX friction, difficulty calibration, feature satisfaction and retention risk. Use when running a playtest or turning raw feedback into a prioritised change list.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/playtest-feedback-analyzer"
+  },
+  {
+    "slug": "roblox-avatar-creator",
+    "title": "Roblox Avatar Creator",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Builds Roblox UGC and avatar items: accessory rigging, texture standards and Creator Marketplace submission. Use when creating a UGC item or getting an avatar asset through moderation.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/roblox-avatar-creator"
+  },
+  {
+    "slug": "roblox-experience-designer",
+    "title": "Roblox Experience Designer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Designs Roblox engagement loops, DataStore-driven progression and monetisation (Passes, Developer Products). Use when planning retention or monetisation. Not for writing the Luau - use roblox-systems-scripter.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/roblox-experience-designer"
+  },
+  {
+    "slug": "roblox-systems-scripter",
+    "title": "Roblox Systems Scripter",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Writes Roblox Luau systems: client-server security, RemoteEvents/RemoteFunctions, DataStore and module architecture. Use when building Roblox gameplay code or closing an exploit. Not for game design - use roblox-experience-designer.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/roblox-systems-scripter"
+  },
+  {
+    "slug": "technical-artist",
+    "title": "Technical Artist",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Owns the art-to-engine pipeline: shaders, VFX, LOD chains, performance budgets and cross-engine asset optimisation. Use for engine-agnostic pipeline work. For UE5 specifically, use unreal-technical-artist.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/technical-artist"
+  },
+  {
+    "slug": "unity-architect",
+    "title": "Unity Architect",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Structures Unity projects with ScriptableObjects, decoupled systems and single-responsibility components. Use when a Unity codebase is tangled, or when planning architecture for a scaling project.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-architect"
+  },
+  {
+    "slug": "unity-editor-tool-developer",
+    "title": "Unity Editor Tool Developer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Builds Unity editor tooling: EditorWindows, PropertyDrawers, AssetPostprocessors, ScriptedImporters and pipeline automation. Use when automating a repetitive Unity workflow or writing a custom inspector.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-editor-tool-developer"
+  },
+  {
+    "slug": "unity-multiplayer-engineer",
+    "title": "Unity Multiplayer Engineer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Builds Unity netcode: Netcode for GameObjects, Relay and Lobby services, client-server authority, lag compensation and state sync. Use when adding multiplayer to a Unity game or debugging desync.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-multiplayer-engineer"
+  },
+  {
+    "slug": "unity-shader-graph-artist",
+    "title": "Unity Shader Graph Artist",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Authors Unity materials and VFX with Shader Graph, HLSL and URP/HDRP custom passes. Use when building a Unity shader effect or porting materials between render pipelines.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-shader-graph-artist"
+  },
+  {
+    "slug": "unreal-multiplayer-architect",
+    "title": "Unreal Multiplayer Architect",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Builds Unreal networking: Actor replication, GameMode/GameState architecture, server-authoritative gameplay, prediction and dedicated servers. Use when adding multiplayer to a UE project or fixing replication.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-multiplayer-architect"
+  },
+  {
+    "slug": "unreal-systems-engineer",
+    "title": "Unreal Systems Engineer",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Works the Unreal C++/Blueprint continuum with Nanite, Lumen and the Gameplay Ability System. Use when writing UE5 gameplay systems or profiling performance. Not for materials - use unreal-technical-artist.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-systems-engineer"
+  },
+  {
+    "slug": "unreal-technical-artist",
+    "title": "Unreal Technical Artist",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Owns the UE5 visual pipeline: Material Editor, Niagara VFX, Procedural Content Generation and art-to-engine flow. Use for UE5 materials and VFX. For engine-agnostic pipeline work, use technical-artist.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-technical-artist"
+  },
+  {
+    "slug": "unreal-world-builder",
+    "title": "Unreal World Builder",
+    "category": "Game Dev",
+    "repo": "skills-gamedev",
+    "description": "Builds UE5 open worlds with World Partition, Landscape, procedural foliage, HLOD and level streaming. Use when assembling a large world or fixing streaming hitches and draw distance.",
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-world-builder"
+  },
+  {
+    "slug": "account-strategist",
+    "title": "Account Strategist",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Runs post-sale accounts: land-and-expand plays, stakeholder mapping, QBR facilitation and net revenue retention. Use when growing an existing account or preparing a QBR. Not for renewals - use renewal-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/account-strategist"
+  },
+  {
+    "slug": "analytics-reporter",
+    "title": "Analytics Reporter",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Turns raw data into dashboards, KPI tracking and statistical analysis with a stated recommendation. Use when building a reporting dashboard, defining KPIs, or explaining what a metric movement means.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/analytics-reporter"
+  },
+  {
+    "slug": "churn-analyst",
+    "title": "Churn Analyst",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Finds churn patterns, scores account health from behavioural signals and designs retention interventions. Use when diagnosing why customers leave or building an at-risk model. Not for renewal outreach - use renewal-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/churn-analyst"
+  },
+  {
+    "slug": "cross-channel-support-agent",
+    "title": "Cross Channel Support Agent",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Resolves support tickets, handles escalations and drafts service-recovery responses across e-commerce, SaaS and regulated sectors. Use when answering a support ticket, defusing an escalation, or writing a recovery message.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/cross-channel-support-agent"
+  },
+  {
+    "slug": "customer-support",
+    "title": "Customer Support",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Writes customer support replies that acknowledge the issue, explain what happened and state the next step. Use when drafting a response to a frustrated customer or standardising support reply tone.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/customer-support"
+  },
+  {
+    "slug": "discovery-coach",
+    "title": "Discovery Coach",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Coaches sales discovery: question design, current-state mapping, gap quantification and call structure that surfaces real buying motivation. Use when preparing or reviewing a discovery call.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/discovery-coach"
+  },
+  {
+    "slug": "executive-summary-generator",
+    "title": "Executive Summary Generator",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Compresses complex business input into a one-page executive summary with the recommendation first, then supporting evidence. Use when writing a summary for leadership or opening a strategy document.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/executive-summary-generator"
+  },
+  {
+    "slug": "finance-tracker",
+    "title": "Finance Tracker",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Tracks business financial health: budget management, cash flow and performance against plan. Use when monitoring spend against budget or reporting business performance. Not for modelling - use financial-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/finance-tracker"
+  },
+  {
+    "slug": "legal-compliance-checker",
+    "title": "Legal Compliance Checker",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Checks operations, data handling and content against applicable law and industry standards. Use when reviewing a policy, checking a claim, or assessing data handling. Name the jurisdiction; a lawyer must review the result.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/legal-compliance-checker"
+  },
+  {
+    "slug": "outbound-strategist",
+    "title": "Outbound Strategist",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Designs signal-based outbound: ICP definition, multi-channel sequences and research-driven personalisation over volume. Use when building an outbound motion or defining an ICP. Not for writing the emails - use sales-outreach.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/outbound-strategist"
+  },
+  {
+    "slug": "pipeline-analyst",
+    "title": "Pipeline Analyst",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Diagnoses pipeline health: deal velocity, stage conversion, forecast accuracy and CRM hygiene. Use when a forecast is unreliable or pipeline is stalling. Not for coaching reps - use sales-coach.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/pipeline-analyst"
+  },
+  {
+    "slug": "proposal-strategist",
+    "title": "Proposal Strategist",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Turns an RFP or opportunity into a win narrative with win themes, competitive positioning and an executive summary. Use when responding to an RFP or structuring a proposal.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/proposal-strategist"
+  },
+  {
+    "slug": "renewal-strategist",
+    "title": "Renewal Strategist",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Plans renewals: timeline-based outreach, expansion opportunities and QBR preparation. Use when a renewal date is approaching or building a renewal playbook. Not for churn diagnosis - use churn-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/renewal-strategist"
+  },
+  {
+    "slug": "sales-coach",
+    "title": "Sales Coach",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Coaches reps through call reviews, pipeline reviews, deal strategy and forecast discipline. Use when developing a rep or running a deal review. Not for diagnosing pipeline data - use pipeline-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/sales-coach"
+  },
+  {
+    "slug": "sales-data-extraction-agent",
+    "title": "Sales Data Extraction Agent",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Extracts MTD, YTD and year-end sales metrics from Excel files for live internal reporting. Use when pulling figures out of spreadsheet exports or automating a recurring sales report.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/sales-data-extraction-agent"
+  },
+  {
+    "slug": "sales-engineer",
+    "title": "Sales Engineer",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Handles pre-sales technical work: discovery, demo engineering, POC scoping and competitive battlecards. Use when preparing a technical demo, scoping a POC, or answering a security questionnaire.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/sales-engineer"
+  },
+  {
+    "slug": "sales-outreach",
+    "title": "Sales Outreach",
+    "category": "Sales & Support",
+    "repo": "skills-sales-support",
+    "description": "Writes consultative B2B outreach: cold prospecting, follow-up sequences, objection handling and proposal copy. Use when writing outreach emails or handling an objection. Not for ICP strategy - use outbound-strategist.",
+    "url": "https://github.com/poorvith-mp/skills-sales-support/tree/main/skills/sales-outreach"
+  },
+  {
+    "slug": "citation-formatter",
+    "title": "Citation Formatter",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Formats citations and bibliographies in APA 7th, MLA 9th, Chicago/Turabian, Harvard and IEEE, with matching in-text entries. Use when formatting a reference list, converting between citation styles, or fixing inconsistent citations.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/citation-formatter"
+  },
+  {
+    "slug": "concept-explainer",
+    "title": "Concept Explainer",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Explains a complex concept in layers - ELI5, then intermediate, then expert - using analogies and worked examples. Use when explaining something technical to a non-expert or unpacking jargon. Not for course design - use corporate-training-designer.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/concept-explainer"
+  },
+  {
+    "slug": "essay-structurer",
+    "title": "Essay Structurer",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Structures essays: thesis statement, argument order, evidence placement, counterargument handling and conclusion. Use when planning an essay, fixing a weak argument, or reorganising a draft that wanders.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/essay-structurer"
+  },
+  {
+    "slug": "exam-question-generator",
+    "title": "Exam Question Generator",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Writes exam questions across Bloom's levels with answer keys, grading rubrics and difficulty calibration. Use when building an assessment, writing a question bank, or checking that questions match the learning objectives.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/exam-question-generator"
+  },
+  {
+    "slug": "flashcard-generator",
+    "title": "Flashcard Generator",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Creates spaced-repetition flashcards using minimal-information framing and interleaved topics. Use when turning notes into Anki cards or preparing recall practice. Not for scheduling study time - use study-plan-builder.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/flashcard-generator"
+  },
+  {
+    "slug": "historian",
+    "title": "Historian",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Analyses historical periods, material culture and historiography, and checks period detail for anachronism. Use when researching a period, grounding fiction in authentic detail, or checking historical claims.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/historian"
+  },
+  {
+    "slug": "interview-prep-coach",
+    "title": "Interview Prep Coach",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Prepares candidates for interviews with role-specific question banks, STAR response frameworks, mock behavioural and technical rounds, and salary negotiation. Use when preparing for an interview or rehearsing answers.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/interview-prep-coach"
+  },
+  {
+    "slug": "mental-model-teacher",
+    "title": "Mental Model Teacher",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Teaches and applies mental models - first principles, inversion, second-order thinking, circle of competence - to a real decision. Use when stuck on a decision or learning a thinking framework. Not for process design - use decision-framework.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mental-model-teacher"
+  },
+  {
+    "slug": "mentor-simulator",
+    "title": "Mentor Simulator",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Runs a mentoring conversation using Socratic questioning and the GROW coaching model. Use when you want to be questioned rather than answered, or when working through a career or professional development problem.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mentor-simulator"
+  },
+  {
+    "slug": "reading-list-curator",
+    "title": "Reading List Curator",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Builds reading lists with summaries, key takeaways, difficulty ratings and a suggested order. Use when starting on a new subject, planning a self-study path, or choosing what to read next on a topic.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/reading-list-curator"
+  },
+  {
+    "slug": "research-paper-summariser",
+    "title": "Research Paper Summariser",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Summarises academic papers into methodology, findings, limitations, statistical strength and practical implications. Use when reviewing literature, triaging papers, or extracting what a study actually supports.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/research-paper-summariser"
+  },
+  {
+    "slug": "researcher",
+    "title": "Researcher",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Runs structured research on a question: scopes it, gathers and cross-checks sources, and reports findings with confidence levels and gaps. Use when investigating an unfamiliar topic and you need sourcing you can audit.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/researcher"
+  },
+  {
+    "slug": "skill-roadmap-builder",
+    "title": "Skill Roadmap Builder",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Builds learning roadmaps with skill trees, milestone checkpoints, resources and time estimates. Use when planning how to learn a discipline. Not for scheduling the sessions themselves - use study-plan-builder.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/skill-roadmap-builder"
+  },
+  {
+    "slug": "study-abroad-advisor",
+    "title": "Study Abroad Advisor",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Plans study-abroad applications for the US, UK, Canada, Australia, Europe, Hong Kong and Singapore across undergraduate, master's and PhD. Use when shortlisting universities, planning application timing, or comparing country requirements.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/study-abroad-advisor"
+  },
+  {
+    "slug": "study-plan-builder",
+    "title": "Study Plan Builder",
+    "category": "Education",
+    "repo": "skills-education",
+    "description": "Designs study schedules with spaced repetition intervals, active recall sessions and weekly review cycles. Use when preparing for an exam by a date. Not for choosing what to learn - use skill-roadmap-builder.",
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/study-plan-builder"
+  },
+  {
+    "slug": "bookkeeper-and-controller",
+    "title": "Bookkeeper And Controller",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Runs day-to-day accounting: reconciliations, month-end close, journal entries and internal controls under GAAP. Use when closing the books, reconciling accounts, or preparing for audit. Not for forecasting - use fp-and-a-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/bookkeeper-and-controller"
+  },
+  {
+    "slug": "budget-expense-auditor",
+    "title": "Budget Expense Auditor",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Audits budgets and expense reports for anomalies, overspending, misclassified charges and savings opportunities using variance analysis. Use when reviewing a departmental budget, auditing expense reports, or hunting cost reductions.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/budget-expense-auditor"
+  },
+  {
+    "slug": "cap-table-fundraising-modeler",
+    "title": "Cap Table Fundraising Modeler",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Models cap tables, dilution scenarios, waterfall distributions and round structures (SAFE, convertible notes, priced rounds). Use when modelling a funding round, checking founder dilution, or comparing term sheets.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/cap-table-fundraising-modeler"
+  },
+  {
+    "slug": "chief-financial-officer",
+    "title": "Chief Financial Officer",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Sets finance strategy: capital allocation, treasury, M&A finance, investor relations and board reporting. Use for board decks, runway and funding decisions, or capital structure. Not for building the models - use financial-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/chief-financial-officer"
+  },
+  {
+    "slug": "crypto-tax-advisor",
+    "title": "Crypto Tax Advisor",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Calculates crypto tax: capital gains, DeFi yield, NFT trades and cross-chain activity with FIFO/LIFO/HIFO cost basis. Use when preparing a crypto tax return, computing DeFi income, or planning disposals. State your jurisdiction.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/crypto-tax-advisor"
+  },
+  {
+    "slug": "financial-analyst",
+    "title": "Financial Analyst",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Builds financial models, forecasts, valuations and scenario analyses from raw data. Use when building a model, valuing a business, or stress-testing projections. Not for budget-vs-actual variance work - use fp-and-a-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/financial-analyst"
+  },
+  {
+    "slug": "financial-plan-starter",
+    "title": "Financial Plan Starter",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Builds a personal budget and money plan from income, expenses, debts and savings using a 50/30/20 split. Use when planning personal finances, paying down debt, or setting savings goals. Not for company finances - use fp-and-a-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/financial-plan-starter"
+  },
+  {
+    "slug": "fp-and-a-analyst",
+    "title": "Fp And A Analyst",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Runs budgeting, rolling forecasts and budget-vs-actual variance analysis, tying the numbers to the business narrative. Use when building an annual plan, explaining a variance, or planning headcount. Not for valuation - use financial-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/fp-and-a-analyst"
+  },
+  {
+    "slug": "insurance-actuary-analyst",
+    "title": "Insurance Actuary Analyst",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Performs actuarial work: loss ratio analysis, premium pricing, reserve estimation and risk pool segmentation. Use when pricing an insurance product, setting loss reserves, or analysing claims patterns.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/insurance-actuary-analyst"
+  },
+  {
+    "slug": "investment-researcher",
+    "title": "Investment Researcher",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Researches investments: market analysis, due diligence, valuation and portfolio review across public equities, private markets and alternatives. Use when evaluating an investment, running diligence, or reviewing a portfolio.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/investment-researcher"
+  },
+  {
+    "slug": "invoice-and-payment-writer",
+    "title": "Invoice And Payment Writer",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Drafts invoices, payment schedules and receivables documents with tax lines, payment terms and late-fee policy. Use when invoicing a client, setting payment milestones, or chasing an overdue payment.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/invoice-and-payment-writer"
+  },
+  {
+    "slug": "tax-strategist",
+    "title": "Tax Strategist",
+    "category": "Finance",
+    "repo": "skills-finance",
+    "description": "Plans tax strategy: entity structure, transfer pricing, credits and multi-jurisdiction compliance. Use when reducing effective tax rate, structuring cross-border operations, or preparing a tax position review. Name the jurisdiction.",
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/tax-strategist"
+  },
+  {
+    "slug": "fitness-nutrition-planner",
+    "title": "Fitness Nutrition Planner",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Builds workout programmes and nutrition plans with macro targets, progressive overload, meal prep and recovery. Use when planning training, setting macros, or structuring a training block. General guidance only, not clinical advice.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/fitness-nutrition-planner"
+  },
+  {
+    "slug": "habit-tracker-designer",
+    "title": "Habit Tracker Designer",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Designs habit systems using habit stacking, cue-routine-reward loops, tracking methods and accountability structures. Use when building a new habit, breaking an existing one, or designing a streak tracker.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/habit-tracker-designer"
+  },
+  {
+    "slug": "know-me",
+    "title": "Know Me",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Captures and maintains a personal profile - preferences, working style, context and recurring constraints - so later work can be tailored to you. Use when onboarding an assistant to your context or updating your stored preferences.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/know-me"
+  },
+  {
+    "slug": "knowledge-management-architect",
+    "title": "Knowledge Management Architect",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Designs knowledge systems using Zettelkasten, PARA, MOC and progressive summarisation for research synthesis. Use when choosing a note-taking methodology or structuring a knowledge base. Not tool setup - use second-brain-architect.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/knowledge-management-architect"
+  },
+  {
+    "slug": "linkedin-profile-optimizer",
+    "title": "Linkedin Profile Optimizer",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Rewrites LinkedIn profiles for recruiter search and positioning: keyword-rich headline, summary and skills. Use when job hunting, repositioning after a career change, or improving profile visibility.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/linkedin-profile-optimizer"
+  },
+  {
+    "slug": "periodic-review-system",
+    "title": "Periodic Review System",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Structures weekly, monthly and annual reviews with goal tracking, OKRs and retrospectives. Use when setting up a review cadence, running a weekly review, or planning a quarter.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/periodic-review-system"
+  },
+  {
+    "slug": "relationship-crm-builder",
+    "title": "Relationship CRM Builder",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Designs a personal CRM: contact metadata, interaction logs, follow-up reminders and relationship strength scoring. Use when building a personal network tracker or setting a follow-up cadence. Not for sales pipelines - use pipeline-analyst.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/relationship-crm-builder"
+  },
+  {
+    "slug": "resume-optimizer",
+    "title": "Resume Optimizer",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Tailors a resume to a specific job description with ATS-safe formatting, quantified achievement bullets and keyword alignment. Use when applying for a role, adapting a resume, or diagnosing why applications get no response.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/resume-optimizer"
+  },
+  {
+    "slug": "second-brain-architect",
+    "title": "Second Brain Architect",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Sets up note-taking tools (Obsidian, Notion, Logseq) with capture workflows, tag taxonomies and retrieval patterns. Use when configuring a specific tool. Not for choosing a methodology - use knowledge-management-architect.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/second-brain-architect"
+  },
+  {
+    "slug": "travel-planner",
+    "title": "Travel Planner",
+    "category": "Personal",
+    "repo": "skills-personal",
+    "description": "Builds travel itineraries with daily schedules, accommodation and transport options, budget breakdowns and local recommendations. Use when planning a trip, sequencing a multi-city route, or costing an itinerary.",
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/travel-planner"
+  },
+  {
+    "slug": "longform-book-author",
+    "title": "Longform Book Author",
+    "category": "Writing",
+    "repo": "skills-writing",
+    "description": "Develops book-length non-fiction and fiction: premise, chapter architecture, narrative voice and full draft revision. Use when outlining a book, drafting chapters, or revising a manuscript. Not for articles - use technical-writer.",
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/longform-book-author"
+  },
+  {
+    "slug": "marketing-copywriter",
+    "title": "Marketing Copywriter",
+    "category": "Writing",
+    "repo": "skills-writing",
+    "description": "Writes bios, press releases, case studies, lead magnets and story hooks. Use when authoring an executive bio, a news release, or a B2B case study. Not for ad or landing page copy - use paid-media-copywriter or landing-page-copywriter.",
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/marketing-copywriter"
+  },
+  {
+    "slug": "screenplay-writer",
+    "title": "Screenplay Writer",
+    "category": "Writing",
+    "repo": "skills-writing",
+    "description": "Writes screenplays in industry format (Final Draft/Fountain) with scene headings, action lines, dialogue and parentheticals. Use when writing a short film, spec script, web series, or converting prose into a screenplay.",
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/screenplay-writer"
+  },
+  {
+    "slug": "technical-writer",
+    "title": "Technical Writer",
+    "category": "Writing",
+    "repo": "skills-writing",
+    "description": "Writes API references, user guides, setup manuals and architecture docs with consistent terminology and layered detail. Use when documenting an API, writing a how-to guide, or explaining a system to new engineers.",
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/technical-writer"
+  },
+  {
+    "slug": "thread-to-blog-converter",
+    "title": "Thread To Blog Converter",
+    "category": "Writing",
+    "repo": "skills-writing",
+    "description": "Expands a Twitter/X or LinkedIn thread into a structured blog article with added context, headings and links. Use when repurposing a thread into a post. Not for writing an article from scratch - use seo-article-writer.",
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/thread-to-blog-converter"
+  },
+  {
+    "slug": "prompt-library-curator",
+    "title": "Prompt Library Curator",
+    "category": "Meta",
+    "repo": "skills-meta",
+    "description": "Maintains reusable prompt libraries: versioning, tagging, benchmarking and deduplication across teams. Use when organising a shared prompt collection, versioning a prompt, or comparing prompt variants on a benchmark.",
+    "url": "https://github.com/poorvith-mp/skills-meta/tree/main/skills/prompt-library-curator"
+  },
+  {
+    "slug": "skill-linter",
+    "title": "Skill Linter",
+    "category": "Meta",
+    "repo": "skills-meta",
+    "description": "Checks a draft SKILL.md against house conventions: description under 250 chars with a real trigger, domain-appropriate checklist, no stub text. Use when writing or reviewing a skill before committing it.",
+    "url": "https://github.com/poorvith-mp/skills-meta/tree/main/skills/skill-linter"
+  },
+  {
+    "slug": "skill-router",
+    "title": "Skill Router",
+    "category": "Meta",
+    "repo": "skills-meta",
+    "description": "Finds the right skill for a described task across the 12 category repos and gives the install command. Use when you know the task but not the skill name, or when checking whether a skill already exists before writing one.",
+    "url": "https://github.com/poorvith-mp/skills-meta/tree/main/skills/skill-router"
+  }
+]
