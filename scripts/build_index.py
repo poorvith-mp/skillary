@@ -17,6 +17,8 @@ from __future__ import annotations
 
 import argparse
 import difflib
+import json
+import sqlite3
 import sys
 from pathlib import Path
 
@@ -136,6 +138,46 @@ def write_native(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
 
 
+def emit_json(grouped: dict[str, list], out_path: Path) -> None:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    records = []
+    for repo, items in grouped.items():
+        for s in items:
+            records.append({
+                "slug": s.slug,
+                "title": title_for(s.slug),
+                "category": LABELS.get(repo, repo),
+                "repo": repo,
+                "description": s.description.strip(),
+                "url": f"https://github.com/{OWNER}/{repo}/tree/main/skills/{s.slug}",
+            })
+    out_path.write_text(json.dumps(records, indent=2), encoding="utf-8")
+
+
+def emit_sqlite(grouped: dict[str, list], out_path: Path) -> None:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    if out_path.exists():
+        out_path.unlink()
+    conn = sqlite3.connect(out_path)
+    cur = conn.cursor()
+    cur.execute("CREATE VIRTUAL TABLE skills_fts USING fts5(slug, title, category, repo, description, url UNINDEXED)")
+    for repo, items in grouped.items():
+        for s in items:
+            cur.execute(
+                "INSERT INTO skills_fts (slug, title, category, repo, description, url) VALUES (?, ?, ?, ?, ?, ?)",
+                (
+                    s.slug,
+                    title_for(s.slug),
+                    LABELS.get(repo, repo),
+                    repo,
+                    s.description.strip(),
+                    f"https://github.com/{OWNER}/{repo}/tree/main/skills/{s.slug}",
+                ),
+            )
+    conn.commit()
+    conn.close()
+
+
 def splice(text: str, region: str, block: str) -> str:
     begin, end = REGIONS[region]
     start, stop = text.find(begin), text.find(end)
@@ -152,6 +194,8 @@ def main() -> int:
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--write", action="store_true")
     parser.add_argument("--router", action="store_true", help="also write skill-router's index")
+    parser.add_argument("--json", action="store_true", help="emit dist/skills.json")
+    parser.add_argument("--sqlite", action="store_true", help="emit dist/skills.db (SQLite FTS5)")
     args = parser.parse_args()
 
     hub = Path(__file__).resolve().parent.parent
@@ -172,6 +216,16 @@ def main() -> int:
         elif args.check and target.read_text(encoding="utf-8").replace("\r\n", "\n") != content:
             print(f"DRIFT: {target} is stale")
             return 1
+
+    if args.json or args.write:
+        json_out = hub / "dist" / "skills.json"
+        emit_json(grouped, json_out)
+        print(f"wrote {json_out} ({total} skills)")
+
+    if args.sqlite or args.write:
+        sqlite_out = hub / "dist" / "skills.db"
+        emit_sqlite(grouped, sqlite_out)
+        print(f"wrote {sqlite_out} (SQLite FTS5 index)")
 
     if args.write:
         write_native(readme, updated)
