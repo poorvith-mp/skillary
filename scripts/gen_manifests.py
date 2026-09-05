@@ -21,10 +21,10 @@ for stream in (sys.stdout, sys.stderr):
         stream.reconfigure(encoding="utf-8", errors="replace")
 
 from build_index import LABELS, OWNER, collect  # noqa: E402
-from skillary import repo_root  # noqa: E402
+from skillary import get_version, repo_root  # noqa: E402
 
 MARKETPLACE = "skillary"
-VERSION = "2.1.0"
+VERSION = get_version()
 AUTHOR = {"name": "Poorvith M P", "url": f"https://github.com/{OWNER}"}
 
 # What each category is for, in the words someone browsing a marketplace needs.

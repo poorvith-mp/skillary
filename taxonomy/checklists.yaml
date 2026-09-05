@@ -114,3 +114,14 @@ archetypes:
       - "NEVER give clinical, dietary, or dosage advice as though prescribing."
       - "NEVER build a plan on unstated assumptions about someone's life or income."
       - "NEVER set a cadence the person has not agreed is achievable."
+
+  tooling:
+    verification:
+      - "Trigger clause names phrases a user would actually type, not the skill's own name."
+      - "Every file the body tells the model to read exists in the skill folder."
+      - "Instructions were run once end-to-end against a real request before shipping."
+      - "Description states what the skill is NOT for, naming the sibling that is."
+    anti_patterns:
+      - "NEVER ship a skill whose referenced files do not exist."
+      - "NEVER write a description whose trigger only fires on the skill's own name."
+      - "NEVER pad a skill body to look substantial; a thin skill should be deleted, not inflated."

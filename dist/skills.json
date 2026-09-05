@@ -160,14 +160,6 @@
     "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/composio"
   },
   {
-    "slug": "create-skill",
-    "title": "Create Skill",
-    "category": "Developer",
-    "repo": "skills-developer",
-    "description": "Scaffolds a new Agent Skill: frontmatter with a trigger-rich description under 250 chars, structured body and supporting files. Use when authoring a new skill. Not for reviewing one - use skill-linter.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/create-skill"
-  },
-  {
     "slug": "cron-job-planner",
     "title": "Cron Job Planner",
     "category": "Developer",
@@ -286,14 +278,6 @@
     "repo": "skills-developer",
     "description": "Runs QA that demands visual proof, defaulting to finding several concrete issues with screenshots. Use when verifying a change actually works rather than trusting that it does.",
     "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/evidence-collector"
-  },
-  {
-    "slug": "feishu-integration-developer",
-    "title": "Feishu Integration Developer",
-    "category": "Developer",
-    "repo": "skills-developer",
-    "description": "Builds on the Feishu (Lark) Open Platform: bots, mini programs, approval flows and API integration. Use when integrating with Feishu.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/feishu-integration-developer"
   },
   {
     "slug": "filament-optimizer",
@@ -624,14 +608,6 @@
     "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/webhook-handler-builder"
   },
   {
-    "slug": "wechat-mini-program-developer",
-    "title": "Wechat Mini Program Developer",
-    "category": "Developer",
-    "repo": "skills-developer",
-    "description": "Builds WeChat Mini Programs with WXML/WXSS/WXS, WeChat APIs, payments and the review process. Use when developing for the WeChat Mini Program platform.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/wechat-mini-program-developer"
-  },
-  {
     "slug": "workflow-optimizer",
     "title": "Workflow Optimizer",
     "category": "Developer",
@@ -672,14 +648,6 @@
     "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/app-store-optimizer"
   },
   {
-    "slug": "bilibili-content-strategist",
-    "title": "Bilibili Content Strategist",
-    "category": "Marketing",
-    "repo": "skills-marketing",
-    "description": "Grows Bilibili channels: UP-owner growth, danmaku culture, algorithm behaviour and branded content. Use when building a presence on Bilibili or adapting content for that audience.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/bilibili-content-strategist"
-  },
-  {
     "slug": "book-co-author",
     "title": "Book Co Author",
     "category": "Marketing",
@@ -694,22 +662,6 @@
     "repo": "skills-marketing",
     "description": "Generates TikTok and Instagram carousels from a website URL, producing multi-slide viral formats. Use when producing carousel content at volume from existing site material.",
     "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/carousel-growth-engine"
-  },
-  {
-    "slug": "china-e-commerce-operator",
-    "title": "China E Commerce Operator",
-    "category": "Marketing",
-    "repo": "skills-marketing",
-    "description": "Runs Taobao, Tmall, Pinduoduo and JD operations: listing optimisation, campaign mechanics and store performance. Use when operating a China domestic store. For export markets, use cross-border-ecommerce-operator.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/china-e-commerce-operator"
-  },
-  {
-    "slug": "china-market-localization-strategist",
-    "title": "China Market Localization Strategist",
-    "category": "Marketing",
-    "repo": "skills-marketing",
-    "description": "Turns trend signals into China go-to-market plans across Douyin, Xiaohongshu and WeChat. Use when entering or repositioning in the China market beyond translation.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/china-market-localization-strategist"
   },
   {
     "slug": "cold-email-writer",
@@ -764,7 +716,7 @@
     "title": "Cross Border eCommerce Operator",
     "category": "Marketing",
     "repo": "skills-marketing",
-    "description": "Runs Amazon, Shopee, Lazada, AliExpress, Temu and TikTok Shop operations plus international logistics. Use when selling across borders. For China domestic platforms, use china-e-commerce-operator.",
+    "description": "Runs Amazon, Shopee, Lazada, AliExpress, Temu and TikTok Shop operations plus international logistics. Use when managing cross-border e-commerce platforms and fulfillment.",
     "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/cross-border-ecommerce-operator"
   },
   {
@@ -1016,14 +968,6 @@
     "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/viral-hook-generator"
   },
   {
-    "slug": "wechat-official-account",
-    "title": "Wechat Official Account",
-    "category": "Marketing",
-    "repo": "skills-marketing",
-    "description": "Runs a WeChat Official Account: article formatting, publishing cadence, menu structure and follower growth. Use when operating an Official Account.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/wechat-official-account"
-  },
-  {
     "slug": "x-twitter-intelligence-analyst",
     "title": "X Twitter Intelligence Analyst",
     "category": "Marketing",
@@ -1046,14 +990,6 @@
     "repo": "skills-marketing",
     "description": "Finds the strongest moments in a long video and cuts them into short clips with hooks and timestamps. Use when repurposing long-form video into shorts. For original B-roll, use youtube-b-roll-maker.",
     "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/youtube-clipper"
-  },
-  {
-    "slug": "zhihu-strategist",
-    "title": "Zhihu Strategist",
-    "category": "Marketing",
-    "repo": "skills-marketing",
-    "description": "Builds Zhihu credibility through question answering, long-form knowledge posts and community norms. Use when establishing thought leadership on Zhihu.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/zhihu-strategist"
   },
   {
     "slug": "accounts-payable-agent",
@@ -1198,14 +1134,6 @@
     "repo": "skills-specialized",
     "description": "Writes grant applications for nonprofits, research institutions and social enterprises: prospect research, letters of inquiry and full proposals. Use when applying for funding or strengthening a rejected proposal.",
     "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/grant-writer"
-  },
-  {
-    "slug": "healthcare-compliance-auditor",
-    "title": "Healthcare Compliance Auditor",
-    "category": "Specialized",
-    "repo": "skills-specialized",
-    "description": "Audits healthcare marketing against China's Advertising Law, Medical Advertisement Measures and Drug Administration Law. Use when reviewing medical claims for that market. A qualified reviewer must sign off.",
-    "url": "https://github.com/poorvith-mp/skills-specialized/tree/main/skills/healthcare-compliance-auditor"
   },
   {
     "slug": "hiring-plan-org-chart-builder",
@@ -2494,6 +2422,14 @@
     "repo": "skills-writing",
     "description": "Expands a Twitter/X or LinkedIn thread into a structured blog article with added context, headings and links. Use when repurposing a thread into a post. Not for writing an article from scratch - use seo-article-writer.",
     "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/thread-to-blog-converter"
+  },
+  {
+    "slug": "create-skill",
+    "title": "Create Skill",
+    "category": "Meta",
+    "repo": "skills-meta",
+    "description": "Scaffolds a new Agent Skill: frontmatter with a trigger-rich description under 250 chars, structured body and supporting files. Use when authoring a new skill. Not for reviewing one - use skill-linter.",
+    "url": "https://github.com/poorvith-mp/skills-meta/tree/main/skills/create-skill"
   },
   {
     "slug": "prompt-library-curator",

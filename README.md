@@ -21,9 +21,9 @@ Each category is its own repo and its own installable plugin, so you take only t
 
 | Category | Repository | Skills |
 |----------|------------|--------|
-| Developer | [skills-developer](https://github.com/poorvith-mp/skills-developer) | 80 |
-| Marketing | [skills-marketing](https://github.com/poorvith-mp/skills-marketing) | 52 |
-| Specialized | [skills-specialized](https://github.com/poorvith-mp/skills-specialized) | 41 |
+| Developer | [skills-developer](https://github.com/poorvith-mp/skills-developer) | 77 |
+| Marketing | [skills-marketing](https://github.com/poorvith-mp/skills-marketing) | 47 |
+| Specialized | [skills-specialized](https://github.com/poorvith-mp/skills-specialized) | 40 |
 | Design | [skills-design](https://github.com/poorvith-mp/skills-design) | 29 |
 | Business | [skills-business](https://github.com/poorvith-mp/skills-business) | 29 |
 | Game Dev | [skills-gamedev](https://github.com/poorvith-mp/skills-gamedev) | 22 |
@@ -32,9 +32,9 @@ Each category is its own repo and its own installable plugin, so you take only t
 | Finance | [skills-finance](https://github.com/poorvith-mp/skills-finance) | 12 |
 | Personal | [skills-personal](https://github.com/poorvith-mp/skills-personal) | 10 |
 | Writing | [skills-writing](https://github.com/poorvith-mp/skills-writing) | 5 |
-| Meta | [skills-meta](https://github.com/poorvith-mp/skills-meta) | 3 |
+| Meta | [skills-meta](https://github.com/poorvith-mp/skills-meta) | 4 |
 
-**Total: 315 skills across 12 repositories.**
+**Total: 307 skills across 12 repositories.**
 
 <!-- END:REPOS -->
 
@@ -136,7 +136,7 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 
 <!-- BEGIN:INDEX -->
 
-### Developer — [skills-developer](https://github.com/poorvith-mp/skills-developer) (80 skills)
+### Developer — [skills-developer](https://github.com/poorvith-mp/skills-developer) (77 skills)
 
 | Skill ID | Title |
 |----------|-------|
@@ -160,7 +160,6 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 | `codebase-onboarding-engineer` | Codebase Onboarding Engineer |
 | `compliance-auditor` | Compliance Auditor |
 | `composio` | Composio |
-| `create-skill` | Create Skill |
 | `cron-job-planner` | Cron Job Planner |
 | `data-engineer` | Data Engineer |
 | `data-pipeline-architect` | Data Pipeline Architect |
@@ -176,7 +175,6 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 | `environment-setup-guide` | Environment Setup Guide |
 | `error-boundary-designer` | Error Boundary Designer |
 | `evidence-collector` | Evidence Collector |
-| `feishu-integration-developer` | Feishu Integration Developer |
 | `filament-optimizer` | Filament Optimizer |
 | `finops-engineer` | FinOps Engineer |
 | `frontend-developer` | Frontend Developer |
@@ -218,10 +216,9 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 | `typescript-migrator` | Typescript Migrator |
 | `voice-ai-integration-engineer` | Voice AI Integration Engineer |
 | `webhook-handler-builder` | Webhook Handler Builder |
-| `wechat-mini-program-developer` | Wechat Mini Program Developer |
 | `workflow-optimizer` | Workflow Optimizer |
 
-### Marketing — [skills-marketing](https://github.com/poorvith-mp/skills-marketing) (52 skills)
+### Marketing — [skills-marketing](https://github.com/poorvith-mp/skills-marketing) (47 skills)
 
 | Skill ID | Title |
 |----------|-------|
@@ -229,11 +226,8 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 | `affiliate-program-designer` | Affiliate Program Designer |
 | `ai-citation-strategist` | AI Citation Strategist |
 | `app-store-optimizer` | App Store Optimizer |
-| `bilibili-content-strategist` | Bilibili Content Strategist |
 | `book-co-author` | Book Co Author |
 | `carousel-growth-engine` | Carousel Growth Engine |
-| `china-e-commerce-operator` | China E Commerce Operator |
-| `china-market-localization-strategist` | China Market Localization Strategist |
 | `cold-email-writer` | Cold Email Writer |
 | `community-post-writer` | Community Post Writer |
 | `competitor-analyser` | Competitor Analyser |
@@ -272,13 +266,11 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 | `video-optimizer` | Video Optimizer |
 | `video-script-writer` | Video Script Writer |
 | `viral-hook-generator` | Viral Hook Generator |
-| `wechat-official-account` | Wechat Official Account |
 | `x-twitter-intelligence-analyst` | X Twitter Intelligence Analyst |
 | `youtube-b-roll-maker` | Youtube B Roll Maker |
 | `youtube-clipper` | Youtube Clipper |
-| `zhihu-strategist` | Zhihu Strategist |
 
-### Specialized — [skills-specialized](https://github.com/poorvith-mp/skills-specialized) (41 skills)
+### Specialized — [skills-specialized](https://github.com/poorvith-mp/skills-specialized) (40 skills)
 
 | Skill ID | Title |
 |----------|-------|
@@ -300,7 +292,6 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 | `esg-sustainability-officer` | ESG Sustainability Officer |
 | `government-digital-presales-consultant` | Government Digital Presales Consultant |
 | `grant-writer` | Grant Writer |
-| `healthcare-compliance-auditor` | Healthcare Compliance Auditor |
 | `hiring-plan-org-chart-builder` | Hiring Plan Org Chart Builder |
 | `hr-onboarding` | Hr Onboarding |
 | `identity-graph-operator` | Identity Graph Operator |
@@ -503,10 +494,11 @@ Still open: no skill ships `scripts/` or `assets/` yet, so every skill is instru
 | `technical-writer` | Technical Writer |
 | `thread-to-blog-converter` | Thread To Blog Converter |
 
-### Meta — [skills-meta](https://github.com/poorvith-mp/skills-meta) (3 skills)
+### Meta — [skills-meta](https://github.com/poorvith-mp/skills-meta) (4 skills)
 
 | Skill ID | Title |
 |----------|-------|
+| `create-skill` | Create Skill |
 | `prompt-library-curator` | Prompt Library Curator |
 | `skill-linter` | Skill Linter |
 | `skill-router` | Skill Router |

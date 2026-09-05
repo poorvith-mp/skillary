@@ -20,7 +20,7 @@ defaults:
   skills-business: ops-process
   skills-sales-support: go-to-market
   skills-specialized: ops-process
-  skills-meta: content-writing
+  skills-meta: tooling
 
 overrides:
 
@@ -36,7 +36,6 @@ overrides:
   tax-strategist: advisory-regulated
   crypto-tax-advisor: advisory-regulated
   insurance-actuary-analyst: advisory-regulated
-  healthcare-compliance-auditor: advisory-regulated
   medical-billing-coder: advisory-regulated
   legal-practice-assistant: advisory-regulated
   contract-clause-explainer: advisory-regulated
@@ -113,7 +112,13 @@ overrides:
   government-digital-presales-consultant: go-to-market
   business-strategist: analysis-quant
 
-  # --- meta skills operate on the library itself ---
-  skill-router: content-writing
-  skill-linter: content-writing
-  prompt-library-curator: content-writing
+  # --- tooling skills operating on skills, prompts, configs or routes ---
+  create-skill: tooling
+  skill-router: tooling
+  skill-linter: tooling
+  prompt-library-curator: tooling
+  prompt-engineer: tooling
+  image-prompt-engineer: tooling
+  multi-agent-systems-architect: tooling
+  agents-orchestrator: tooling
+  mcp-builder: tooling

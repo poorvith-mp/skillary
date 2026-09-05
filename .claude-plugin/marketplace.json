@@ -5,8 +5,8 @@
     "url": "https://github.com/poorvith-mp"
   },
   "metadata": {
-    "description": "315 Agent Skills across 12 domains, every one validated for trigger precision.",
-    "version": "2.1.0"
+    "description": "307 Agent Skills across 12 domains, every one validated for trigger precision.",
+    "version": "3.0.0"
   },
   "plugins": [
     {
@@ -15,7 +15,7 @@
         "source": "github",
         "repo": "poorvith-mp/skills-developer"
       },
-      "description": "80 skills. Software engineering: architecture, security, CI/CD, data, mobile, SRE and debugging.",
+      "description": "77 skills. Software engineering: architecture, security, CI/CD, data, mobile, SRE and debugging.",
       "category": "developer"
     },
     {
@@ -24,7 +24,7 @@
         "source": "github",
         "repo": "poorvith-mp/skills-marketing"
       },
-      "description": "52 skills. Campaigns, SEO and AEO, social, paid media, lifecycle email and content.",
+      "description": "47 skills. Campaigns, SEO and AEO, social, paid media, lifecycle email and content.",
       "category": "marketing"
     },
     {
@@ -33,7 +33,7 @@
         "source": "github",
         "repo": "poorvith-mp/skills-specialized"
       },
-      "description": "41 skills. Compliance, legal, healthcare, HR, agent infrastructure and industry operations.",
+      "description": "40 skills. Compliance, legal, healthcare, HR, agent infrastructure and industry operations.",
       "category": "specialized"
     },
     {
@@ -114,7 +114,7 @@
         "source": "github",
         "repo": "poorvith-mp/skills-meta"
       },
-      "description": "3 skills. Skills that operate on the skill library itself: routing, linting and curation.",
+      "description": "4 skills. Skills that operate on the skill library itself: routing, linting and curation.",
       "category": "meta"
     }
   ]
