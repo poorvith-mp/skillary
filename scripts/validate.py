@@ -59,6 +59,26 @@ TRIGGER_RES = [
 ]
 
 MD_LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
+ESCAPE_RE = re.compile(r"\\([*\[\]`|$><~{}_#()\-]|\\)")
+
+
+def strip_fences(text: str) -> str:
+    """Return text with fenced code blocks stripped."""
+    lines = []
+    in_fence = False
+    fence_marker = ""
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not in_fence:
+            if stripped.startswith(("```", "~~~")):
+                in_fence = True
+                fence_marker = stripped[:3]
+            else:
+                lines.append(line)
+        else:
+            if stripped.startswith(fence_marker):
+                in_fence = False
+    return "\n".join(lines)
 
 
 def check_skill(skill, report: Report) -> None:
@@ -138,6 +158,23 @@ def check_skill(skill, report: Report) -> None:
     if not first_line.lstrip().startswith("# "):
         report.add(sid, "no-opening-h1", f"body opens with prose, not an H1: {first_line.strip()[:60]!r}", "warning")
 
+    clean_body = strip_fences(body)
+
+    if ESCAPE_RE.search(clean_body):
+        report.add(sid, "escaped-markdown", "literal backslash escapes outside code fences")
+
+    if "<br>" in clean_body:
+        report.add(sid, "br-in-markdown", "HTML line break instead of a newline")
+
+    if re.search(r"\.\.\.\s*\n---\s*\n", body):
+        report.add(sid, "truncated-blob", "collapsed preview fragment welded into the body")
+
+    if "${CLAUDE_SKILL_DIR}" in body:
+        report.add(sid, "agent-coupling", "${CLAUDE_SKILL_DIR} variable used; use relative paths instead")
+
+    if re.search(r"[~.]/\.claude/", clean_body):
+        report.add(sid, "agent-coupling", "references agent-specific ~/.claude path")
+
     if CODE_CHECKLIST_FP in body and skill.repo not in ENGINEERING_REPOS:
         report.add(sid, "wrong-domain-checklist", "carries the software-engineering QA checklist")
 
@@ -149,6 +186,16 @@ def check_skill(skill, report: Report) -> None:
 
     # --- supporting files ----------------------------------------------
     linked = set(MD_LINK_RE.findall(body)) | set(re.findall(r"references/[\w.-]+", body))
+
+    for link in set(MD_LINK_RE.findall(clean_body)):
+        if link.startswith(("http:", "https:", "#", "mailto:")) or not link.endswith(".md"):
+            continue
+        rel_path = link.split("#")[0].split("?")[0].lstrip("./")
+        target_file = skill.path / rel_path
+        ref_target = skill.path / "references" / Path(rel_path).name
+        if not target_file.exists() and not ref_target.exists():
+            report.add(sid, "dangling-reference", f"body links {link}, which does not exist")
+
     refs_dir = skill.path / "references"
     if refs_dir.is_dir():
         for ref in sorted(refs_dir.glob("*.md")):

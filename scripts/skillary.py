@@ -122,6 +122,15 @@ def repo_root(hub: Path | None = None) -> Path:
     return hub.parent
 
 
+def get_version(hub: Path | None = None) -> str:
+    """Read version from canonical VERSION file."""
+    hub = hub or Path(__file__).resolve().parent.parent
+    vfile = hub / "VERSION"
+    if vfile.is_file():
+        return vfile.read_text(encoding="utf-8").strip()
+    return "3.0.0"
+
+
 def repo_paths(root: Path | None = None) -> list[Path]:
     root = root or repo_root()
     found = []

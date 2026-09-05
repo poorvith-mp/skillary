@@ -2,6 +2,28 @@
 
 Versioning note: earlier releases used two conflicting schemes (`v0.1`/`v0.2`/`v0.3` in changelogs and commits, `v2.0` in the README and on GitHub Releases). From v2.1.0 onward there is one scheme: semver, continuing from the published v2.0.
 
+## v3.0.0 — September 2026
+
+Major architecture, security, and integrity release. Enforces cross-agent portability, prunes non-target skills, hardens the supply-chain security gate, and enables direct hub installation.
+
+**Security & Supply Chain**
+- **Automated Security Scanner**: Shipped `scripts/security.py` running continuous static analysis across 24 indicators (prompt injection, hidden Unicode, base64 payloads, credential harvesting, zip traversal) asserting zero security issues across all 307 skills and bundles.
+- **Supply-Chain CI Hardening**: Pinned GitHub Actions in `.github/workflows/validate.yml` to full commit SHAs with explicit `permissions: contents: read` and pinned dependencies.
+- **Signed Distribution**: Added reproducible bundle archives and generated `dist/SHA256SUMS` catalog checksums.
+- **Security Policy**: Added repository `SECURITY.md` defining responsible disclosure guidelines and SLAs.
+
+**Integrity & Quality Gates**
+- **Unescaped Markdown**: Cleaned 122 `SKILL.md` files corrupted by JSON round-trip escaping outside code fences (`\*`, `\[`, `\]`, `` \` ``, `\|`, etc.) and reflowed table rows containing literal `<br>`. Added permanent `escaped-markdown` and `br-in-markdown` checks to `scripts/validate.py`.
+- **Dangling References Fixed**: Authored full reference documentation across 6 core skills (`composio`, `create-skill`, `n8n`, `trigger-dev`, `customer-support`, `know-me`) and stripped stale imports in `build-premium-website`, `new-client-system`, `readme-generator`, `setup-codex-precheck`, `instantly-campaign`, and `skill-router`.
+- **Pruned Preview Blobs & Duplicate Titles**: Eliminated preview text welded between duplicate H1 tags in `code-reviewer`, `bug-explainer`, `git-commit-writer`, and `client-proposal-writer`. Added `truncated-blob` validator check.
+- **Tooling Archetype**: Introduced `tooling` archetype in `taxonomy/checklists.yaml` and mapped meta/orchestrator skills to verify genuine skill contracts rather than irrelevant compilation checks.
+
+**Portability & Discovery**
+- **Agent Portability**: Removed `${CLAUDE_SKILL_DIR}` and vendor-specific paths (`~/.claude`), standardizing on relative Markdown paths compatible with Claude Code, Codex, Cursor, Gemini CLI, and `npx skills`.
+- **Universal Hub Installation**: Added generated `skills/` mirror in the hub via `build_index.py --hub-skills`, making `npx skills add poorvith-mp/skillary` resolve directly to the router skill.
+- **Catalog Pruning**: Deleted 8 China-market skills (`feishu-integration-developer`, `wechat-mini-program-developer`, `bilibili-content-strategist`, `china-e-commerce-operator`, `china-market-localization-strategist`, `wechat-official-account`, `zhihu-strategist`, `healthcare-compliance-auditor`), right-sizing the catalog from 315 to 307 high-signal skills.
+- **Rehomed create-skill**: Moved `create-skill` from `skills-developer` to `skills-meta` to unify the author-lint-route workflow.
+
 ## v2.1.0 — August 2026
 
 The release where the quality claim is actually true, and the first one you can install.

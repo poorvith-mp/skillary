@@ -117,6 +117,18 @@ def main() -> int:
             print(f"{state.upper()}: {skill.rel}/{target.name}")
 
     if args.write:
+        import hashlib
+        sums = []
+        for skill in iter_skills():
+            target = skill.path / f"{skill.slug}.skill"
+            if target.is_file():
+                digest = hashlib.sha256(target.read_bytes()).hexdigest()
+                sums.append(f"{digest}  {skill.repo}/skills/{skill.slug}/{target.name}")
+        hub = Path(__file__).resolve().parent.parent
+        sums_file = hub / "dist" / "SHA256SUMS"
+        sums_file.parent.mkdir(exist_ok=True)
+        sums_file.write_text("\n".join(sorted(sums)) + "\n", encoding="utf-8")
+        print(f"wrote {sums_file} ({len(sums)} hashes)")
         print(f"\nwrote {written} bundles, removed {misnamed} misnamed")
         return 0
 
