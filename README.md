@@ -6,10 +6,10 @@
 
 Central index for the Claude skills multi-repo library by [@poorvith-mp](https://github.com/poorvith-mp).
 
-- Version: **v2.1.0**
-- Last updated: **August 2026**
+- Version: **v4.0.0**
+- Last updated: **September 2026**
 - License: **MIT**
-- Total skills (all category repos): **315**
+- Total skills (all category repos): **277**
 
 Each category is its own repo and its own installable plugin, so you take only the domains you want.
 
@@ -38,12 +38,11 @@ Each category is its own repo and its own installable plugin, so you take only t
 
 <!-- END:REPOS -->
 
-## Meta
-
-`skills-meta` holds skills that operate on the library itself rather than a domain:
-- **skill-router** — finds the right skill + repo for a described task, with the install command.
-- **skill-linter** — checks a draft SKILL.md against house conventions before it's committed.
-- **prompt-library-curator** — maintains versioned prompt template libraries across teams.
+## Multi-Agent Orchestration
+ 
+Multi-agent orchestration and protocol roles live in [skillary-agents](https://github.com/poorvith-mp/skillary-agents):
+- **Autonomous agent runtimes** — host-neutral multi-agent orchestrator protocol and zero-slug role templates.
+- **Playbooks & state machines** — shared context, task handoffs, and verification loops across agent teams.
 
 ---
 
@@ -108,7 +107,7 @@ skill-id/
 
 ## Quality
 
-A file-level audit of all 315 skills in August 2026 found that the release labelled "v2.0 — production-grade" was not accurate. Everything it found has since been fixed:
+A file-level audit across all 277 skills in September 2026 found that earlier releases contained stubs, mismatched QA checklists, and truncated trigger clauses. Everything found has been fixed:
 
 | Defect | Was | Now |
 |---|---:|---:|
@@ -120,7 +119,7 @@ A file-level audit of all 315 skills in August 2026 found that the release label
 | No trigger clause in the visible part of the description | 60 | 0 |
 | Reference files the body never links, so they can never load | 13 | 0 |
 
-Enforced by `scripts/validate.py`, which reports zero findings across all 315 skills. Run it yourself:
+Enforced by `scripts/validate.py`, which reports zero findings across all 277 skills. Run it yourself:
 
 ```bash
 python scripts/validate.py
