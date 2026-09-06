@@ -292,7 +292,20 @@ def main() -> int:
 
     report = Report()
     skills = list(iter_skills())
+
+    # Load known_slugs from dist/skills.json so that single-repo CI runs
+    # (which only check out one category repo alongside the hub) know all library slugs.
+    hub = Path(__file__).resolve().parent.parent
+    dist_index = hub / "dist" / "skills.json"
     known_slugs = {s.slug for s in skills}
+    if dist_index.is_file():
+        try:
+            data = json.loads(dist_index.read_text(encoding="utf-8"))
+            items = data if isinstance(data, list) else data.get("skills", [])
+            known_slugs |= {s["slug"] for s in items}
+        except Exception:
+            pass
+
     if args.repo:
         target = args.repo if args.repo.startswith("skills-") else f"skills-{args.repo}"
         skills = [s for s in skills if s.repo == target]
