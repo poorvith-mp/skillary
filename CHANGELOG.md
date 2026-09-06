@@ -2,6 +2,26 @@
 
 Versioning note: earlier releases used two conflicting schemes (`v0.1`/`v0.2`/`v0.3` in changelogs and commits, `v2.0` in the README and on GitHub Releases). From v2.1.0 onward there is one scheme: semver, continuing from the published v2.0.
 
+## v4.0.0 — September 2026
+
+Modernized architecture, 277 skills across 12 focused repositories, standalone `skillary-agents` multi-agent orchestrator, and strict 200-character description gates.
+
+**Catalog Modernization (277 Skills Across 12 Repos)**
+- **Rebalanced Collections**: Structured into 12 core category repositories: `skills-developer` (58), `skills-marketing` (44), `skills-gamedev` (26), `skills-business` (23), `skills-design` (21), `skills-education` (21), `skills-agents` (17), `skills-personal` (15), `skills-writing` (15), `skills-sales` (14), `skills-finance` (12), and `skills-legal` (11).
+- **New Dedicated Repositories**: Scaffolded `skills-agents` (agent architecture, RAG, MCP, prompt engineering, n8n) and `skills-legal` (contracts, privacy, compliance, IP, licensed-review requirement).
+- **Dissolved Catch-All Repos**: Retired `skills-specialized` (40 skills rehomed or deprecated) and `skills-meta` (tooling relocated to `skillary/scripts/`).
+- **Category Renaming**: Promoted `skills-sales-support` to `skills-sales`.
+- **Redirect Discipline**: Added deprecation stubs for legacy and renamed skills to provide non-breaking migration paths while excluding them from active index distributions.
+
+**Autonomous Multi-Agent Orchestration (`skillary-agents`)**
+- Shipped standalone `skillary-agents` repository implementing depth-1 parent-child crew dispatching across Claude Code, Google Antigravity, and Codex/Cursor CLI.
+- Authored 6 zero-slug role contracts (`scout`, `planner`, `worker`, `verifier`, `security-auditor`, `shipper`) and 8 cross-category functional playbooks (`launch-business`, `sell-a-thing`, `fundraise`, `content-engine`, `ship-feature`, `codebase-rescue`, `security-review`, `hire-a-team`).
+
+**Linter & Gate Hardening**
+- **Strict Spec Limits**: Enforced 200-character hard description ceiling and 30-character kebab-case slug limit across all 277 skills.
+- **Routing Evals**: Added per-skill `evals/routing.yaml` test harnesses enforcing positive triggers and neighbour disambiguation.
+- **Zero Indicators**: Verified 100% clean passes on `validate.py`, `security.py` (0 security indicators), and `test_index.py` (277 indexed skills).
+
 ## v3.0.0 — September 2026
 
 Major architecture, security, and integrity release. Enforces cross-agent portability, prunes non-target skills, hardens the supply-chain security gate, and enables direct hub installation.

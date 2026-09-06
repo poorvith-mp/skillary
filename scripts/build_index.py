@@ -46,16 +46,16 @@ OWNER = "poorvith-mp"
 LABELS = {
     "skills-developer": "Developer",
     "skills-marketing": "Marketing",
-    "skills-specialized": "Specialized",
-    "skills-design": "Design",
-    "skills-business": "Business",
     "skills-gamedev": "Game Dev",
-    "skills-sales-support": "Sales & Support",
+    "skills-business": "Business",
+    "skills-design": "Design",
     "skills-education": "Education",
-    "skills-finance": "Finance",
+    "skills-agents": "Agents",
     "skills-personal": "Personal",
     "skills-writing": "Writing",
-    "skills-meta": "Meta",
+    "skills-sales": "Sales & Support",
+    "skills-finance": "Finance",
+    "skills-legal": "Legal",
 }
 
 # Titles are `slug.replace('-', ' ').title()` with these fixups. Derived by

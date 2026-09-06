@@ -95,8 +95,8 @@ def check_skill(skill, report: Report) -> None:
     if not NAME_RE.match(skill.name):
         report.add(sid, "name-format", f"name '{skill.name}' is not clean kebab-case")
 
-    if len(skill.name) > 64:
-        report.add(sid, "name-length", f"name is {len(skill.name)} chars (max 64)")
+    if len(skill.name) > 30:
+        report.add(sid, "name-length", f"name is {len(skill.name)} chars (max 30 in v4)")
 
     # --- description ---------------------------------------------------
     desc = skill.description
@@ -104,28 +104,11 @@ def check_skill(skill, report: Report) -> None:
         report.add(sid, "no-description", "description is empty")
         return
 
-    if len(desc) > DESCRIPTION_SPEC_LIMIT:
+    if len(desc) > 200:
         report.add(
             sid,
             "desc-spec-limit",
-            f"description is {len(desc)} chars, over the {DESCRIPTION_SPEC_LIMIT} spec limit",
-        )
-
-    if len(desc) > DESCRIPTION_LISTING_LIMIT:
-        report.add(
-            sid,
-            "desc-truncated",
-            f"description is {len(desc)} chars; everything past "
-            f"{DESCRIPTION_LISTING_LIMIT} is invisible to skill selection",
-        )
-
-    head = desc[:DESCRIPTION_LISTING_LIMIT]
-    if not any(pattern.search(head) for pattern in TRIGGER_RES):
-        report.add(
-            sid,
-            "no-trigger-in-head",
-            "no trigger clause in the first "
-            f"{DESCRIPTION_LISTING_LIMIT} chars - the skill will under-fire",
+            f"description is {len(desc)} chars, over the 200 v4 spec limit",
         )
 
     for pattern in BOILERPLATE_TAIL_RES:

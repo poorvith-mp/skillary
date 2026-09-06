@@ -16,18 +16,18 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 CATEGORIES = [
+    "developer",
+    "marketing",
+    "gamedev",
     "business",
     "design",
-    "developer",
     "education",
-    "finance",
-    "gamedev",
-    "marketing",
-    "meta",
+    "agents",
     "personal",
-    "sales-support",
-    "specialized",
     "writing",
+    "sales",
+    "finance",
+    "legal",
 ]
 
 # Claude truncates the description in the skill listing at roughly this length.
@@ -82,6 +82,7 @@ class Skill:
     body: str
     raw: str
     frontmatter: str
+    deprecated: bool = False
 
     @property
     def slug(self) -> str:
@@ -128,7 +129,7 @@ def get_version(hub: Path | None = None) -> str:
     vfile = hub / "VERSION"
     if vfile.is_file():
         return vfile.read_text(encoding="utf-8").strip()
-    return "3.0.0"
+    return "4.0.0"
 
 
 def repo_paths(root: Path | None = None) -> list[Path]:
@@ -168,21 +169,26 @@ def load_skill(repo: str, path: Path) -> Skill:
     raw = (path / "SKILL.md").read_text(encoding="utf-8", errors="replace")
     match = FRONTMATTER_RE.match(raw)
     if not match:
-        return Skill(repo, path, None, "", raw, raw, "")
+        return Skill(repo, path, None, "", raw, raw, "", False)
     frontmatter, body = match.group(1), match.group(2)
     name_match = re.search(r"^name:[ \t]*(.+)$", frontmatter, re.M)
     name = name_match.group(1).strip().strip("\"'") if name_match else None
-    return Skill(repo, path, name, parse_description(frontmatter), body, raw, frontmatter)
+    dep_match = re.search(r"^deprecated:[ \t]*(true|yes|1)", frontmatter, re.M | re.I)
+    deprecated = bool(dep_match)
+    return Skill(repo, path, name, parse_description(frontmatter), body, raw, frontmatter, deprecated)
 
 
-def iter_skills(root: Path | None = None):
+def iter_skills(root: Path | None = None, include_deprecated: bool = False):
     """Yield every Skill across the sibling repos, sorted by repo then slug."""
     for repo_path in repo_paths(root):
         skills_dir = repo_path / "skills"
         for path in sorted(p for p in skills_dir.iterdir() if p.is_dir()):
             if not (path / "SKILL.md").is_file():
                 continue
-            yield load_skill(repo_path.name, path)
+            skill = load_skill(repo_path.name, path)
+            if skill.deprecated and not include_deprecated:
+                continue
+            yield skill
 
 
 def strip_boilerplate_tail(description: str) -> str:
