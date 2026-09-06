@@ -148,6 +148,7 @@ def emit_json(grouped: dict[str, list], out_path: Path) -> None:
                 "title": title_for(s.slug),
                 "category": LABELS.get(repo, repo),
                 "repo": repo,
+                "group": s.group or "",
                 "description": s.description.strip(),
                 "url": f"https://github.com/{OWNER}/{repo}/tree/main/skills/{s.slug}",
             })

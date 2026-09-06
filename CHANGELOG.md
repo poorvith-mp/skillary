@@ -2,7 +2,7 @@
 
 Versioning note: earlier releases used two conflicting schemes (`v0.1`/`v0.2`/`v0.3` in changelogs and commits, `v2.0` in the README and on GitHub Releases). From v2.1.0 onward there is one scheme: semver, continuing from the published v2.0.
 
-## v4.0.0 — September 2026
+## v3.0.0 — September 2026
 
 Modernized architecture, 277 skills across 12 focused repositories, standalone `skillary-agents` multi-agent orchestrator, and strict 200-character description gates.
 

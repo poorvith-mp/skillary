@@ -56,3 +56,7 @@ jobs:
       - name: Overlapping skills name a sibling
         working-directory: skillary
         run: python scripts/overlap.py --check-boundaries
+
+      - name: Version numbers are synchronized
+        working-directory: skillary
+        run: python scripts/check_version_sync.py

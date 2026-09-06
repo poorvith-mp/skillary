@@ -38,11 +38,23 @@ Each category is its own repo and its own installable plugin, so you take only t
 
 <!-- END:REPOS -->
 
-## Multi-Agent Orchestration
- 
-Multi-agent orchestration and protocol roles live in [skillary-agents](https://github.com/poorvith-mp/skillary-agents):
-- **Autonomous agent runtimes** — host-neutral multi-agent orchestrator protocol and zero-slug role templates.
-- **Playbooks & state machines** — shared context, task handoffs, and verification loops across agent teams.
+## Autonomous Multi-Agent Orchestration — `skillary-agents`
+
+Instead of manually picking skills, install [`skillary-agents`](https://github.com/poorvith-mp/skillary-agents) into your coding agent. You state a goal in plain language, and it coordinates autonomous subagents to plan, build, test, and ship:
+
+```bash
+npx skills add poorvith-mp/skillary-agents
+```
+
+### The 4-Step Orchestration Loop
+1. **Scout**: Inspects your project, detects tech stack, conventions, and existing constraints.
+2. **Select**: Matches goal requirements against the 277-skill index and identifies only the required skills across categories.
+3. **Propose**: Presents an isolated execution crew and playbook to the user for explicit approval.
+4. **Execute & Verify**: Dispatches specialized roles (`planner`, `worker`, `verifier`, `security-auditor`, `shipper`) using host-neutral primitives across Claude Code (`Task`), Google Antigravity (`invoke_subagent`), or Codex/Cursor CLI.
+
+- **Host-neutral protocol**: Standardizes multi-agent handoffs across leading agent runtimes.
+- **6 Zero-slug role contracts**: Roles describe pure capabilities and never hardcode skill names, surviving catalog refactors.
+- **8 Production playbooks**: Pre-built state machines for shipping features, codebase rescue, security reviews, and business launches.
 
 ---
 

@@ -23,6 +23,8 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import yaml
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # Skill bodies contain emoji; the default Windows console codec (cp1252) raises
@@ -81,7 +83,7 @@ def strip_fences(text: str) -> str:
     return "\n".join(lines)
 
 
-def check_skill(skill, report: Report) -> None:
+def check_skill(skill, report: Report, known_slugs: set[str] | None = None) -> None:
     sid = skill.rel
 
     # --- frontmatter ---------------------------------------------------
@@ -126,6 +128,9 @@ def check_skill(skill, report: Report) -> None:
 
     if "##" in desc or "\\\\" in desc:
         report.add(sid, "body-leaked-into-frontmatter", "description contains markdown headings or escapes")
+
+    if "use when" not in desc.lower():
+        report.add(sid, "no-trigger-clause", "description has no 'Use when' trigger clause")
 
     # --- body ----------------------------------------------------------
     body = skill.body
@@ -194,6 +199,63 @@ def check_skill(skill, report: Report) -> None:
         if stray.stem != skill.slug:
             report.add(sid, "misnamed-bundle", f"{stray.name} does not match skill id '{skill.slug}'")
 
+    # --- evals ---------------------------------------------------------
+    eval_file = skill.path / "evals" / "routing.yaml"
+    if not eval_file.is_file():
+        report.add(sid, "missing-evals", "evals/routing.yaml missing")
+    else:
+        try:
+            content = eval_file.read_text(encoding="utf-8")
+            eval_data = yaml.safe_load(content)
+            if not isinstance(eval_data, dict):
+                report.add(sid, "malformed-evals", "routing.yaml is not a YAML mapping")
+            else:
+                sf = eval_data.get("should_fire")
+                if not isinstance(sf, list) or len(sf) < 8:
+                    report.add(
+                        sid,
+                        "eval-should-fire-count",
+                        f"should_fire has {len(sf) if isinstance(sf, list) else 0} prompts (minimum 8 required)",
+                    )
+                else:
+                    for p in sf:
+                        if not isinstance(p, str):
+                            continue
+                        if p.strip() == desc.strip():
+                            report.add(
+                                sid,
+                                "eval-verbatim-desc",
+                                "should_fire prompt is exact verbatim description",
+                            )
+                        if p.strip().lower() == f"run {skill.slug} workflow":
+                            report.add(
+                                sid,
+                                "eval-placeholder-prompt",
+                                f"should_fire prompt is placeholder 'run {skill.slug} workflow'",
+                            )
+
+                snf = eval_data.get("should_not_fire")
+                if not isinstance(snf, list) or len(snf) < 3:
+                    report.add(
+                        sid,
+                        "eval-should-not-fire-count",
+                        f"should_not_fire has {len(snf) if isinstance(snf, list) else 0} prompts (minimum 3 required)",
+                    )
+                else:
+                    for item in snf:
+                        if not isinstance(item, dict):
+                            report.add(sid, "malformed-eval-item", "should_not_fire item is not a dict")
+                            continue
+                        expect = item.get("expect")
+                        if known_slugs and expect and (expect not in known_slugs or expect == skill.slug):
+                            report.add(
+                                sid,
+                                "eval-expect-unresolved",
+                                f"should_not_fire expect '{expect}' does not resolve to an active neighbour skill slug",
+                            )
+        except Exception as e:
+            report.add(sid, "malformed-eval-yaml", f"evals/routing.yaml failed to parse as YAML: {e}")
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -205,6 +267,7 @@ def main() -> int:
 
     report = Report()
     skills = list(iter_skills())
+    known_slugs = {s.slug for s in skills}
     if args.repo:
         target = args.repo if args.repo.startswith("skills-") else f"skills-{args.repo}"
         skills = [s for s in skills if s.repo == target]
@@ -215,7 +278,7 @@ def main() -> int:
 
     seen = defaultdict(list)
     for skill in skills:
-        check_skill(skill, report)
+        check_skill(skill, report, known_slugs)
         if skill.name:
             seen[skill.name].append(skill.rel)
 

@@ -38,7 +38,7 @@ def main() -> int:
             "",
             f"{display_name} skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).",
             "",
-            "- **Version**: `v4.0.0`",
+            "- **Version**: `v3.0.0`",
             f"- **Total Skills**: `{total_skills}`",
             "- **License**: MIT",
             "- **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)",

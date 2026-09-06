@@ -83,6 +83,7 @@ class Skill:
     raw: str
     frontmatter: str
     deprecated: bool = False
+    group: str | None = None
 
     @property
     def slug(self) -> str:
@@ -175,7 +176,9 @@ def load_skill(repo: str, path: Path) -> Skill:
     name = name_match.group(1).strip().strip("\"'") if name_match else None
     dep_match = re.search(r"^deprecated:[ \t]*(true|yes|1)", frontmatter, re.M | re.I)
     deprecated = bool(dep_match)
-    return Skill(repo, path, name, parse_description(frontmatter), body, raw, frontmatter, deprecated)
+    group_match = re.search(r"^group:[ \t]*(.+)$", frontmatter, re.M)
+    group = group_match.group(1).strip().strip("\"'") if group_match else None
+    return Skill(repo, path, name, parse_description(frontmatter), body, raw, frontmatter, deprecated, group)
 
 
 def iter_skills(root: Path | None = None, include_deprecated: bool = False):
