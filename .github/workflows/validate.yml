@@ -26,8 +26,8 @@ jobs:
 
       - name: Check out the category repos
         run: |
-          for c in business design developer education finance gamedev \
-                   marketing meta personal sales-support specialized writing; do
+          for c in developer marketing gamedev business design education \
+                   agents personal writing sales finance legal; do
             git clone --depth 1 "https://github.com/poorvith-mp/skills-$c.git" "skills-$c"
           done
 

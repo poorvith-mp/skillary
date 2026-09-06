@@ -5,8 +5,8 @@
     "url": "https://github.com/poorvith-mp"
   },
   "metadata": {
-    "description": "307 Agent Skills across 12 domains, every one validated for trigger precision.",
-    "version": "3.0.0"
+    "description": "277 Agent Skills across 12 domains, every one validated for trigger precision.",
+    "version": "4.0.0"
   },
   "plugins": [
     {
@@ -15,7 +15,7 @@
         "source": "github",
         "repo": "poorvith-mp/skills-developer"
       },
-      "description": "77 skills. Software engineering: architecture, security, CI/CD, data, mobile, SRE and debugging.",
+      "description": "58 skills. Software engineering: architecture, security, CI/CD, data, mobile, SRE and debugging.",
       "category": "developer"
     },
     {
@@ -24,35 +24,8 @@
         "source": "github",
         "repo": "poorvith-mp/skills-marketing"
       },
-      "description": "47 skills. Campaigns, SEO and AEO, social, paid media, lifecycle email and content.",
+      "description": "44 skills. Campaigns, SEO and AEO, social, paid media, lifecycle email and content.",
       "category": "marketing"
-    },
-    {
-      "name": "skills-specialized",
-      "source": {
-        "source": "github",
-        "repo": "poorvith-mp/skills-specialized"
-      },
-      "description": "40 skills. Compliance, legal, healthcare, HR, agent infrastructure and industry operations.",
-      "category": "specialized"
-    },
-    {
-      "name": "skills-design",
-      "source": {
-        "source": "github",
-        "repo": "poorvith-mp/skills-design"
-      },
-      "description": "29 skills. Visual and product design: design systems, UX, brand, typography and accessibility.",
-      "category": "design"
-    },
-    {
-      "name": "skills-business",
-      "source": {
-        "source": "github",
-        "repo": "poorvith-mp/skills-business"
-      },
-      "description": "29 skills. Operations, strategy, product management, governance and freelancing.",
-      "category": "business"
     },
     {
       "name": "skills-gamedev",
@@ -60,17 +33,26 @@
         "source": "github",
         "repo": "poorvith-mp/skills-gamedev"
       },
-      "description": "22 skills. Game development across Unity, Unreal, Godot and Roblox, plus art and audio pipelines.",
+      "description": "26 skills. Game development across Unity, Unreal, and Blender, plus art and audio pipelines.",
       "category": "game-dev"
     },
     {
-      "name": "skills-sales-support",
+      "name": "skills-business",
       "source": {
         "source": "github",
-        "repo": "poorvith-mp/skills-sales-support"
+        "repo": "poorvith-mp/skills-business"
       },
-      "description": "17 skills. Sales execution, pre-sales, customer support, retention and revenue analysis.",
-      "category": "sales-support"
+      "description": "23 skills. Operations, strategy, product management, governance and freelancing.",
+      "category": "business"
+    },
+    {
+      "name": "skills-design",
+      "source": {
+        "source": "github",
+        "repo": "poorvith-mp/skills-design"
+      },
+      "description": "21 skills. Visual and product design: design systems, UX, brand, typography and accessibility.",
+      "category": "design"
     },
     {
       "name": "skills-education",
@@ -78,8 +60,44 @@
         "source": "github",
         "repo": "poorvith-mp/skills-education"
       },
-      "description": "15 skills. Teaching, learning design, study systems, research and academic writing.",
+      "description": "21 skills. Teaching, learning design, study systems, research and academic writing.",
       "category": "education"
+    },
+    {
+      "name": "skills-agents",
+      "source": {
+        "source": "github",
+        "repo": "poorvith-mp/skills-agents"
+      },
+      "description": "17 skills. Agent and automation infrastructure: multi-agent protocols, tool curation, evals and runtimes.",
+      "category": "agents"
+    },
+    {
+      "name": "skills-personal",
+      "source": {
+        "source": "github",
+        "repo": "poorvith-mp/skills-personal"
+      },
+      "description": "15 skills. Personal productivity, knowledge management, career tracks and life systems.",
+      "category": "personal"
+    },
+    {
+      "name": "skills-writing",
+      "source": {
+        "source": "github",
+        "repo": "poorvith-mp/skills-writing"
+      },
+      "description": "15 skills. Long-form and professional writing: books, technical docs, screenplays and copy.",
+      "category": "writing"
+    },
+    {
+      "name": "skills-sales",
+      "source": {
+        "source": "github",
+        "repo": "poorvith-mp/skills-sales"
+      },
+      "description": "14 skills. Sales execution, discovery, proposals, pipeline health and customer retention.",
+      "category": "sales-support"
     },
     {
       "name": "skills-finance",
@@ -91,31 +109,13 @@
       "category": "finance"
     },
     {
-      "name": "skills-personal",
+      "name": "skills-legal",
       "source": {
         "source": "github",
-        "repo": "poorvith-mp/skills-personal"
+        "repo": "poorvith-mp/skills-legal"
       },
-      "description": "10 skills. Personal productivity, knowledge management, career and life planning.",
-      "category": "personal"
-    },
-    {
-      "name": "skills-writing",
-      "source": {
-        "source": "github",
-        "repo": "poorvith-mp/skills-writing"
-      },
-      "description": "5 skills. Long-form and professional writing: books, technical docs, screenplays and copy.",
-      "category": "writing"
-    },
-    {
-      "name": "skills-meta",
-      "source": {
-        "source": "github",
-        "repo": "poorvith-mp/skills-meta"
-      },
-      "description": "4 skills. Skills that operate on the skill library itself: routing, linting and curation.",
-      "category": "meta"
+      "description": "11 skills. Legal, compliance, data privacy, contracts, and regulatory operations.",
+      "category": "legal"
     }
   ]
 }

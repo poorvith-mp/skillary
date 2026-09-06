@@ -1620,7 +1620,7 @@
     "title": "N8n",
     "category": "Agents",
     "repo": "skills-agents",
-    "description": "Build n8n workflows: node wiring, credentials, error branches and scheduling.",
+    "description": "Build n8n workflows: node wiring, credentials, error branches and scheduling. Not for code-first background jobs (use trigger-dev).",
     "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/n8n"
   },
   {
@@ -1668,7 +1668,7 @@
     "title": "Trigger Dev",
     "category": "Agents",
     "repo": "skills-agents",
-    "description": "Build Trigger.dev background jobs: task definitions, retries, scheduling and observability.",
+    "description": "Build Trigger.dev background jobs: task definitions, retries, scheduling and observability. For node-based visual flows use n8n.",
     "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/trigger-dev"
   },
   {
