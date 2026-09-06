@@ -51,6 +51,14 @@ from skillary import (  # noqa: E402
 CODE_CHECKLIST_FP = "Code compiles cleanly and passes all automated tests"
 CODE_ANTIPATTERN_FP = "NEVER bypass automated tests or typecheckers"
 
+# Generic four-step scaffold fingerprint from the September 2026 content audit.
+GENERIC_SCAFFOLD_PHRASES = [
+    "Intake & Scope Definition",
+    "Analysis & Strategic Formulation",
+    "Execution & Synthesis",
+    "Review & Refinement",
+]
+
 # Repos whose skills legitimately carry an engineering checklist.
 ENGINEERING_REPOS = {"skills-developer", "skills-gamedev"}
 
@@ -168,6 +176,23 @@ def check_skill(skill, report: Report, known_slugs: set[str] | None = None) -> N
 
     if CODE_ANTIPATTERN_FP in body and skill.repo not in ENGINEERING_REPOS:
         report.add(sid, "wrong-domain-antipatterns", "carries the software-engineering anti-patterns")
+
+    scaffold_count = sum(1 for phrase in GENERIC_SCAFFOLD_PHRASES if phrase in body)
+    if scaffold_count >= 2:
+        report.add(sid, "generic-scaffold", f"body contains {scaffold_count} generic template scaffold phrases")
+
+    if re.search(r"<(table|thead|tbody|tr|td|th)\b", clean_body, re.I):
+        report.add(sid, "html-table-in-markdown", "body contains raw HTML table tags instead of markdown pipes")
+
+    h2_headings = [h.strip().lower() for h in re.findall(r"^##\s+(.+)$", clean_body, re.MULTILINE)]
+    seen_h2 = set()
+    dup_h2 = set()
+    for h in h2_headings:
+        if h in seen_h2:
+            dup_h2.add(h)
+        seen_h2.add(h)
+    if dup_h2:
+        report.add(sid, "duplicate-heading", f"body contains duplicate ## headings: {', '.join(sorted(dup_h2))}")
 
     if body.count("\n") > 500:
         report.add(sid, "body-too-long", f"{body.count(chr(10))} lines; spec guidance is under 500", "warning")

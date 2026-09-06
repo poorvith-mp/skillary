@@ -311,7 +311,7 @@
     "category": "Developer",
     "repo": "skills-developer",
     "group": "Data and AI",
-    "description": "Independently review a model end to end: documentation, data reconstruction, replication and challenge. Use when conducting independent audits of ML models, bias, or data integrity.",
+    "description": "Independently review a model end to end: data reconstruction, replication and challenge. For legal compliance, see ai-governance. Use when auditing ML models, bias, or data integrity.",
     "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/model-audit"
   },
   {
@@ -572,7 +572,7 @@
     "category": "Marketing",
     "repo": "skills-marketing",
     "group": "Content",
-    "description": "Write the piece: search-intent structure, keyword-led headings, internal links and schema. Use when drafting in-depth articles, tutorials, or opinionated essays.",
+    "description": "Write the piece: search-intent structure, keyword headings, internal links and schema. For prose voice, see writing-taste. Use when drafting in-depth articles, tutorials, or essays.",
     "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/article-writing"
   },
   {
@@ -788,7 +788,7 @@
     "category": "Marketing",
     "repo": "skills-marketing",
     "group": "Earned and partnerships",
-    "description": "Find and structure creator, sponsor and co-marketing deals: vetting, briefs, disclosure and ROI. Use when structuring co-marketing, ecosystem integrations, or joint ventures.",
+    "description": "Find and structure creator, sponsor and co-marketing deals: vetting, briefs, and ROI. For reseller channels, see alliances. Use when structuring co-marketing or ecosystem integrations.",
     "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/partnerships"
   },
   {
@@ -923,7 +923,7 @@
     "category": "Game Dev",
     "repo": "skills-gamedev",
     "group": "Engineering",
-    "description": "Enforce server authority, validate inputs, and defend against speed hacks, memory editing, and exploits. Use when defending games against exploits or hacks.",
+    "description": "Enforce server authority and defend against speed hacks, memory editing, and exploits. For networking setup, see unity-multiplayer. Use when defending games against exploits or hacks.",
     "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/anti-cheat"
   },
   {
@@ -1094,7 +1094,7 @@
     "category": "Game Dev",
     "repo": "skills-gamedev",
     "group": "Unity",
-    "description": "Build Netcode for GameObjects, Relay and Lobby, client-server authority and lag compensation. Use when implementing Netcode for GameObjects, sync, or client prediction.",
+    "description": "Build Netcode for GameObjects, Relay and Lobby, server authority and lag compensation. For exploit defense, see anti-cheat. Use when implementing Netcode for GameObjects or sync.",
     "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-multiplayer"
   },
   {
@@ -1157,7 +1157,7 @@
     "category": "Business",
     "repo": "skills-business",
     "group": "Operations",
-    "description": "Structure channel partners, resellers, and alliances: partner tiers, deal registration, and JV terms. Use when structuring corporate alliances or JVs.",
+    "description": "Structure channel partners, resellers, and alliances: tiers, deal registration, and JV terms. For co-marketing, see partnerships. Use when structuring corporate alliances or JVs.",
     "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/alliances"
   },
   {
@@ -1166,7 +1166,7 @@
     "category": "Business",
     "repo": "skills-business",
     "group": "Fundraising and board",
-    "description": "Draft the board pack: executive summary, financial dashboard, initiative updates and governance agenda. Use when preparing quarterly board decks, CEO letters, or KPI packets.",
+    "description": "Draft the board pack: executive summary, financial dashboard, and governance agenda. For investor metrics, see saas-metrics. Use when preparing quarterly board decks or KPI packets.",
     "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/board-reporting"
   },
   {
@@ -1175,7 +1175,7 @@
     "category": "Business",
     "repo": "skills-business",
     "group": "Strategy",
-    "description": "Build the plan: market analysis, value proposition, revenue model and go-to-market. Use when drafting formal business plans, executive summaries, or pro formas.",
+    "description": "Build the plan: market analysis, value proposition, and revenue model. For pitch decks, see investor-deck. Use when drafting formal business plans, executive summaries, or pro formas.",
     "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/business-plan"
   },
   {
@@ -1247,7 +1247,7 @@
     "category": "Business",
     "repo": "skills-business",
     "group": "Fundraising and board",
-    "description": "Build the raise narrative: problem-solution, TAM/SAM/SOM, traction and business model. Use when structuring seed, Series A, or venture capital pitch decks.",
+    "description": "Build the raise narrative: problem-solution, TAM/SAM/SOM, traction and model. For full pro formas, see business-plan. Use when structuring seed, Series A, or venture pitch decks.",
     "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/investor-deck"
   },
   {
@@ -1436,7 +1436,7 @@
     "category": "Design",
     "repo": "skills-design",
     "group": "Research and evaluation",
-    "description": "Find and fix AI design signatures: gradient blobs, three identical cards, purple-on-white. Use when eliminating generic AI design tropes and templates.",
+    "description": "Find and fix AI design signatures: gradient blobs, three identical cards, purple-on-white. Not for prose (see writing-taste). Use when eliminating generic AI design tropes and templates.",
     "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-taste"
   },
   {
@@ -1553,7 +1553,7 @@
     "category": "Education",
     "repo": "skills-education",
     "group": "Teaching and planning",
-    "description": "Plan a thesis, capstone or major assignment: milestones, supervisor checkpoints, deliverables and submission logistics. Use when managing capstone projects, dissertation timelines, or deliverables.",
+    "description": "Plan a thesis or capstone: milestones, supervisor checkpoints, and submission logistics. For question scoping, see topic-selection. Use when managing capstone projects or dissertation timelines.",
     "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/academic-project"
   },
   {
@@ -1670,7 +1670,7 @@
     "category": "Education",
     "repo": "skills-education",
     "group": "Research",
-    "description": "Summarise a paper into methodology, findings, limitations, statistical strength and practical implications. Use when distilling academic papers into findings, methods, and limitations.",
+    "description": "Summarise a paper into methodology, findings, and limitations. For study design, see research-methods. Use when distilling academic papers into findings, methods, and limitations.",
     "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/paper-summary"
   },
   {
@@ -1715,7 +1715,7 @@
     "category": "Education",
     "repo": "skills-education",
     "group": "Learning",
-    "description": "Design the schedule: spaced repetition intervals, session length and weekly review cycles. Use when creating weekly study schedules, Pomodoro blocks, or exam prep.",
+    "description": "Design the schedule: spaced repetition intervals, session length and review cycles. For recall techniques, see active-recall. Use when creating weekly study schedules or exam prep.",
     "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/study-plan"
   },
   {
@@ -2156,7 +2156,7 @@
     "category": "Writing",
     "repo": "skills-writing",
     "group": "Voice and quality",
-    "description": "Kill tells that make text read as generated: uniform rhythm, filler transitions, hedging, and recaps. Use when eliminating AI writing tells or robotic tone.",
+    "description": "Kill tells that make text read as generated: uniform rhythm, filler transitions and recaps. For visual design, see design-taste. Use when eliminating AI writing tells or robotic tone.",
     "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/writing-taste"
   },
   {
@@ -2210,7 +2210,7 @@
     "category": "Sales & Support",
     "repo": "skills-sales",
     "group": "Pipeline",
-    "description": "Diagnose deal velocity, stage conversion, forecast accuracy and CRM hygiene. Use when auditing sales pipeline stages, deal slippage, or win-rate hygiene.",
+    "description": "Diagnose deal velocity, stage conversion, forecast accuracy and CRM hygiene. For marketing ops, see revops. Use when auditing sales pipeline stages, deal slippage, or win-rate hygiene.",
     "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/pipeline-health"
   },
   {
@@ -2399,7 +2399,7 @@
     "category": "Legal",
     "repo": "skills-legal",
     "group": "Compliance",
-    "description": "Design responsible-AI policy, model risk assessment, bias auditing and human-in-the-loop controls. Use when designing responsible-AI policies, model risk, or EU AI Act compliance.",
+    "description": "Design responsible-AI policy, model risk assessment, bias auditing and EU AI Act controls. For code audits, see model-audit. Use when designing responsible-AI policies or compliance.",
     "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/ai-governance"
   },
   {
@@ -2408,7 +2408,7 @@
     "category": "Legal",
     "repo": "skills-legal",
     "group": "Company",
-    "description": "Choose the entity, handle incorporation, founder agreements, vesting schedules and IP assignment. Use when incorporating Delaware C-Corps, founder vesting, or 83(b) filings.",
+    "description": "Choose the entity, handle incorporation, founder agreements, and vesting schedules. For tax modeling, see tax-strategy. Use when incorporating Delaware C-Corps or 83(b) filings.",
     "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/company-formation"
   },
   {
@@ -2471,7 +2471,7 @@
     "category": "Legal",
     "repo": "skills-legal",
     "group": "Product and website",
-    "description": "Draft and review terms of service, privacy policy, DPA, cookie and refund notices for the jurisdictions you operate in. Use when drafting website terms of service, privacy policies, or cookie notices.",
+    "description": "Draft and review terms of service, DPAs, and cookie notices for your jurisdictions. For GDPR compliance, see data-privacy. Use when drafting website terms of service or privacy policies.",
     "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/legal-documents"
   },
   {
