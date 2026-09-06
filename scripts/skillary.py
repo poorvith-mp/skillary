@@ -129,7 +129,7 @@ def get_version(hub: Path | None = None) -> str:
     vfile = hub / "VERSION"
     if vfile.is_file():
         return vfile.read_text(encoding="utf-8").strip()
-    return "4.0.0"
+    return "3.0.0"
 
 
 def repo_paths(root: Path | None = None) -> list[Path]:

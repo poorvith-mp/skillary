@@ -6,7 +6,7 @@
 
 Central index for the Claude skills multi-repo library by [@poorvith-mp](https://github.com/poorvith-mp).
 
-- Version: **v4.0.0**
+- Version: **v3.0.0**
 - Last updated: **September 2026**
 - License: **MIT**
 - Total skills (all category repos): **277**
