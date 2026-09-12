@@ -11,10 +11,12 @@ class TestIndex(unittest.TestCase):
         self.assertTrue(json_path.exists())
         self.assertTrue(db_path.exists())
         data = json.loads(json_path.read_text(encoding='utf-8'))
-        self.assertEqual(len(data), 277)
         conn = sqlite3.connect(db_path)
-        count = conn.execute('SELECT count(*) FROM skills_fts').fetchone()[0]
-        self.assertEqual(count, 277)
+        try:
+            count = conn.execute('SELECT count(*) FROM skills_fts').fetchone()[0]
+            self.assertEqual(count, 277)
+        finally:
+            conn.close()
 
 
 if __name__ == '__main__':

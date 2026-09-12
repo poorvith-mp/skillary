@@ -1,0 +1,22 @@
+[
+  {
+    "query": "stripe webhook",
+    "expected_top": ["webhooks", "commerce-platform"]
+  },
+  {
+    "query": "ci deployment pipeline",
+    "expected_top": ["ci-pipelines"]
+  },
+  {
+    "query": "oauth authentication",
+    "expected_top": ["authentication", "agent-identity"]
+  },
+  {
+    "query": "postgresql database",
+    "expected_top": ["database", "migration"]
+  },
+  {
+    "query": "seo audit ranking",
+    "expected_top": ["seo-audit"]
+  }
+]

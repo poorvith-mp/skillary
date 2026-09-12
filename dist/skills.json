@@ -6,7 +6,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Audit and refactor code for WCAG 2.1/2.2 AA and AAA: ARIA, keyboard operability, screen readers. Use when auditing or remediating WCAG 2.1/2.2 AA/AAA accessibility issues.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/accessibility-fix"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/accessibility-fix",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "api-design",
@@ -15,7 +17,9 @@
     "repo": "skills-developer",
     "group": "Understand and design",
     "description": "Design and document REST, GraphQL and gRPC contracts with OpenAPI, versioning and contract tests. Use when creating OpenAPI schemas, REST, GraphQL, or gRPC contracts.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/api-design"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/api-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "audit-readiness",
@@ -24,7 +28,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Prepare for SOC 2, ISO 27001, HIPAA or PCI-DSS: control mapping, gap analysis and evidence. Use when preparing evidence and technical controls for SOC 2 or ISO 27001.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/audit-readiness"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/audit-readiness",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "authentication",
@@ -33,7 +39,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Implement OAuth 2.0, OIDC, sessions, token lifetimes, MFA and password storage without rolling your own crypto. Use when implementing auth flows, OAuth, JWT, MFA, or sessions.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/authentication"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/authentication",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "backend-build",
@@ -42,7 +50,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Implement services and business logic: request handling, validation, transactions, caching, queues and workers. Use when implementing backend services or APIs.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/backend-build"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/backend-build",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "branching-strategy",
@@ -51,7 +61,9 @@
     "repo": "skills-developer",
     "group": "Repo hygiene",
     "description": "Design the branching and release model: trunk-based or GitFlow, protection rules, review policy, tracker traceability. Use when establishing Git flow, trunk-based development, or merge policies.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/branching-strategy"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/branching-strategy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "change-notes",
@@ -60,7 +72,9 @@
     "repo": "skills-developer",
     "group": "Repo hygiene",
     "description": "Write commit messages, PR descriptions and changelog entries from the diff itself. Use when generating CHANGELOGs, release notes, or semver summaries.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/change-notes"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/change-notes",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ci-pipelines",
@@ -69,7 +83,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Build CI/CD with build, test, security scan and deploy stages across common providers. Use when setting up GitHub Actions, GitLab CI, or build pipelines.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ci-pipelines"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ci-pipelines",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "cloud-cost",
@@ -78,7 +94,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Cut cloud spend with unit economics, rightsizing, showback and commitment planning. Use when optimizing AWS/GCP bills, right-sizing, or FinOps practices.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/cloud-cost"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/cloud-cost",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "cloud-security",
@@ -87,7 +105,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Design identity boundaries, network segmentation, key management and workload isolation. Use when configuring cloud security, IAM least-privilege, or VPC perimeters.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/cloud-security"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/cloud-security",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "code-review",
@@ -96,7 +116,9 @@
     "repo": "skills-developer",
     "group": "Quality",
     "description": "Review a change for correctness, performance, security, readability, coverage and architectural fit. Use when reviewing pull requests, diffs, or commits before merging.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/code-review"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/code-review",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "codebase-map",
@@ -105,7 +127,9 @@
     "repo": "skills-developer",
     "group": "Understand and design",
     "description": "Map an unfamiliar codebase: entry points, data flow, key abstractions and where the first change goes safely. Use when onboarding to an unfamiliar codebase or mapping architecture.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/codebase-map"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/codebase-map",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "commerce-platform",
@@ -114,7 +138,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Architect CMS commerce: cart pipeline, checkout, payment gateways and PCI boundaries. Use when developing Shopify apps, Liquid themes, or Headless commerce.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/commerce-platform"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/commerce-platform",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "data-pipelines",
@@ -123,7 +149,9 @@
     "repo": "skills-developer",
     "group": "Data and AI",
     "description": "Build ETL/ELT and streaming pipelines with quality validation, schema evolution and anomaly correction. Use when building ETL/ELT pipelines, streaming data, or schema validation.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/data-pipelines"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/data-pipelines",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "database",
@@ -132,7 +160,9 @@
     "repo": "skills-developer",
     "group": "Understand and design",
     "description": "Design schemas with the right relationships, indexes and normalisation, then fix the queries that turn out slow. Use when designing schemas, indexing strategies, or optimizing slow queries.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/database"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/database",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "debugging",
@@ -141,7 +171,9 @@
     "repo": "skills-developer",
     "group": "Quality",
     "description": "Turn a trace into a plain explanation, then isolate the cause by binary search and hypothesis testing. Use when diagnosing bugs, stack traces, race conditions, or failures.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/debugging"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/debugging",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "dependency-audit",
@@ -150,7 +182,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Check dependencies for CVEs, license conflicts and breaking-change risk before upgrading. Use when scanning dependencies for CVEs, license conflicts, or supply-chain risks.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/dependency-audit"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/dependency-audit",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "deployment",
@@ -159,7 +193,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Ship it: platform config for Vercel, Netlify, Fly, Railway, AWS, env secrets, checklists, and rollback. Use when deploying applications to cloud environments.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/deployment"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/deployment",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "developer-platform",
@@ -168,7 +204,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Build golden paths and self-service provisioning so teams stop rebuilding the same scaffolding. Use when building internal developer portals, CLI scaffolds, or dev tooling.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/developer-platform"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/developer-platform",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "error-handling",
@@ -177,7 +215,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Design boundaries, fallbacks, retries, circuit breakers and graceful degradation paths. Use when designing error boundaries, custom exceptions, or retry policies.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/error-handling"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/error-handling",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "firmware",
@@ -186,7 +226,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Write bare-metal and RTOS firmware for ESP32, ARM Cortex-M, STM32 and Nordic nRF. Use when writing embedded C/C++, RTOS, microcontroller, or IoT code.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/firmware"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/firmware",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "frontend-build",
@@ -195,7 +237,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Implement web UIs in React, Vue or Angular with attention to performance, state and correctness. Use when implementing web user interfaces, client state, or components.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/frontend-build"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/frontend-build",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "git-operations",
@@ -204,7 +248,9 @@
     "repo": "skills-developer",
     "group": "Repo hygiene",
     "description": "Do the actual git work: branch, stage, commit, rebase, resolve conflicts, and recover with reflog and reset. Use when resolving merge conflicts, complex rebases, or git history repairs.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/git-operations"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/git-operations",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "github-workflow",
@@ -213,7 +259,9 @@
     "repo": "skills-developer",
     "group": "Repo hygiene",
     "description": "Open and land PRs, respond to review comments, manage issues, labels, tags and releases through the `gh` CLI. Use when automating GitHub issues, PR templates, labels, or project boards.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/github-workflow"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/github-workflow",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "implementation-plan",
@@ -222,7 +270,9 @@
     "repo": "skills-developer",
     "group": "Plan",
     "description": "Break the change into ordered, reviewable steps with checkpoints, so a long task can be stopped and resumed. Use when breaking changes into ordered, testable steps with checkpoints.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/implementation-plan"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/implementation-plan",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "incident-response",
@@ -231,7 +281,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Run a live incident: severity call, triage, stakeholder comms, mitigation and the writeup. Use when managing live production outages, triage, or post-mortems.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/incident-response"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/incident-response",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "infrastructure",
@@ -240,7 +292,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Write Terraform, Pulumi or CloudFormation and automate provisioning, state and drift detection. Use when writing Terraform, OpenTofu, Pulumi, or cloud IaC manifests.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/infrastructure"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/infrastructure",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "job-scheduling",
@@ -249,7 +303,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Design scheduled jobs with timezone handling, overlap prevention, alerting and dependency order. Use when configuring cron jobs, distributed schedulers, or Celery/Temporal.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/job-scheduling"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/job-scheduling",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "llm-evals",
@@ -258,7 +314,9 @@
     "repo": "skills-developer",
     "group": "Data and AI",
     "description": "Build evaluation harnesses: regression sets, scoring rubrics, drift detection and benchmarks. Use when building LLM evaluation harnesses, scoring rubrics, or drift benchmarks.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/llm-evals"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/llm-evals",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "load-testing",
@@ -267,7 +325,9 @@
     "repo": "skills-developer",
     "group": "Quality",
     "description": "Design and run load tests with realistic traffic patterns against a stated baseline. Use when stress-testing systems with k6, Locust, or concurrency benchmarks.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/load-testing"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/load-testing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "migration",
@@ -276,7 +336,9 @@
     "repo": "skills-developer",
     "group": "Migrate and modernise",
     "description": "Map the debt, plan a strangler migration, and execute the zero-downtime cutover. Use when migrating legacy systems, databases, or frameworks safely.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/migration"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/migration",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "minimal-diff",
@@ -285,7 +347,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Make the smallest correct change that fixes the problem, resisting every incidental refactor. Use when fixing bugs with the smallest surgical change, avoiding refactors.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/minimal-diff"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/minimal-diff",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ml-deployment",
@@ -294,7 +358,9 @@
     "repo": "skills-developer",
     "group": "Data and AI",
     "description": "Train, serve, evaluate and integrate models into production systems. Use when deploying, serving, or monitoring machine learning models in production.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ml-deployment"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/ml-deployment",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "mobile-build",
@@ -303,7 +369,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Build mobile apps native or cross-platform, with real depth in Swift/SwiftUI and Kotlin/Compose. Use when developing mobile applications in Swift, SwiftUI, Kotlin, or React Native.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/mobile-build"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/mobile-build",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "model-audit",
@@ -312,7 +380,9 @@
     "repo": "skills-developer",
     "group": "Data and AI",
     "description": "Independently review a model end to end: data reconstruction, replication and challenge. For legal compliance, see ai-governance. Use when auditing ML models, bias, or data integrity.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/model-audit"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/model-audit",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "monorepo",
@@ -321,7 +391,9 @@
     "repo": "skills-developer",
     "group": "Migrate and modernise",
     "description": "Structure a monorepo with build caching, affected-module detection and workspace boundaries. Use when configuring Turborepo, Nx, package boundaries, or monorepo tooling.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/monorepo"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/monorepo",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "pen-test",
@@ -330,7 +402,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Run authorised penetration tests and red team exercises against apps, networks and cloud. Use when planning or executing penetration tests and vulnerability validation.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/pen-test"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/pen-test",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "performance-audit",
@@ -339,7 +413,9 @@
     "repo": "skills-developer",
     "group": "Quality",
     "description": "Profile and fix slowness across Core Web Vitals, backend queries and infrastructure. Use when auditing application performance, Core Web Vitals, or latency bottlenecks.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/performance-audit"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/performance-audit",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "port-code",
@@ -348,7 +424,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Translate code between languages, or migrate JavaScript to TypeScript, preserving behaviour and coverage. Use when translating code across languages or migrating to TypeScript.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/port-code"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/port-code",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "prototype",
@@ -357,7 +435,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Build something working fast, choosing throwaway shortcuts deliberately and marking what must be rebuilt. Use when rapidly building proof-of-concept prototypes or MVPs.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/prototype"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/prototype",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "realtime-systems",
@@ -366,7 +446,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Build WebSocket, SSE and pub/sub features: presence, fan-out, reconnection and backpressure. Use when building WebSockets, SSE, pub/sub, presence, or live feeds.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/realtime-systems"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/realtime-systems",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "refactor",
@@ -375,7 +457,9 @@
     "repo": "skills-developer",
     "group": "Build",
     "description": "Find structural smells and apply named refactorings without changing behaviour. Use when restructuring code to improve cleanliness without changing behaviour.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/refactor"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/refactor",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "regex",
@@ -384,7 +468,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Build and explain regular expressions with a breakdown of what each part matches and misses. Use when creating, debugging, or optimizing regular expressions.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/regex"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/regex",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "reliability",
@@ -393,7 +479,9 @@
     "repo": "skills-developer",
     "group": "Ship and run",
     "description": "Set SLOs and error budgets, instrument with OpenTelemetry, and build the dashboards that prove them. Use when designing SLIs/SLOs, circuit breakers, or disaster recovery.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/reliability"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/reliability",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "repo-docs",
@@ -402,7 +490,9 @@
     "repo": "skills-developer",
     "group": "Repo hygiene",
     "description": "Write the README, setup guide and comments that explain intent rather than restate the code. Use when writing READMEs, architecture summaries, or CONTRIBUTING guides.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/repo-docs"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/repo-docs",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "salesforce",
@@ -411,7 +501,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Architect Salesforce: multi-cloud design, integration patterns, governor limits and deployment. Use when developing Apex, Lightning Web Components, or Salesforce flows.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/salesforce"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/salesforce",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "secrets-management",
@@ -420,7 +512,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Handle keys properly: vaults, rotation, `.env` hygiene, pre-commit scanning, and purging a key already in git history. Use when managing environment secrets, Vault, KMS, or key rotation.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/secrets-management"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/secrets-management",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "security-review",
@@ -429,7 +523,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Threat model with STRIDE and audit code against the OWASP Top 10 before it ships. Use when reviewing application code and endpoints for vulnerabilities.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/security-review"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/security-review",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "smart-contract-audit",
@@ -438,7 +534,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Audit contracts for reentrancy, access control flaws and oracle manipulation. Use when auditing smart contracts for reentrancy, gas, or exploit risks.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/smart-contract-audit"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/smart-contract-audit",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "smart-contracts",
@@ -447,7 +545,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Write Solidity for EVM: contract architecture, gas optimisation, upgradeable proxies and DeFi patterns. Use when developing Solidity or EVM smart contracts and token standards.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/smart-contracts"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/smart-contracts",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "solution-exploration",
@@ -456,7 +556,9 @@
     "repo": "skills-developer",
     "group": "Plan",
     "description": "Diverge before committing: generate genuinely different approaches, name trade-offs, and kill what doesn't survive. Use when exploring architectural trade-offs.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/solution-exploration"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/solution-exploration",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "spec-writing",
@@ -465,7 +567,9 @@
     "repo": "skills-developer",
     "group": "Plan",
     "description": "Turn a vague request into a written spec: scope, non-goals, acceptance criteria and the edge cases that will bite. Use when writing technical specifications, scope, and acceptance criteria.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/spec-writing"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/spec-writing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "speech-pipelines",
@@ -474,7 +578,9 @@
     "repo": "skills-developer",
     "group": "Data and AI",
     "description": "Build voice pipelines from audio ingestion through Whisper-style or cloud ASR to structured output. Use when building voice, ASR, Whisper, or audio processing pipelines.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/speech-pipelines"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/speech-pipelines",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "stack-choice",
@@ -483,7 +589,9 @@
     "repo": "skills-developer",
     "group": "Understand and design",
     "description": "Evaluate technology options against requirements, team skill, scale and total cost, and record why. Use when evaluating technologies, frameworks, or database trade-offs.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/stack-choice"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/stack-choice",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "system-design",
@@ -492,7 +600,9 @@
     "repo": "skills-developer",
     "group": "Understand and design",
     "description": "Design the whole system: service boundaries, domain model, patterns, and the decision record behind each choice. Use when designing system architecture, domain models, or service boundaries.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/system-design"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/system-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "test-suite",
@@ -501,7 +611,9 @@
     "repo": "skills-developer",
     "group": "Quality",
     "description": "Write tests for happy paths, edge cases and failure modes, and produce the run output as proof. Use when writing unit, integration, or regression test suites.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/test-suite"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/test-suite",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "threat-detection",
@@ -510,7 +622,9 @@
     "repo": "skills-developer",
     "group": "Security",
     "description": "Write detection rules, correlate SIEM telemetry and map behaviour to MITRE ATT&CK. Use when building security monitoring, SIEM rules, or anomaly detection.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/threat-detection"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/threat-detection",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "webhooks",
@@ -519,7 +633,9 @@
     "repo": "skills-developer",
     "group": "Domain-specific",
     "description": "Build webhook receivers with signature verification, idempotency, retries and dead letter queues. Use when implementing, verifying, or signing incoming/outgoing webhooks.",
-    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/webhooks"
+    "url": "https://github.com/poorvith-mp/skills-developer/tree/main/skills/webhooks",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "activation",
@@ -528,7 +644,9 @@
     "repo": "skills-marketing",
     "group": "Website conversion",
     "description": "Fix signup, first-run and onboarding so new users hit value in the first session. Use when optimizing post-signup user activation, empty states, or time-to-value.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/activation"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/activation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ad-creative",
@@ -537,7 +655,9 @@
     "repo": "skills-marketing",
     "group": "Paid",
     "description": "Generate and iterate hooks, headlines, statics and video ad concepts in volume, with a test roadmap. Use when writing ad copy, hooks, scripts, or designing ad visuals.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/ad-creative"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/ad-creative",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ai-visibility",
@@ -546,7 +666,9 @@
     "repo": "skills-marketing",
     "group": "Search and AI discovery",
     "description": "Get cited by ChatGPT, Gemini, Perplexity and AI Overviews: answer-shaped content, schema, feeds, llms.txt, citation tracking. Use when optimizing content for Perplexity, ChatGPT, or AI citations.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/ai-visibility"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/ai-visibility",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "analytics-setup",
@@ -555,7 +677,9 @@
     "repo": "skills-marketing",
     "group": "Measurement",
     "description": "Install and QA tracking: event plan, UTMs, GA4/GTM and conversion tracking. Use when configuring GA4, PostHog, event tracking, or conversion goals.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/analytics-setup"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/analytics-setup",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "app-store-optimization",
@@ -564,7 +688,9 @@
     "repo": "skills-marketing",
     "group": "Platform and naming",
     "description": "Audit and fix App Store and Play listings: keywords, screenshots, ratings and conversion. Use when optimizing iOS App Store or Google Play keywords and listings.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/app-store-optimization"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/app-store-optimization",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "article-writing",
@@ -573,7 +699,9 @@
     "repo": "skills-marketing",
     "group": "Content",
     "description": "Write the piece: search-intent structure, keyword headings, internal links and schema. For prose voice, see writing-taste. Use when drafting in-depth articles, tutorials, or essays.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/article-writing"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/article-writing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "attribution",
@@ -582,7 +710,9 @@
     "repo": "skills-marketing",
     "group": "Measurement",
     "description": "Work out which channels actually drive revenue and reconcile conflicting platform numbers. Use when tracking UTM campaigns, referral sources, or conversion loops.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/attribution"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/attribution",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "behavioral-levers",
@@ -591,7 +721,9 @@
     "repo": "skills-marketing",
     "group": "Operating layer",
     "description": "Apply anchoring, loss aversion, social proof and framing to a specific page, price or offer. Use when applying loss aversion, social proof, anchoring, or nudges.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/behavioral-levers"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/behavioral-levers",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "community",
@@ -600,7 +732,9 @@
     "repo": "skills-marketing",
     "group": "Earned and partnerships",
     "description": "Build and run a Discord, Slack or subreddit that produces advocates. Use when building Discord, Slack, or forum developer communities.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/community"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/community",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "competitive-intel",
@@ -609,7 +743,9 @@
     "repo": "skills-marketing",
     "group": "Foundation",
     "description": "Turn competitor URLs into structured dossiers, then into battlecards and vs/alternative pages. Use when analyzing competitor positioning, feature parity, or teardowns.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/competitive-intel"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/competitive-intel",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "content-strategy",
@@ -618,7 +754,9 @@
     "repo": "skills-marketing",
     "group": "Content",
     "description": "Decide what to publish: topic clusters, publishing calendar, refresh queue and what to kill. Use when planning content roadmaps, topic clusters, or editorial calendars.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/content-strategy"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/content-strategy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "conversion-audit",
@@ -627,7 +765,9 @@
     "repo": "skills-marketing",
     "group": "Website conversion",
     "description": "Audit a page or form for friction and return a prioritised change list with expected lift. Use when auditing landing pages, signup forms, or checkout drop-offs.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/conversion-audit"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/conversion-audit",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "customer-research",
@@ -636,7 +776,9 @@
     "repo": "skills-marketing",
     "group": "Foundation",
     "description": "Mine interviews, tickets, reviews and communities for the exact words customers use; output personas and JTBD. Use when mining customer voice, interview transcripts, or user pains.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/customer-research"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/customer-research",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "directory-submissions",
@@ -645,7 +787,9 @@
     "repo": "skills-marketing",
     "group": "Distribution",
     "description": "Submit to startup, SaaS, AI and MCP directories for backlinks and discovery, tracked. Use when listing products on SaaSHub, AlternativeTo, or free directories.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/directory-submissions"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/directory-submissions",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "experimentation",
@@ -654,7 +798,9 @@
     "repo": "skills-marketing",
     "group": "Measurement",
     "description": "Design A/B tests, set sample size and duration, read results honestly, and run the backlog. Use when running A/B split tests, sample sizing, or conversion experiments.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/experimentation"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/experimentation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "free-tools",
@@ -663,7 +809,9 @@
     "repo": "skills-marketing",
     "group": "Assets",
     "description": "Spec a free calculator, grader or generator as an acquisition channel. Use when building engineering-as-marketing tools or free calculators.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/free-tools"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/free-tools",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "growth-loops",
@@ -672,7 +820,9 @@
     "repo": "skills-marketing",
     "group": "Operating layer",
     "description": "Set up recurring marketing workflows an agent runs on a schedule. Use when designing self-reinforcing acquisition, content, or product loops.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/growth-loops"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/growth-loops",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "growth-plan",
@@ -681,7 +831,9 @@
     "repo": "skills-marketing",
     "group": "Foundation",
     "description": "Pick channels for the current stage, budget and team; output a 90-day plan with owners, targets and kill criteria. Use when designing 90-day growth plans, GTM strategy, or channel roadmaps.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/growth-plan"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/growth-plan",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "landing-copy",
@@ -690,7 +842,9 @@
     "repo": "skills-marketing",
     "group": "Website conversion",
     "description": "Write or rewrite page copy: hero, value prop, objections and CTAs, for any marketing page. Use when writing conversion copy for homepages, landing pages, or CTAs.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/landing-copy"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/landing-copy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "launch",
@@ -699,7 +853,9 @@
     "repo": "skills-marketing",
     "group": "Distribution",
     "description": "Run a launch end to end: sequencing, assets, waitlist, Product Hunt and the HN day-of playbook. Use when orchestrating Product Hunt, Show HN, or major launch days.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/launch"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/launch",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "lead-magnets",
@@ -708,7 +864,9 @@
     "repo": "skills-marketing",
     "group": "Assets",
     "description": "Pick, produce and gate the download or template that captures emails. Use when creating downloadable guides, templates, or email opt-ins.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/lead-magnets"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/lead-magnets",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "lifecycle-messaging",
@@ -717,7 +875,9 @@
     "repo": "skills-marketing",
     "group": "Lifecycle",
     "description": "Design automated email, SMS and push flows: welcome, nurture, cart, win-back and broadcast. Use when writing onboarding drip emails, feature updates, or re-engagement.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/lifecycle-messaging"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/lifecycle-messaging",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "link-building",
@@ -726,7 +886,9 @@
     "repo": "skills-marketing",
     "group": "Search and AI discovery",
     "description": "Earn links: prospect targets, guest posts, digital PR, broken-link and unlinked-mention outreach, and when to disavow. Use when acquiring high-quality backlinks, mentions, or digital PR links.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/link-building"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/link-building",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "marketing-council",
@@ -735,7 +897,9 @@
     "repo": "skills-marketing",
     "group": "Operating layer",
     "description": "Put a decision in front of a simulated board of legendary marketers and synthesise their verdict. Use when seeking simulated advisory review from legendary marketers.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/marketing-council"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/marketing-council",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "marketing-report",
@@ -744,7 +908,9 @@
     "repo": "skills-marketing",
     "group": "Measurement",
     "description": "Turn raw channel data into a weekly or monthly report with what changed and what to do next. Use when building marketing KPI dashboards or monthly channel reviews.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/marketing-report"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/marketing-report",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "naming",
@@ -753,7 +919,9 @@
     "repo": "skills-marketing",
     "group": "Platform and naming",
     "description": "Name the product, company or feature, then check it survives contact \u2014 domain, trademark, handles and store collisions. Use when naming products, companies, features, or checking domains.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/naming"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/naming",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "offer-design",
@@ -762,7 +930,9 @@
     "repo": "skills-marketing",
     "group": "Offer and money",
     "description": "Construct what you sell: value stack, bonuses, guarantee, urgency, naming and payment terms. Use when structuring high-converting offers, bonuses, or guarantees.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/offer-design"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/offer-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "page-scale",
@@ -771,7 +941,9 @@
     "repo": "skills-marketing",
     "group": "Search and AI discovery",
     "description": "Build templated pages from a dataset \u2014 locations, integrations, use cases \u2014 without tripping thin-content filters. Use when building programmatic SEO pages or templated content at scale.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/page-scale"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/page-scale",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "paid-campaigns",
@@ -780,7 +952,9 @@
     "repo": "skills-marketing",
     "group": "Paid",
     "description": "Structure, target, bid and optimise campaigns across Google, Meta, LinkedIn and X. Use when planning or optimizing Google, LinkedIn, or Meta ad campaigns.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/paid-campaigns"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/paid-campaigns",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "partnerships",
@@ -789,7 +963,9 @@
     "repo": "skills-marketing",
     "group": "Earned and partnerships",
     "description": "Find and structure creator, sponsor and co-marketing deals: vetting, briefs, and ROI. For reseller channels, see alliances. Use when structuring co-marketing or ecosystem integrations.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/partnerships"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/partnerships",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "positioning",
@@ -798,7 +974,9 @@
     "repo": "skills-marketing",
     "group": "Foundation",
     "description": "Define category, ICP, differentiators and message hierarchy, then save them as the context file every other skill reads. Use when defining category, ICP, differentiators, or message hierarchy.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/positioning"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/positioning",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "pricing",
@@ -807,7 +985,9 @@
     "repo": "skills-marketing",
     "group": "Offer and money",
     "description": "Set tiers, value metric, trial versus freemium and price changes, and audit the pricing page. Use when determining price levels, packaging tiers, or freemium models.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/pricing"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/pricing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "public-relations",
@@ -816,7 +996,9 @@
     "repo": "skills-marketing",
     "group": "Earned and partnerships",
     "description": "Find journalists, pitch stories, newsjack and answer reporter requests. Use when pitching tech journalists, press releases, or earned media.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/public-relations"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/public-relations",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "referrals",
@@ -825,7 +1007,9 @@
     "repo": "skills-marketing",
     "group": "Earned and partnerships",
     "description": "Design referral, affiliate and ambassador programmes with incentives and payout mechanics. Use when designing customer referral loops, affiliate programs, or invites.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/referrals"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/referrals",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "retention",
@@ -834,7 +1018,9 @@
     "repo": "skills-marketing",
     "group": "Lifecycle",
     "description": "Cut churn with cancel flows, save offers, dunning, exit surveys and account health signals. Use when diagnosing churn, building retention loops, or cohort analysis.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/retention"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/retention",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "revops",
@@ -843,7 +1029,9 @@
     "repo": "skills-marketing",
     "group": "Sales handoff",
     "description": "Wire lead scoring, routing, pipeline stages and the marketing-to-sales handoff in the CRM. Use when optimizing CRM pipelines, lead routing, or sales operations.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/revops"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/revops",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "sales-enablement",
@@ -852,7 +1040,9 @@
     "repo": "skills-marketing",
     "group": "Sales handoff",
     "description": "Build the collateral that closes: decks, one-pagers, demo scripts and objection handling. Use when creating sales one-pagers, demo decks, or battlecards.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/sales-enablement"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/sales-enablement",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "seo-audit",
@@ -861,7 +1051,9 @@
     "repo": "skills-marketing",
     "group": "Search and AI discovery",
     "description": "Diagnose technical, on-page and ranking-loss issues on a live site, ranked by impact. Use when diagnosing technical SEO issues, crawling errors, or index drops.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/seo-audit"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/seo-audit",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "social-content",
@@ -870,7 +1062,9 @@
     "repo": "skills-marketing",
     "group": "Distribution",
     "description": "Write platform-native posts, threads, carousels and short-form scripts on a cadence. Use when drafting organic Twitter/X threads, LinkedIn posts, or hooks.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/social-content"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/social-content",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "social-listening",
@@ -879,7 +1073,9 @@
     "repo": "skills-marketing",
     "group": "Distribution",
     "description": "Monitor mentions, competitors and buying-intent threads, and surface where to reply today. Use when tracking brand mentions, competitor chatter, or social queries.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/social-listening"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/social-listening",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unit-economics",
@@ -888,7 +1084,9 @@
     "repo": "skills-marketing",
     "group": "Offer and money",
     "description": "Model CAC, LTV, payback and channel break-even so spend decisions have a floor. Use when calculating CAC, LTV, payback periods, or contribution margin.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/unit-economics"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/unit-economics",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "upgrade-paths",
@@ -897,7 +1095,9 @@
     "repo": "skills-marketing",
     "group": "Lifecycle",
     "description": "Convert free to paid in-product: feature gates, upgrade screens, trial-end moments and expansion offers. Use when designing in-app paywalls, upgrade modals, or usage triggers.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/upgrade-paths"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/upgrade-paths",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "video-production",
@@ -906,7 +1106,9 @@
     "repo": "skills-marketing",
     "group": "Assets",
     "description": "Script and produce demos, explainers, UGC-style ads and avatar video. Use when scripting or producing product demos, walk-throughs, or videos.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/video-production"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/video-production",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "visual-assets",
@@ -915,7 +1117,9 @@
     "repo": "skills-marketing",
     "group": "Assets",
     "description": "Generate on-brand images: OG cards, blog heroes, social graphics and mockups. Use when creating Open Graph cards, hero visuals, or brand graphics.",
-    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/visual-assets"
+    "url": "https://github.com/poorvith-mp/skills-marketing/tree/main/skills/visual-assets",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "anti-cheat",
@@ -924,7 +1128,9 @@
     "repo": "skills-gamedev",
     "group": "Engineering",
     "description": "Enforce server authority and defend against speed hacks, memory editing, and exploits. For networking setup, see unity-multiplayer. Use when defending games against exploits or hacks.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/anti-cheat"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/anti-cheat",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "blender-animation",
@@ -933,7 +1139,9 @@
     "repo": "skills-gamedev",
     "group": "3D assets",
     "description": "Rig, skin and animate characters and props, and export clean animation sets to an engine. Use when rigging skeletons, weight painting, or keyframing animations.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/blender-animation"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/blender-animation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "blender-modeling",
@@ -942,7 +1150,9 @@
     "repo": "skills-gamedev",
     "group": "3D assets",
     "description": "Model, retopologise, UV unwrap and bake game-ready assets with correct scale, pivots and polycount. Use when creating 3D hard-surface meshes, low-poly props, or UV layouts.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/blender-modeling"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/blender-modeling",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "blender-tooling",
@@ -951,7 +1161,9 @@
     "repo": "skills-gamedev",
     "group": "3D assets",
     "description": "Build Blender Python add-ons, asset validators, exporters and pipeline automation. Use when writing Python scripts, add-ons, or batch tools for Blender.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/blender-tooling"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/blender-tooling",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-ai",
@@ -960,7 +1172,9 @@
     "repo": "skills-gamedev",
     "group": "Craft",
     "description": "Design NPC behaviour: behaviour trees, state machines, pathfinding, perception and difficulty tuning. Use when designing behavior trees, state machines, or enemy AI.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-ai"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-ai",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-audio",
@@ -969,7 +1183,9 @@
     "repo": "skills-gamedev",
     "group": "Art and audio",
     "description": "Integrate FMOD and Wwise, build adaptive music systems, spatial audio and audio performance budgets. Use when designing sound effects, adaptive audio, or FMOD/Wwise setups.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-audio"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-audio",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-build-pipeline",
@@ -978,7 +1194,9 @@
     "repo": "skills-gamedev",
     "group": "Engineering",
     "description": "Automate platform builds, asset cooking, console certification prep, and Steam or itch.io depot publishing. Use when automating game builds, cooking, packaging, or Steam uploads.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-build-pipeline"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-build-pipeline",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-design",
@@ -987,7 +1205,9 @@
     "repo": "skills-gamedev",
     "group": "Craft",
     "description": "Design systems and mechanics: GDD authorship, gameplay loops, economy balancing and player psychology. Use when designing gameplay systems, mechanics, balance, or rules.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-design"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-ideation",
@@ -996,7 +1216,9 @@
     "repo": "skills-gamedev",
     "group": "Plan",
     "description": "Generate and pressure-test concepts: core loop, hook, fantasy, and the paper prototype that proves it. Use when brainstorming game concepts, core loops, or elevator pitches.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-ideation"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-ideation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-monetization",
@@ -1005,7 +1227,9 @@
     "repo": "skills-gamedev",
     "group": "Craft",
     "description": "Design free-to-play economies, battle passes and cosmetic shops with anti-predatory guardrails. Use when designing battle passes, gacha, in-game economies, or IAPs.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-monetization"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-monetization",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-performance",
@@ -1014,7 +1238,9 @@
     "repo": "skills-gamedev",
     "group": "Engineering",
     "description": "Hit frame budget: draw calls, batching, GC spikes, LOD strategy and in-engine profiling. Use when profiling frame times, draw calls, GPU bottlenecks, or memory.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-performance"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-performance",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-ui",
@@ -1023,7 +1249,9 @@
     "repo": "skills-gamedev",
     "group": "Craft",
     "description": "Design HUDs, menus and diegetic interfaces with controller navigation and readability at TV distance. Use when designing HUDs, inventory menus, or controller-first interfaces.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-ui"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-ui",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "game-version-control",
@@ -1032,7 +1260,9 @@
     "repo": "skills-gamedev",
     "group": "Engineering",
     "description": "Set up Git LFS for binary assets, handle unmergeable scene and prefab conflicts, and know when Perforce beats Git. Use when configuring Perforce, Git LFS, or binary asset branching.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-version-control"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/game-version-control",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "level-design",
@@ -1041,7 +1271,9 @@
     "repo": "skills-gamedev",
     "group": "Craft",
     "description": "Design layout, pacing, encounter placement and environmental narrative. Use when designing encounter spaces, level layouts, or pacing curves.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/level-design"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/level-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "narrative-design",
@@ -1050,7 +1282,9 @@
     "repo": "skills-gamedev",
     "group": "Craft",
     "description": "Design branching dialogue, lore architecture and environmental storytelling aligned to the GDD. Use when writing branching dialogue, worldbuilding, or character arcs.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/narrative-design"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/narrative-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "playtesting",
@@ -1059,7 +1293,9 @@
     "repo": "skills-gamedev",
     "group": "Craft",
     "description": "Structure playtest sessions and sort responses into UX friction, difficulty calibration and feature signal. Use when structuring playtest sessions, telemetry, or feedback loops.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/playtesting"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/playtesting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "production-planning",
@@ -1068,7 +1304,9 @@
     "repo": "skills-gamedev",
     "group": "Plan",
     "description": "Plan the build: vertical slice, milestones, scope cuts, and what actually ships in the first playable. Use when planning milestones, scoping features, or building roadmaps.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/production-planning"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/production-planning",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "tech-art",
@@ -1077,7 +1315,9 @@
     "repo": "skills-gamedev",
     "group": "Art and audio",
     "description": "Own the art-to-engine pipeline: shaders, VFX, LOD chains and cross-engine asset standards. Use when optimizing art pipelines, rigging, shaders, or asset budgets.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/tech-art"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/tech-art",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unity-architecture",
@@ -1086,7 +1326,9 @@
     "repo": "skills-gamedev",
     "group": "Unity",
     "description": "Structure Unity projects with ScriptableObjects, decoupled systems and single-responsibility components. Use when structuring Unity projects, ScriptableObjects, or DOTS/ECS.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-architecture"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-architecture",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unity-multiplayer",
@@ -1095,7 +1337,9 @@
     "repo": "skills-gamedev",
     "group": "Unity",
     "description": "Build Netcode for GameObjects, Relay and Lobby, server authority and lag compensation. For exploit defense, see anti-cheat. Use when implementing Netcode for GameObjects or sync.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-multiplayer"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-multiplayer",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unity-shaders",
@@ -1104,7 +1348,9 @@
     "repo": "skills-gamedev",
     "group": "Unity",
     "description": "Author materials and VFX with Shader Graph, HLSL and URP/HDRP custom passes. Use when authoring URP/HDRP shaders, Shader Graph, or visual effects.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-shaders"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-shaders",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unity-tooling",
@@ -1113,7 +1359,9 @@
     "repo": "skills-gamedev",
     "group": "Unity",
     "description": "Build editor tooling: EditorWindows, PropertyDrawers, AssetPostprocessors and ScriptedImporters. Use when writing custom Unity editor windows, inspectors, or gizmos.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-tooling"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unity-tooling",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unreal-multiplayer",
@@ -1122,7 +1370,9 @@
     "repo": "skills-gamedev",
     "group": "Unreal",
     "description": "Build Actor replication, GameMode/GameState architecture and server-authoritative gameplay. Use when building Unreal networking, actor replication, or RPCs.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-multiplayer"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-multiplayer",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unreal-systems",
@@ -1131,7 +1381,9 @@
     "repo": "skills-gamedev",
     "group": "Unreal",
     "description": "Work the C++/Blueprint continuum with Nanite, Lumen and the Gameplay Ability System. Use when developing Unreal Engine gameplay in C++, Blueprints, or GAS.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-systems"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-systems",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unreal-tech-art",
@@ -1140,7 +1392,9 @@
     "repo": "skills-gamedev",
     "group": "Unreal",
     "description": "Own the UE5 visual pipeline: Material Editor, Niagara VFX and Procedural Content Generation. Use when creating Unreal materials, Niagara visual effects, or Lumen setups.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-tech-art"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-tech-art",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "unreal-worlds",
@@ -1149,7 +1403,9 @@
     "repo": "skills-gamedev",
     "group": "Unreal",
     "description": "Build open worlds with World Partition, Landscape, procedural foliage, HLOD and level streaming. Use when sculpting landscapes, biomes, or World Partition in Unreal.",
-    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-worlds"
+    "url": "https://github.com/poorvith-mp/skills-gamedev/tree/main/skills/unreal-worlds",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "alliances",
@@ -1158,7 +1414,9 @@
     "repo": "skills-business",
     "group": "Operations",
     "description": "Structure channel partners, resellers, and alliances: tiers, deal registration, and JV terms. For co-marketing, see partnerships. Use when structuring corporate alliances or JVs.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/alliances"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/alliances",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "board-reporting",
@@ -1167,7 +1425,9 @@
     "repo": "skills-business",
     "group": "Fundraising and board",
     "description": "Draft the board pack: executive summary, financial dashboard, and governance agenda. For investor metrics, see saas-metrics. Use when preparing quarterly board decks or KPI packets.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/board-reporting"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/board-reporting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "business-plan",
@@ -1176,7 +1436,9 @@
     "repo": "skills-business",
     "group": "Strategy",
     "description": "Build the plan: market analysis, value proposition, and revenue model. For pitch decks, see investor-deck. Use when drafting formal business plans, executive summaries, or pro formas.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/business-plan"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/business-plan",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "business-strategy",
@@ -1185,7 +1447,9 @@
     "repo": "skills-business",
     "group": "Strategy",
     "description": "Decide which markets and business models to play in: market entry, model design and growth strategy. Use when shaping competitive moats, market entry, or strategic choices.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/business-strategy"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/business-strategy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "change-management",
@@ -1194,7 +1458,9 @@
     "repo": "skills-business",
     "group": "People",
     "description": "Plan organizational change with ADKAR: impact assessment, alignment, and adoption tracking. Use when leading company restructuring or M&A integration.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/change-management"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/change-management",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "chief-of-staff",
@@ -1203,7 +1469,9 @@
     "repo": "skills-business",
     "group": "People",
     "description": "Run the operating cadence behind a leader: priority triage, meeting and decision hygiene, follow-through. Use when managing CEO priorities, executive meetings, or strategic cadence.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/chief-of-staff"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/chief-of-staff",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "decision-making",
@@ -1212,7 +1480,9 @@
     "repo": "skills-business",
     "group": "Strategy",
     "description": "Generate options and choose: divergent methods, RACI, scoring, decision trees, and inversion. Use when evaluating high-stakes decisions or trade-offs.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/decision-making"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/decision-making",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "fundraising",
@@ -1221,7 +1491,9 @@
     "repo": "skills-business",
     "group": "Fundraising and board",
     "description": "Run the raise: target investor list, data room, diligence responses, term sheet review and close sequencing. Use when managing investor pipelines, due diligence, or term sheet terms.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/fundraising"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/fundraising",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "hiring",
@@ -1230,7 +1502,9 @@
     "repo": "skills-business",
     "group": "People",
     "description": "Run it end to end: headcount planning, levelling, sourcing, assessment, offer and the first ninety days. Use when designing job descriptions, interview scorecards, or compensation.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/hiring"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/hiring",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "internal-reporting",
@@ -1239,7 +1513,9 @@
     "repo": "skills-business",
     "group": "Reporting",
     "description": "Turn company data into dashboards and KPI tracking with a stated recommendation. Not channel performance. Use when building company KPI scorecards, department reviews, or updates.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/internal-reporting"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/internal-reporting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "investor-deck",
@@ -1248,7 +1524,9 @@
     "repo": "skills-business",
     "group": "Fundraising and board",
     "description": "Build the raise narrative: problem-solution, TAM/SAM/SOM, traction and model. For full pro formas, see business-plan. Use when structuring seed, Series A, or venture pitch decks.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/investor-deck"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/investor-deck",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "market-trends",
@@ -1257,7 +1535,9 @@
     "repo": "skills-business",
     "group": "Strategy",
     "description": "Identify where a market is heading and size the opportunity, with sourced evidence rather than vibes. Use when analyzing industry reports, market shifts, or macro trends.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/market-trends"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/market-trends",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "negotiation",
@@ -1266,7 +1546,9 @@
     "repo": "skills-business",
     "group": "Fundraising and board",
     "description": "Prepare with BATNA assessment, concession planning and scripts for contracts, vendor terms and salary. Use when preparing high-stakes enterprise deals, contracts, or partnership terms.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/negotiation"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/negotiation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "okrs",
@@ -1275,7 +1557,9 @@
     "repo": "skills-business",
     "group": "Product and delivery",
     "description": "Write measurable objectives and key results with cascading alignment from company to individual. Use when drafting company or team OKRs, metric ladders, and scoring.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/okrs"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/okrs",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "operations",
@@ -1284,7 +1568,9 @@
     "repo": "skills-business",
     "group": "Operations",
     "description": "Own process, capacity planning, exception handling and performance tracking day to day. Use when running daily business operations, workflows, or SOP execution.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/operations"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/operations",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "portfolio-ops",
@@ -1293,7 +1579,9 @@
     "repo": "skills-business",
     "group": "Operations",
     "description": "Allocate resources and sequence work across several projects competing for the same people. Use when orchestrating multiple business units, ventures, or shared ops.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/portfolio-ops"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/portfolio-ops",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "process-redesign",
@@ -1302,7 +1590,9 @@
     "repo": "skills-business",
     "group": "Operations",
     "description": "Map the current state, find the bottlenecks and waste, and redesign before automating anything. Use when mapping, auditing, or eliminating waste in operational workflows.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/process-redesign"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/process-redesign",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "product-management",
@@ -1311,7 +1601,9 @@
     "repo": "skills-business",
     "group": "Product and delivery",
     "description": "Own the lifecycle: discovery, strategy, roadmap, stakeholder alignment and outcome tracking. Use when writing PRDs, defining feature scope, or user story mapping.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/product-management"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/product-management",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "project-planning",
@@ -1320,7 +1612,9 @@
     "repo": "skills-business",
     "group": "Product and delivery",
     "description": "Convert a spec into scoped, sequenced tasks with estimates, dependencies, timeline and owners. Use when building multi-team project schedules, WBS, or milestones.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/project-planning"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/project-planning",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "sprint-planning",
@@ -1329,7 +1623,9 @@
     "repo": "skills-business",
     "group": "Product and delivery",
     "description": "Prioritise features, allocate capacity and make the scope trade-offs explicit. Use when running agile ceremonies, story point sizing, or sprint backlogs.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/sprint-planning"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/sprint-planning",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "supply-chain",
@@ -1338,7 +1634,9 @@
     "repo": "skills-business",
     "group": "Operations",
     "description": "Plan strategic sourcing, supplier development, quality control and logistics. Use when managing physical inventory, manufacturing lead times, or logistics.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/supply-chain"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/supply-chain",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "team-dynamics",
@@ -1347,7 +1645,9 @@
     "repo": "skills-business",
     "group": "People",
     "description": "Diagnose motivation, conflict, structure and the cross-cultural blind spots nobody names out loud. Use when resolving co-founder friction, team conflict, or trust issues.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/team-dynamics"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/team-dynamics",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "vendor-selection",
@@ -1356,7 +1656,9 @@
     "repo": "skills-business",
     "group": "Operations",
     "description": "Run RFI/RFP, scoring matrices, contract negotiation and vendor performance tracking. Use when evaluating RFP proposals, scoring vendors, or procurement.",
-    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/vendor-selection"
+    "url": "https://github.com/poorvith-mp/skills-business/tree/main/skills/vendor-selection",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "accessibility-review",
@@ -1365,7 +1667,9 @@
     "repo": "skills-design",
     "group": "Research and evaluation",
     "description": "Check a design for contrast, target size, focus order and motion safety before anything gets built. Use when auditing color contrast, focus states, tap targets, or ARIA UX.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/accessibility-review"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/accessibility-review",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "brand-system",
@@ -1374,7 +1678,9 @@
     "repo": "skills-design",
     "group": "Brand",
     "description": "Build brand identity end to end: voice, logomarks, adaptive logo systems and usage rules. Use when defining brand guidelines, logos, iconography, or visual assets.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/brand-system"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/brand-system",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "color-psychology",
@@ -1383,7 +1689,9 @@
     "repo": "skills-design",
     "group": "Direction",
     "description": "Define color meaning: category conventions, emotional resonance, cultural symbolism, and owner gaps. Use when analyzing color psychology or brand palettes.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/color-psychology"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/color-psychology",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "color-system",
@@ -1392,7 +1700,9 @@
     "repo": "skills-design",
     "group": "Design system",
     "description": "Turn a chosen direction into a real palette: tints, WCAG contrast, dark mode mapping, elevation and tokens. Use when building semantic color tokens, dark mode palettes, or contrast scales.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/color-system"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/color-system",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "component-library",
@@ -1401,7 +1711,9 @@
     "repo": "skills-design",
     "group": "Design system",
     "description": "Design the component set with consistent structure, states and semantic naming. Use when creating reusable Figma components, variants, or design libraries.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/component-library"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/component-library",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "delight",
@@ -1410,7 +1722,9 @@
     "repo": "skills-design",
     "group": "Interface",
     "description": "Add personality through microinteractions, copy moments and easter eggs, without harming usability. Use when adding tasteful Easter eggs, celebratory animations, or personality.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/delight"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/delight",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "design-critique",
@@ -1419,7 +1733,9 @@
     "repo": "skills-design",
     "group": "Research and evaluation",
     "description": "Critique a design against heuristics: visual hierarchy, typography, spacing, colour and accessibility. Use when reviewing visual hierarchy, layout balance, spacing, or typography.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-critique"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-critique",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "design-direction",
@@ -1428,7 +1744,9 @@
     "repo": "skills-design",
     "group": "Direction",
     "description": "Choose the visual genre fitting product and audience: editorial, brutalist, swiss, retro, soft-tech. Use when establishing visual direction or moodboards.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-direction"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-direction",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "design-taste",
@@ -1437,7 +1755,9 @@
     "repo": "skills-design",
     "group": "Research and evaluation",
     "description": "Find and fix AI design signatures: gradient blobs, three identical cards, purple-on-white. Not for prose (see writing-taste). Use when eliminating generic AI design tropes and templates.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-taste"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/design-taste",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "frontend-design",
@@ -1446,7 +1766,9 @@
     "repo": "skills-design",
     "group": "Implementation",
     "description": "Build distinctive, production-grade interfaces in real code, avoiding generic AI-default layouts. Use when implementing pixel-perfect CSS, Tailwind, Flexbox, or responsive code.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/frontend-design"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/frontend-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "icon-design",
@@ -1455,7 +1777,9 @@
     "repo": "skills-design",
     "group": "Brand",
     "description": "Write icon briefs specifying metaphor, style, grid, stroke weight and usage context. Use when crafting custom SVG icon sets, glyphs, or pixel-perfect grids.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/icon-design"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/icon-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "image-prompts",
@@ -1464,7 +1788,9 @@
     "repo": "skills-design",
     "group": "Implementation",
     "description": "Write AI image prompts covering subject, lighting and composition, countering the models' bias toward stereotyped depictions. Use when authoring Midjourney, Flux, or DALL-E AI image prompts.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/image-prompts"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/image-prompts",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "information-architecture",
@@ -1473,7 +1799,9 @@
     "repo": "skills-design",
     "group": "Interface",
     "description": "Structure navigation, hierarchy and content models, and hand engineering an implementable spec. Use when structuring app navigation, sitemaps, hierarchy, or taxonomies.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/information-architecture"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/information-architecture",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "interactive-prototype",
@@ -1482,7 +1810,9 @@
     "repo": "skills-design",
     "group": "Interface",
     "description": "Turn a design into a clickable prototype with real flows, states and transitions, ready to put in front of users. Use when building clickable Figma prototypes, state flows, or micro-interactions.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/interactive-prototype"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/interactive-prototype",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "motion-design",
@@ -1491,7 +1821,9 @@
     "repo": "skills-design",
     "group": "Interface",
     "description": "Specify UI animation and motion graphics: what moves, easing, timing, audio sync points and export settings. Use when designing UI transitions, spring physics, or micro-interactions.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/motion-design"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/motion-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "print-packaging",
@@ -1500,7 +1832,9 @@
     "repo": "skills-design",
     "group": "Brand",
     "description": "Produce print-ready packaging with bleed, die lines, CMYK/Pantone profiles and material specs. Use when designing physical packaging, die-lines, CMYK swag, or print assets.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/print-packaging"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/print-packaging",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "responsive-rules",
@@ -1509,7 +1843,9 @@
     "repo": "skills-design",
     "group": "Design system",
     "description": "Define breakpoint strategy, fluid type scales and adaptive layout behaviour across devices. Use when designing responsive grid breakpoints, fluid spacing, or adaptive layouts.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/responsive-rules"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/responsive-rules",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "type-system",
@@ -1518,7 +1854,9 @@
     "repo": "skills-design",
     "group": "Design system",
     "description": "Build the type scale, font pairing, hierarchy rules, line height and vertical rhythm. Use when defining typographic scales, modular ratios, fonts, or line-heights.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/type-system"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/type-system",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ui-copy",
@@ -1527,7 +1865,9 @@
     "repo": "skills-design",
     "group": "Interface",
     "description": "Write interface microcopy \u2014 buttons, errors, empty states, tooltips \u2014 and replace placeholder text with real copy. Use when writing UI microcopy, button labels, empty states, or error messages.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ui-copy"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ui-copy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ui-design",
@@ -1536,7 +1876,9 @@
     "repo": "skills-design",
     "group": "Interface",
     "description": "Design screen layouts and visual systems for a product surface. Use when designing user interfaces, dashboard screens, or visual layouts.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ui-design"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ui-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ux-research",
@@ -1545,7 +1887,9 @@
     "repo": "skills-design",
     "group": "Research and evaluation",
     "description": "Plan and run usability studies and behavioural analysis, then turn findings into research-backed personas. Use when running usability tests, journey mapping, or observing user behavior.",
-    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ux-research"
+    "url": "https://github.com/poorvith-mp/skills-design/tree/main/skills/ux-research",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "academic-project",
@@ -1554,7 +1898,9 @@
     "repo": "skills-education",
     "group": "Teaching and planning",
     "description": "Plan a thesis or capstone: milestones, supervisor checkpoints, and submission logistics. For question scoping, see topic-selection. Use when managing capstone projects or dissertation timelines.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/academic-project"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/academic-project",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "active-recall",
@@ -1563,7 +1909,9 @@
     "repo": "skills-education",
     "group": "Learning",
     "description": "Weave retrieval checks into dialogue: resurface earlier material unprompted and track decay. Use when testing retention via Socratic active recall.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/active-recall"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/active-recall",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "assessment-design",
@@ -1572,7 +1920,9 @@
     "repo": "skills-education",
     "group": "Assessment",
     "description": "Build the assessment: questions across Bloom's levels, answer keys, grading rubrics and difficulty calibration. Use when developing grading rubrics, Bloom's taxonomy tests, or evaluation.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/assessment-design"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/assessment-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "citations",
@@ -1581,7 +1931,9 @@
     "repo": "skills-education",
     "group": "Research",
     "description": "Format citations and bibliographies in APA, MLA, Chicago, Harvard and IEEE with matching in-text forms. Use when formatting bibliographies in APA, MLA, Chicago, IEEE, or BibTeX.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/citations"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/citations",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "concept-explainer",
@@ -1590,7 +1942,9 @@
     "repo": "skills-education",
     "group": "Learning",
     "description": "Explain a concept in layers \u2014 ELI5, then intermediate, then expert \u2014 with analogies and worked examples. Use when explaining complex ideas with intuitive analogies, Feynman technique.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/concept-explainer"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/concept-explainer",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "essay-structure",
@@ -1599,7 +1953,9 @@
     "repo": "skills-education",
     "group": "Teaching and planning",
     "description": "Structure the essay: thesis, argument order, evidence placement, counterargument handling and conclusion. Use when outlining argumentative essays, thesis statements, or paragraph flows.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/essay-structure"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/essay-structure",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "exam-strategy",
@@ -1608,7 +1964,9 @@
     "repo": "skills-education",
     "group": "Assessment",
     "description": "Pace the paper, triage questions by marks-per-minute, exploit the marking scheme, and decide when to guess. Use when mastering test pacing, elimination tactics, or time allocation.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/exam-strategy"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/exam-strategy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "flashcards",
@@ -1617,7 +1975,9 @@
     "repo": "skills-education",
     "group": "Learning",
     "description": "Create spaced-repetition cards using minimal-information framing and interleaved topics. Use when generating Anki cards, cloze deletions, or spaced repetition decks.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/flashcards"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/flashcards",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "learning-roadmap",
@@ -1626,7 +1986,9 @@
     "repo": "skills-education",
     "group": "Learning",
     "description": "Build the roadmap: skill tree, milestone checkpoints, ordered reading with difficulty ratings, and time estimates. Use when planning structured skill acquisition from beginner to mastery.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/learning-roadmap"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/learning-roadmap",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "literature-review",
@@ -1635,7 +1997,9 @@
     "repo": "skills-education",
     "group": "Research",
     "description": "Synthesise many papers into themes, contradictions, methodological quality and open questions. Use when synthesizing academic fields, thematic clusters, or research gaps.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/literature-review"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/literature-review",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "mentoring",
@@ -1644,7 +2008,9 @@
     "repo": "skills-education",
     "group": "Learning",
     "description": "Run a mentoring conversation using Socratic questioning and the GROW model, asking rather than telling. Use when structuring 1-on-1 mentorship, goal tracking, or career growth.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mentoring"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mentoring",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "mind-maps",
@@ -1653,7 +2019,9 @@
     "repo": "skills-education",
     "group": "Learning",
     "description": "Map a topic visually: central node, branches, labelled relationships between concepts, and where the blank spaces are. Use when synthesizing knowledge into hierarchical mind maps or visual diagrams.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mind-maps"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mind-maps",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "mock-exams",
@@ -1662,7 +2030,9 @@
     "repo": "skills-education",
     "group": "Assessment",
     "description": "Build and sit a full-length timed paper under real conditions, then diagnose exactly where the marks went. Use when creating full-length practice exams, timed tests, or scoring keys.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mock-exams"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/mock-exams",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "paper-summary",
@@ -1671,7 +2041,9 @@
     "repo": "skills-education",
     "group": "Research",
     "description": "Summarise a paper into methodology, findings, and limitations. For study design, see research-methods. Use when distilling academic papers into findings, methods, and limitations.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/paper-summary"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/paper-summary",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "quizzes",
@@ -1680,7 +2052,9 @@
     "repo": "skills-education",
     "group": "Assessment",
     "description": "Generate scored practice quizzes from your own material, with an explanation for every wrong answer. Use when authoring multiple-choice questions, plausible distractors, or trivia.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/quizzes"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/quizzes",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "research",
@@ -1689,7 +2063,9 @@
     "repo": "skills-education",
     "group": "Research",
     "description": "Investigate properly: frame questions, build source ladders, triangulate, and report findings. Use when investigating complex questions with primary sources.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/research"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/research",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "research-methods",
@@ -1698,7 +2074,9 @@
     "repo": "skills-education",
     "group": "Research",
     "description": "Design the study itself: question framing, method choice, sampling, controls and which statistics actually fit. Use when designing qualitative, quantitative, or experimental research methods.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/research-methods"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/research-methods",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "source-evaluation",
@@ -1707,7 +2085,9 @@
     "repo": "skills-education",
     "group": "Research",
     "description": "Judge whether sources carry claims: primary vs secondary, funding, method quality, and replication. Use when auditing source credibility or methodology.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/source-evaluation"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/source-evaluation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "study-plan",
@@ -1716,7 +2096,9 @@
     "repo": "skills-education",
     "group": "Learning",
     "description": "Design the schedule: spaced repetition intervals, session length and review cycles. For recall techniques, see active-recall. Use when creating weekly study schedules or exam prep.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/study-plan"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/study-plan",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "topic-selection",
@@ -1725,7 +2107,9 @@
     "repo": "skills-education",
     "group": "Teaching and planning",
     "description": "Turn a broad interest into a tractable research question or essay topic with defensible scope and available sources. Use when narrowing research questions, thesis scopes, or project ideas.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/topic-selection"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/topic-selection",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "training-design",
@@ -1734,7 +2118,9 @@
     "repo": "skills-education",
     "group": "Teaching and planning",
     "description": "Design enterprise training: needs analysis, curriculum structure, blended delivery and evaluation. Use when developing corporate workshops, course modules, or adult learning.",
-    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/training-design"
+    "url": "https://github.com/poorvith-mp/skills-education/tree/main/skills/training-design",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "agent-architecture",
@@ -1743,7 +2129,9 @@
     "repo": "skills-agents",
     "group": "Agent design",
     "description": "Design role decomposition, message passing, shared state and failure isolation across agents. Use when designing autonomous agent state machines, memory, or loops.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-architecture"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-architecture",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "agent-identity",
@@ -1752,7 +2140,9 @@
     "repo": "skills-agents",
     "group": "Agent design",
     "description": "Design authentication, delegation, and trust verification across agents and identity sources. Use when establishing agent identity, auth, or provenance.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-identity"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-identity",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "agent-orchestration",
@@ -1761,7 +2151,9 @@
     "repo": "skills-agents",
     "group": "Agent design",
     "description": "Sequence agents through an end-to-end pipeline, passing state between them, with pre-flight environment checks. Use when coordinating multi-agent systems, delegation, or subagent crews.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-orchestration"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-orchestration",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "agent-safety",
@@ -1770,7 +2162,9 @@
     "repo": "skills-agents",
     "group": "Agent design",
     "description": "Defend against prompt injection, scope tool permissions, filter outputs, and fail closed when a check can't run. Use when implementing agent guardrails, sandboxing, or injection defense.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-safety"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/agent-safety",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "automation-review",
@@ -1779,7 +2173,9 @@
     "repo": "skills-agents",
     "group": "Workflow automation",
     "description": "Audit a proposed or existing automation for value, risk and maintenance cost, including the answer \"don't build this.\". Use when auditing automation ROI, failure points, or recommending 'don't build'.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/automation-review"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/automation-review",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "composio",
@@ -1788,7 +2184,9 @@
     "repo": "skills-agents",
     "group": "Tooling agents call",
     "description": "Wire agents to authenticated third-party SaaS tools through Composio connectors. Use when integrating AI agents with GitHub, Slack, Gmail, or Jira via Composio.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/composio"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/composio",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "create-skill",
@@ -1797,7 +2195,9 @@
     "repo": "skills-agents",
     "group": "Prompts and skills",
     "description": "Scaffold a new agent skill: frontmatter, trigger-rich description, structured body, references and a routing eval set. Use when authoring new agent skills, SKILL.md specs, or routing evals.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/create-skill"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/create-skill",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "document-generation",
@@ -1806,7 +2206,9 @@
     "repo": "skills-agents",
     "group": "Outputs",
     "description": "Generate PDF, PPTX, DOCX and XLSX from code with real formatting, charts and tables. Use when generating PDF, Word, or Markdown documents from data and templates.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/document-generation"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/document-generation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "mcp-builder",
@@ -1815,7 +2217,9 @@
     "repo": "skills-agents",
     "group": "Tooling agents call",
     "description": "Design, build and test MCP servers exposing tools, resources and prompts, including why a tool never gets called. Use when creating Model Context Protocol (MCP) servers, tools, or resources.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/mcp-builder"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/mcp-builder",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "n8n",
@@ -1824,7 +2228,9 @@
     "repo": "skills-agents",
     "group": "Workflow automation",
     "description": "Build n8n workflows: node wiring, credentials, error branches and scheduling. Use when building visual workflow automations, webhooks, or nodes in n8n.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/n8n"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/n8n",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "prompt-engineering",
@@ -1833,7 +2239,9 @@
     "repo": "skills-agents",
     "group": "Prompts and skills",
     "description": "Write, test and optimise prompts into reliable production behaviour. Use when optimizing system prompts, few-shot examples, or reducing hallucinations.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/prompt-engineering"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/prompt-engineering",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "prompt-library",
@@ -1842,7 +2250,9 @@
     "repo": "skills-agents",
     "group": "Prompts and skills",
     "description": "Maintain reusable prompt libraries: versioning, tagging, benchmarking and deduplication across teams. Use when curating, organizing, or categorizing reusable prompt collections.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/prompt-library"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/prompt-library",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "rag-systems",
@@ -1851,7 +2261,9 @@
     "repo": "skills-agents",
     "group": "Retrieval",
     "description": "Build retrieval that works: chunking strategy, embeddings, hybrid search, reranking and retrieval evals. Use when building RAG pipelines, chunking, embeddings, or vector search.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/rag-systems"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/rag-systems",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "report-automation",
@@ -1860,7 +2272,9 @@
     "repo": "skills-agents",
     "group": "Outputs",
     "description": "Merge multiple exports and unstructured sources into one consistent view, then schedule and distribute it. Use when automating scheduled metrics digests, executive summaries, or alerts.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/report-automation"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/report-automation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "skill-linter",
@@ -1869,7 +2283,9 @@
     "repo": "skills-agents",
     "group": "Prompts and skills",
     "description": "Check a skill against house rules: description length, slug length, pointer scope and allowed frontmatter keys. Use when validating agent skills for length, triggers, evals, or spec rules.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/skill-linter"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/skill-linter",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "trigger-dev",
@@ -1878,7 +2294,9 @@
     "repo": "skills-agents",
     "group": "Workflow automation",
     "description": "Build Trigger.dev background jobs: task definitions, retries, scheduling and observability. For visual workflows use n8n. Use when writing code-first background tasks or Trigger.dev.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/trigger-dev"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/trigger-dev",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "workflow-mapping",
@@ -1887,7 +2305,9 @@
     "repo": "skills-agents",
     "group": "Workflow automation",
     "description": "Map a complete workflow tree: happy paths, branch conditions and failure states. Use when mapping processes into step-by-step logic, gates, or edge cases.",
-    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/workflow-mapping"
+    "url": "https://github.com/poorvith-mp/skills-agents/tree/main/skills/workflow-mapping",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "3d-printing",
@@ -1896,7 +2316,9 @@
     "repo": "skills-personal",
     "group": "Hobby",
     "description": "Tune filament profiles: temperature, flow, retraction and cooling against material and printer. Use when troubleshooting FDM/resin slicing, print bed adhesion, or layer lines.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/3d-printing"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/3d-printing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "fitness-nutrition",
@@ -1905,7 +2327,9 @@
     "repo": "skills-personal",
     "group": "Habits and health",
     "description": "Build workout programmes and nutrition plans with macro targets, progressive overload and meal prep. Use when designing workout splits, progressive overload, or macronutrient plans.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/fitness-nutrition"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/fitness-nutrition",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "habits",
@@ -1914,7 +2338,9 @@
     "repo": "skills-personal",
     "group": "Habits and health",
     "description": "Design habit systems: habit stacking, cue-routine-reward loops, tracking methods and accountability. Use when building atomic habits, streak tracking, or breaking routines.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/habits"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/habits",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "interview-prep",
@@ -1923,7 +2349,9 @@
     "repo": "skills-personal",
     "group": "Career",
     "description": "Prepare with role-specific question banks, STAR frameworks and mock behavioural rounds. Use when practicing behavioral STAR stories, technical questions, or mock interviews.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/interview-prep"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/interview-prep",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "job-search",
@@ -1932,7 +2360,9 @@
     "repo": "skills-personal",
     "group": "Career",
     "description": "Run the application pipeline: target list, stage tracking, follow-up cadence and a weekly read on where applications die. Use when planning job search pipelines, target companies, or warm outreach.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/job-search"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/job-search",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "linkedin-profile",
@@ -1941,7 +2371,9 @@
     "repo": "skills-personal",
     "group": "Career",
     "description": "Rewrite the profile for recruiter search: headline, summary, skills and keyword coverage. Use when optimizing LinkedIn headlines, About summaries, or featured work.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/linkedin-profile"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/linkedin-profile",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "note-system",
@@ -1950,7 +2382,9 @@
     "repo": "skills-personal",
     "group": "Knowledge and productivity",
     "description": "Design a personal knowledge system: methodology (PARA, Zettelkasten, MOC) then the setup in Obsidian, Notion or Logseq. Use when structuring Obsidian, Notion, Zettelkasten, or personal wikis.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/note-system"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/note-system",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "periodic-review",
@@ -1959,7 +2393,9 @@
     "repo": "skills-personal",
     "group": "Knowledge and productivity",
     "description": "Structure weekly, monthly and annual reviews with goal tracking and retrospectives. Use when running weekly, monthly, quarterly, or annual life reviews.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/periodic-review"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/periodic-review",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "personal-context",
@@ -1968,7 +2404,9 @@
     "repo": "skills-personal",
     "group": "Identity",
     "description": "Capture preferences, working style, constraints and recurring context into a reusable profile an assistant can read. Use when maintaining personal context, bio, values, or working preferences.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/personal-context"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/personal-context",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "personal-crm",
@@ -1977,7 +2415,9 @@
     "repo": "skills-personal",
     "group": "Life admin",
     "description": "Design a personal CRM: contact metadata, interaction logs, follow-up reminders and relationship strength. Use when maintaining professional relationships, staying in touch, or contact logs.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/personal-crm"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/personal-crm",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "personal-finance",
@@ -1986,7 +2426,9 @@
     "repo": "skills-personal",
     "group": "Life admin",
     "description": "Build a personal budget and money plan from income, expenses, debts and savings. Use when building personal budgets, emergency funds, or savings allocations.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/personal-finance"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/personal-finance",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "productivity-audit",
@@ -1995,7 +2437,9 @@
     "repo": "skills-personal",
     "group": "Knowledge and productivity",
     "description": "Audit your week for time sinks, context-switching cost and tool sprawl. Use when auditing calendar time, task workflows, context switching, or energy.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/productivity-audit"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/productivity-audit",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "resume",
@@ -2004,7 +2448,9 @@
     "repo": "skills-personal",
     "group": "Career",
     "description": "Tailor a resume to a named job description with ATS-safe formatting and quantified achievement bullets. Use when crafting resumes, CVs, impact bullets, or ATS optimization.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/resume"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/resume",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "travel-planning",
@@ -2013,7 +2459,9 @@
     "repo": "skills-personal",
     "group": "Life admin",
     "description": "Build itineraries with daily schedules, accommodation and transport options and budget breakdowns. Use when planning trip itineraries, flights, travel logistics, or packing.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/travel-planning"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/travel-planning",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "voice-profile",
@@ -2022,7 +2470,9 @@
     "repo": "skills-personal",
     "group": "Identity",
     "description": "Capture how you actually write: rhythm, vocabulary, structural habits, phrases you never use, and real samples. Use when analyzing writing voice, tone rules, rhythm, or anti-AI style.",
-    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/voice-profile"
+    "url": "https://github.com/poorvith-mp/skills-personal/tree/main/skills/voice-profile",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "book-writing",
@@ -2031,7 +2481,9 @@
     "repo": "skills-writing",
     "group": "Long form",
     "description": "Develop book-length work: premise, chapter architecture, narrative voice, and full revision. Use when structuring non-fiction books or manuscripts.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/book-writing"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/book-writing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "executive-summary",
@@ -2040,7 +2492,9 @@
     "repo": "skills-writing",
     "group": "Documents",
     "description": "Compress complex input into one page: recommendation first, then the supporting case. Use when condensing complex reports, briefings, or proposals for leaders.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/executive-summary"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/executive-summary",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "feedback-writing",
@@ -2049,7 +2503,9 @@
     "repo": "skills-writing",
     "group": "Workplace",
     "description": "Write constructive feedback using Situation-Behavior-Impact for performance, peer and 360 reviews. Use when drafting constructive performance reviews, peer praise, or coaching.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/feedback-writing"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/feedback-writing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "grant-writing",
@@ -2058,7 +2514,9 @@
     "repo": "skills-writing",
     "group": "Documents",
     "description": "Write grant applications for nonprofits, research institutions and social enterprises, including prospect research. Use when authoring grant applications, proposal narratives, or budgets.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/grant-writing"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/grant-writing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "historical-accuracy",
@@ -2067,7 +2525,9 @@
     "repo": "skills-writing",
     "group": "Research support",
     "description": "Check period detail, material culture and historiography for anachronism. Use when verifying historical facts, anachronisms, dates, or context.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/historical-accuracy"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/historical-accuracy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "job-descriptions",
@@ -2076,7 +2536,9 @@
     "repo": "skills-writing",
     "group": "Workplace",
     "description": "Write role-accurate JDs with responsibilities, required versus preferred qualifications and pay bands. Use when drafting attractive, inclusive, and role-accurate job postings.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/job-descriptions"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/job-descriptions",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "line-editing",
@@ -2085,7 +2547,9 @@
     "repo": "skills-writing",
     "group": "Voice and quality",
     "description": "Tighten a draft: cut filler, vary rhythm, sharpen verbs, and make every sentence earn its place. Use when polishing prose line by line for rhythm, concision, and clarity.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/line-editing"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/line-editing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "meeting-notes",
@@ -2094,7 +2558,9 @@
     "repo": "skills-writing",
     "group": "Documents",
     "description": "Turn notes or a transcript into decisions, action items with owners and deadlines, and a parking lot. Use when summarizing meetings, tracking decisions, or extracting action items.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/meeting-notes"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/meeting-notes",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "screenwriting",
@@ -2103,7 +2569,9 @@
     "repo": "skills-writing",
     "group": "Long form",
     "description": "Write screenplays in industry format with scene headings, action lines, dialogue and parentheticals. Use when writing screenplays, teleplays, scene slugs, or script dialogue.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/screenwriting"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/screenwriting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "sop-writing",
@@ -2112,7 +2580,9 @@
     "repo": "skills-writing",
     "group": "Documents",
     "description": "Write procedures anyone can follow: numbered steps, owners, inputs, outputs, escalation and executable templates. Use when authoring Standard Operating Procedures, runbooks, or checklists.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/sop-writing"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/sop-writing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "talk-writing",
@@ -2121,7 +2591,9 @@
     "repo": "skills-writing",
     "group": "Long form",
     "description": "Write a conference talk or keynote: through-line, one idea per slide, opening hook and honest timing. Use when scripting keynote talks, conference presentations, or lightning talks.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/talk-writing"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/talk-writing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "technical-docs",
@@ -2130,7 +2602,9 @@
     "repo": "skills-writing",
     "group": "Documents",
     "description": "Write API references, user guides, setup manuals and architecture docs with consistent terminology. Use when writing developer documentation, API guides, or tutorials.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/technical-docs"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/technical-docs",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "thread-to-article",
@@ -2139,7 +2613,9 @@
     "repo": "skills-writing",
     "group": "Repurposing and translation",
     "description": "Expand an X or LinkedIn thread into a structured article with added context, headings and links. Use when expanding social threads into long-form articles, or vice versa.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/thread-to-article"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/thread-to-article",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "translation",
@@ -2148,7 +2624,9 @@
     "repo": "skills-writing",
     "group": "Repurposing and translation",
     "description": "Translate while preserving register, idiom and domain terms, flagging what doesn't carry across. Use when translating text across languages preserving nuance, tone, and idioms.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/translation"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/translation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "writing-taste",
@@ -2157,7 +2635,9 @@
     "repo": "skills-writing",
     "group": "Voice and quality",
     "description": "Kill tells that make text read as generated: uniform rhythm, filler transitions and recaps. For visual design, see design-taste. Use when eliminating AI writing tells or robotic tone.",
-    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/writing-taste"
+    "url": "https://github.com/poorvith-mp/skills-writing/tree/main/skills/writing-taste",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "account-management",
@@ -2166,7 +2646,9 @@
     "repo": "skills-sales",
     "group": "Post-sale",
     "description": "Own the customer after onboarding: adoption tracking, health reviews, expansion plays and QBRs. Use when managing enterprise accounts, quarterly reviews, or expansion.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/account-management"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/account-management",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "client-onboarding",
@@ -2175,7 +2657,9 @@
     "repo": "skills-sales",
     "group": "Post-sale",
     "description": "Set up a new engagement: intake, access, environments and communication cadence. Use when managing post-sale client kickoff, implementation, or training.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/client-onboarding"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/client-onboarding",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "cold-outreach",
@@ -2184,7 +2668,9 @@
     "repo": "skills-sales",
     "group": "Pipeline",
     "description": "Write cold email and DM sequences that get replies, including domain warmup and deliverability. Use when drafting personalized cold emails, LinkedIn DMs, or follow-up cadences.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/cold-outreach"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/cold-outreach",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "discovery",
@@ -2193,7 +2679,9 @@
     "repo": "skills-sales",
     "group": "Pipeline",
     "description": "Structure discovery calls: question design, current-state mapping, and gap quantification. Use when running sales discovery calls or BANT qualification.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/discovery"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/discovery",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "freelance-bidding",
@@ -2202,7 +2690,9 @@
     "repo": "skills-sales",
     "group": "Bidding",
     "description": "Build marketplace positioning and write job-specific proposals that mirror the client's stated pain with targeted proof. Use when writing winning Upwork proposals, freelance pitches, or bids.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/freelance-bidding"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/freelance-bidding",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "pipeline-health",
@@ -2211,7 +2701,9 @@
     "repo": "skills-sales",
     "group": "Pipeline",
     "description": "Diagnose deal velocity, stage conversion, forecast accuracy and CRM hygiene. For marketing ops, see revops. Use when auditing sales pipeline stages, deal slippage, or win-rate hygiene.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/pipeline-health"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/pipeline-health",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "proposals",
@@ -2220,7 +2712,9 @@
     "repo": "skills-sales",
     "group": "Pipeline",
     "description": "Turn an RFP or opportunity into a win narrative with scope, pricing, timeline, win themes and proof. Use when writing formal sales proposals, Statements of Work, or executive pitches.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/proposals"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/proposals",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "prospecting",
@@ -2229,7 +2723,9 @@
     "repo": "skills-sales",
     "group": "Pipeline",
     "description": "Build and qualify a target list from an ICP, with enrichment and disqualification rules. Use when finding high-intent B2B target accounts, leads, or list building.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/prospecting"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/prospecting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "public-sector-bids",
@@ -2238,7 +2734,9 @@
     "repo": "skills-sales",
     "group": "Bidding",
     "description": "Handle government digital presales: policy interpretation, solution design and bid documentation. Use when responding to government RFPs, tenders, compliance matrices, or FAR rules.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/public-sector-bids"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/public-sector-bids",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "renewals",
@@ -2247,7 +2745,9 @@
     "repo": "skills-sales",
     "group": "Post-sale",
     "description": "Plan the renewal: timeline-based outreach, expansion opportunities and QBR preparation. Use when negotiating contract renewals, multi-year expansions, or churn defense.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/renewals"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/renewals",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "sales-coaching",
@@ -2256,7 +2756,9 @@
     "repo": "skills-sales",
     "group": "Enablement",
     "description": "Coach reps through call reviews, pipeline reviews, deal strategy and forecast discipline. Use when coaching sales reps on objection handling, calls, or pitch delivery.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/sales-coaching"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/sales-coaching",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "solution-engineering",
@@ -2265,7 +2767,9 @@
     "repo": "skills-sales",
     "group": "Pipeline",
     "description": "Do the pre-sales technical work: demo engineering, POC scoping and competitive battlecards. Use when delivering technical product demos, scoping POCs, or handling RFIs.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/solution-engineering"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/solution-engineering",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "support-replies",
@@ -2274,7 +2778,9 @@
     "repo": "skills-sales",
     "group": "Post-sale",
     "description": "Write support responses and handle escalations across email, chat and social, including service recovery. Use when drafting empathetic, accurate customer support replies or macros.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/support-replies"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/support-replies",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "win-loss-analysis",
@@ -2283,7 +2789,9 @@
     "repo": "skills-sales",
     "group": "Pipeline",
     "description": "Interview won and lost deals, find the pattern, and feed it back to product, pricing and marketing. Use when conducting post-mortem interviews on lost deals or won customers.",
-    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/win-loss-analysis"
+    "url": "https://github.com/poorvith-mp/skills-sales/tree/main/skills/win-loss-analysis",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "accounts-payable",
@@ -2292,7 +2800,9 @@
     "repo": "skills-finance",
     "group": "Accounting",
     "description": "Run payables: vendor payments, contractor invoices and recurring bills across fiat, crypto and stablecoin rails. Use when managing incoming vendor bills, payment approvals, or expense reports.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/accounts-payable"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/accounts-payable",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "bookkeeping",
@@ -2301,7 +2811,9 @@
     "repo": "skills-finance",
     "group": "Accounting",
     "description": "Run day-to-day accounting: reconciliations, month-end close, journal entries and internal controls. Use when reconciling bank accounts, chart of accounts, or ledger entries.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/bookkeeping"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/bookkeeping",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "budgeting",
@@ -2310,7 +2822,9 @@
     "repo": "skills-finance",
     "group": "Accounting",
     "description": "Build the budget, run rolling forecasts, and explain budget-versus-actual variance and expense anomalies. Use when creating annual operating budgets, departmental spend, or variance.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/budgeting"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/budgeting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "cap-table",
@@ -2319,7 +2833,9 @@
     "repo": "skills-finance",
     "group": "Modelling",
     "description": "Model cap tables, dilution scenarios, waterfalls and round structures \u2014 SAFE, convertible notes, priced. Use when modeling founder equity, SAFEs, option pools, or dilution waterfalls.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/cap-table"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/cap-table",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "crypto-tax",
@@ -2328,7 +2844,9 @@
     "repo": "skills-finance",
     "group": "Tax",
     "description": "Calculate capital gains, DeFi yield, NFT trades and cross-chain activity under FIFO, LIFO or HIFO. Use when calculating capital gains, staking rewards, or DeFi tax lots.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/crypto-tax"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/crypto-tax",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "finance-strategy",
@@ -2337,7 +2855,9 @@
     "repo": "skills-finance",
     "group": "Modelling",
     "description": "Set capital allocation, treasury policy, M&A finance, investor relations and board reporting. Use when structuring capital allocation, debt vs equity, or treasury.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/finance-strategy"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/finance-strategy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "financial-modeling",
@@ -2346,7 +2866,9 @@
     "repo": "skills-finance",
     "group": "Modelling",
     "description": "Build models, forecasts, valuations and scenario analyses from raw data. Use when building three-statement models, DCF valuations, or pro formas.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/financial-modeling"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/financial-modeling",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "investment-research",
@@ -2355,7 +2877,9 @@
     "repo": "skills-finance",
     "group": "Investing",
     "description": "Run market analysis, due diligence, valuation and portfolio review across asset classes. Use when evaluating public equities, earnings calls, or 10-K filings.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/investment-research"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/investment-research",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "invoicing",
@@ -2364,7 +2888,9 @@
     "repo": "skills-finance",
     "group": "Accounting",
     "description": "Draft invoices, payment schedules and receivables with tax lines, payment terms and late-fee policy. Use when generating client invoices, payment terms, or chasing collections.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/invoicing"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/invoicing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "runway-planning",
@@ -2373,7 +2899,9 @@
     "repo": "skills-finance",
     "group": "Modelling",
     "description": "Work out burn rate, months of runway, which cuts buy how long, and when the raise has to start. Use when calculating net burn, zero-cash dates, or default-alive plans.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/runway-planning"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/runway-planning",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "saas-metrics",
@@ -2382,7 +2910,9 @@
     "repo": "skills-finance",
     "group": "Modelling",
     "description": "Track MRR, ARR, cohort revenue, net revenue retention, and recognise revenue on the right period. Use when tracking ARR/MRR, Net Revenue Retention, CAC payback, or churn.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/saas-metrics"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/saas-metrics",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "tax-strategy",
@@ -2391,7 +2921,9 @@
     "repo": "skills-finance",
     "group": "Tax",
     "description": "Plan entity structure, transfer pricing, credits and multi-jurisdiction compliance. Use when planning corporate R&D tax credits, QSBS, or depreciation.",
-    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/tax-strategy"
+    "url": "https://github.com/poorvith-mp/skills-finance/tree/main/skills/tax-strategy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ai-governance",
@@ -2400,7 +2932,9 @@
     "repo": "skills-legal",
     "group": "Compliance",
     "description": "Design responsible-AI policy, model risk assessment, bias auditing and EU AI Act controls. For code audits, see model-audit. Use when designing responsible-AI policies or compliance.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/ai-governance"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/ai-governance",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "company-formation",
@@ -2409,7 +2943,9 @@
     "repo": "skills-legal",
     "group": "Company",
     "description": "Choose the entity, handle incorporation, founder agreements, and vesting schedules. For tax modeling, see tax-strategy. Use when incorporating Delaware C-Corps or 83(b) filings.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/company-formation"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/company-formation",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "contract-drafting",
@@ -2418,7 +2954,9 @@
     "repo": "skills-legal",
     "group": "Contracts",
     "description": "Draft the agreements a small company signs: NDA, MSA, SOW, contractor and consulting terms. Use when drafting NDAs, MSAs, Statements of Work, or consulting agreements.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/contract-drafting"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/contract-drafting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "contract-review",
@@ -2427,7 +2965,9 @@
     "repo": "skills-legal",
     "group": "Contracts",
     "description": "Read someone else's paper: explain clauses plainly, flag the risk and propose amendments that protect you. Use when reviewing third-party contracts, vendor paper, or redlining clauses.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/contract-review"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/contract-review",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "data-privacy",
@@ -2436,7 +2976,9 @@
     "repo": "skills-legal",
     "group": "Product and website",
     "description": "Run the privacy programme: data mapping, lawful basis, DSAR handling, retention schedules and breach response. Use when managing GDPR/CCPA compliance, DSAR requests, or data mapping.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/data-privacy"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/data-privacy",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "employment-law",
@@ -2445,7 +2987,9 @@
     "repo": "skills-legal",
     "group": "Company",
     "description": "Get hiring right: contractor vs employee classification, offer terms, and non-competes. Use when hiring employees, contractors, or writing offer terms.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/employment-law"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/employment-law",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "esg-reporting",
@@ -2454,7 +2998,9 @@
     "repo": "skills-legal",
     "group": "Compliance",
     "description": "Build ESG reporting: materiality assessment, metrics and disclosure frameworks. Use when compiling ESG disclosures, carbon accounting, or sustainability reports.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/esg-reporting"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/esg-reporting",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "ip-protection",
@@ -2463,7 +3009,9 @@
     "repo": "skills-legal",
     "group": "Intellectual property",
     "description": "Protect the work: trademark strategy, copyright, trade secrets and IP assignment clauses that actually hold. Use when protecting trademarks, copyrights, trade secrets, or IP assignment.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/ip-protection"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/ip-protection",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "legal-documents",
@@ -2472,7 +3020,9 @@
     "repo": "skills-legal",
     "group": "Product and website",
     "description": "Draft and review terms of service, DPAs, and cookie notices for your jurisdictions. For GDPR compliance, see data-privacy. Use when drafting website terms of service or privacy policies.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/legal-documents"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/legal-documents",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "open-source-licensing",
@@ -2481,7 +3031,9 @@
     "repo": "skills-legal",
     "group": "Intellectual property",
     "description": "Choose a licence, comply with the ones you depend on, and resolve copyleft conflicts before they ship. Use when choosing OSS licenses, resolving copyleft, or dependency compliance.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/open-source-licensing"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/open-source-licensing",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   },
   {
     "slug": "regulatory-compliance",
@@ -2490,6 +3042,8 @@
     "repo": "skills-legal",
     "group": "Compliance",
     "description": "Map regulatory requirements to controls across fintech, healthcare and data privacy, and check an operation against them. Use when mapping regulatory frameworks, fintech, HIPAA, or compliance audits.",
-    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/regulatory-compliance"
+    "url": "https://github.com/poorvith-mp/skills-legal/tree/main/skills/regulatory-compliance",
+    "last_reviewed": "2026-09-06",
+    "tested_with": null
   }
 ]

@@ -157,8 +157,11 @@ class Union:
             self.parent[rb] = ra
 
 
-def build(min_score: float):
-    skills = {s.rel: s for s in iter_skills()}
+def build(min_score: float = 10.0, skills: dict[str, Skill] | list[Skill] | None = None):
+    if skills is None:
+        skills = {s.rel: s for s in iter_skills()}
+    elif isinstance(skills, list):
+        skills = {s.rel: s for s in skills}
     owners: dict[str, set[str]] = defaultdict(set)
     # Concepts that appear in the description are what Claude actually matches
     # on when choosing a skill, so a collision there is worth more than one
@@ -203,6 +206,50 @@ def build(min_score: float):
         clusters[union.find(a)] |= {a, b}
 
     return skills, discriminative, pairs, shared, clusters
+
+
+def find_collisions(skills: list, min_score: float = 0.5) -> list[dict]:
+    """Find trigger collisions within a specific set of skills (e.g. installed set)."""
+    skills_map = {}
+    for s in skills:
+        rel = getattr(s, "rel", None) or f"{getattr(s, 'repo', 'installed')}/skills/{s.slug}"
+        skills_map[rel] = s
+
+    owners: dict[str, set[str]] = defaultdict(set)
+    in_description: dict[str, set[str]] = defaultdict(set)
+    for rel, skill in skills_map.items():
+        desc_concepts = concepts(strip_boilerplate_tail(skill.description))
+        for concept in concepts(signal_text(skill)):
+            owners[concept].add(rel)
+            if concept in desc_concepts:
+                in_description[concept].add(rel)
+
+    discriminative = {
+        concept: sorted(who)
+        for concept, who in owners.items()
+        if len(who) >= 2 and (len(skills_map) <= 20 or " " in concept)
+    }
+
+    scores: dict[tuple[str, str], float] = defaultdict(float)
+    shared: dict[tuple[str, str], list[str]] = defaultdict(list)
+    for concept, who in discriminative.items():
+        base = 1.0 / (len(who) - 1)
+        for pair in combinations(who, 2):
+            claimed = len(in_description[concept] & set(pair))
+            scores[pair] += base * (1 + DESCRIPTION_WEIGHT * claimed)
+            shared[pair].append(concept)
+
+    collisions = []
+    for pair, score in scores.items():
+        if score >= min_score:
+            slug_a = skills_map[pair[0]].slug
+            slug_b = skills_map[pair[1]].slug
+            collisions.append({
+                "pair": (slug_a, slug_b),
+                "words": sorted(set(shared[pair])),
+                "score": round(score, 2),
+            })
+    return collisions
 
 
 def has_boundary(skill, all_slugs: set[str]) -> bool:

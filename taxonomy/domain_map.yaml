@@ -122,3 +122,25 @@ overrides:
   multi-agent-systems-architect: tooling
   agents-orchestrator: tooling
   mcp-builder: tooling
+
+synonyms:
+  stripe:
+    - payment
+    - checkout
+    - billing
+    - webhooks
+  k8s:
+    - kubernetes
+    - container
+    - cluster
+  auth:
+    - authentication
+    - authorization
+    - oauth
+    - sso
+    - identity
+  db:
+    - database
+    - sql
+    - schema
+

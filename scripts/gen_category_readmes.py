@@ -3,34 +3,44 @@
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
-from v4_catalog_data import load_v4_catalog, REPO_DISPLAY_MAP
 
-OWN_DIR = Path("c:/Users/poorv/projects/own")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from skillary import LABELS, get_version, iter_skills, repo_paths, repo_root
+
+OWN_DIR = repo_root()
+
+ACRONYMS = {
+    "Ai": "AI", "Api": "API", "Cd": "CD", "Ci": "CI", "Cms": "CMS",
+    "Crm": "CRM", "Ecommerce": "eCommerce", "Esg": "ESG", "Finops": "FinOps",
+    "Graphql": "GraphQL", "Iac": "IaC", "Ios": "iOS", "It": "IT", "Mcp": "MCP",
+    "N8N": "N8n", "Okr": "OKR", "Pr": "PR", "Qa": "QA", "Seo": "SEO",
+    "Sop": "SOP", "Sre": "SRE", "Ui": "UI", "Ux": "UX", "Zk": "ZK",
+}
 
 
 def title_for(slug: str) -> str:
-    acronyms = {
-        "Ai": "AI", "Api": "API", "Cd": "CD", "Ci": "CI", "Cms": "CMS",
-        "Crm": "CRM", "Ecommerce": "eCommerce", "Esg": "ESG", "Finops": "FinOps",
-        "Graphql": "GraphQL", "Iac": "IaC", "Ios": "iOS", "It": "IT", "Mcp": "MCP",
-        "N8N": "N8n", "Okr": "OKR", "Pr": "PR", "Qa": "QA", "Seo": "SEO",
-        "Sop": "SOP", "Sre": "SRE", "Ui": "UI", "Ux": "UX", "Zk": "ZK",
-    }
     words = slug.replace("-", " ").title().split()
-    return " ".join(acronyms.get(w, w) for w in words)
+    return " ".join(ACRONYMS.get(w, w) for w in words)
 
 
 def main() -> int:
-    catalog = load_v4_catalog()
+    version = get_version()
+    root = repo_root()
 
-    for repo, groups in catalog.items():
-        repo_dir = OWN_DIR / repo
-        if not repo_dir.is_dir():
-            print(f"Skipping {repo} (dir not found)")
+    catalog: dict[str, dict[str, list]] = {}
+    for skill in iter_skills(root):
+        repo_dict = catalog.setdefault(skill.repo, {})
+        group_list = repo_dict.setdefault(skill.group or "General", [])
+        group_list.append(skill)
+
+    for repo_path in repo_paths(root):
+        repo = repo_path.name
+        if repo not in catalog:
             continue
-
-        display_name = REPO_DISPLAY_MAP.get(repo, repo)
+        groups = catalog[repo]
+        display_name = LABELS.get(repo, repo)
         total_skills = sum(len(skills) for skills in groups.values())
 
         lines = [
@@ -38,7 +48,7 @@ def main() -> int:
             "",
             f"{display_name} skills collection for Claude Code, Cursor, Codex, Gemini CLI, and `npx skills` — part of [Skillary](https://github.com/poorvith-mp/skillary) by [Poorvith M P](https://github.com/poorvith-mp).",
             "",
-            "- **Version**: `v3.0.0`",
+            f"- **Version**: `v{version}`",
             f"- **Total Skills**: `{total_skills}`",
             "- **License**: MIT",
             "- **Hub Repository**: [poorvith-mp/skillary](https://github.com/poorvith-mp/skillary)",
@@ -62,13 +72,14 @@ def main() -> int:
         for group, skills in groups.items():
             lines.append(f"### {group}")
             lines.append("")
-            lines.append("| Skill ID | Title | Description |")
-            lines.append("|:---------|:------|:------------|")
-            for s in sorted(skills, key=lambda x: x["slug"]):
-                slug = s["slug"]
+            lines.append("| Skill ID | Title | Description | Reviewed |")
+            lines.append("|:---------|:------|:------------|:---------|")
+            for s in sorted(skills, key=lambda x: x.slug):
+                slug = s.slug
                 title = title_for(slug)
-                desc = s["description"].replace("|", "\\|")
-                lines.append(f"| `{slug}` | [{title}](skills/{slug}/SKILL.md) | {desc} |")
+                desc = s.description.replace("|", "\\|")
+                reviewed = s.last_reviewed or "—"
+                lines.append(f"| `{slug}` | [{title}](skills/{slug}/SKILL.md) | {desc} | {reviewed} |")
             lines.append("")
 
         lines.extend([
@@ -78,7 +89,7 @@ def main() -> int:
             "",
         ])
 
-        readme_path = repo_dir / "README.md"
+        readme_path = repo_path / "README.md"
         readme_path.write_text("\n".join(lines), encoding="utf-8")
         print(f"Generated {readme_path} ({total_skills} skills)")
 

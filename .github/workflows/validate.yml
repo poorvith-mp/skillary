@@ -24,39 +24,60 @@ jobs:
         with:
           path: skillary
 
-      - name: Check out the category repos
+      - name: Check out category repos and agents
         run: |
           for c in developer marketing gamedev business design education \
                    agents personal writing sales finance legal; do
             git clone --depth 1 "https://github.com/poorvith-mp/skills-$c.git" "skills-$c"
           done
+          git clone --depth 1 "https://github.com/poorvith-mp/skillary-agents.git" "skillary-agents"
 
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v5
         with:
-          python-version: "3.12"
+          version: "latest"
 
-      - run: pip install pyyaml
+      - name: Install dependencies
+        working-directory: skillary
+        run: uv sync
+
+      - name: Run automated test suite
+        working-directory: skillary
+        run: uv run python -m pytest -q -W error
 
       - name: Skills validate
         working-directory: skillary
-        run: python scripts/validate.py
+        run: uv run python scripts/validate.py
 
       - name: README index is current
         working-directory: skillary
-        run: python scripts/build_index.py --check
+        run: uv run python scripts/build_index.py --check
 
       - name: Manifests are current
         working-directory: skillary
-        run: python scripts/gen_manifests.py --check
+        run: uv run python scripts/gen_manifests.py --check
 
       - name: Bundles match their source
         working-directory: skillary
-        run: python scripts/bundle.py --check
+        run: uv run python scripts/bundle.py --check
 
       - name: Overlapping skills name a sibling
         working-directory: skillary
-        run: python scripts/overlap.py --check-boundaries
+        run: uv run python scripts/overlap.py --check-boundaries
 
       - name: Version numbers are synchronized
         working-directory: skillary
-        run: python scripts/check_version_sync.py
+        run: uv run python scripts/check_version_sync.py
+
+      - name: Generate quality report
+        working-directory: skillary
+        run: uv run python scripts/quality_report.py
+
+      - name: Commit quality report on schedule
+        if: github.event_name == 'schedule'
+        working-directory: skillary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/quality.md
+          git commit -m "chore(quality): update catalog quality report [skip ci]" || true
+          git push || true

@@ -17,6 +17,7 @@ dropped straight into CI once remediation has landed.
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import re
 import sys
@@ -139,6 +140,23 @@ def check_skill(skill, report: Report, known_slugs: set[str] | None = None) -> N
 
     if "use when" not in desc.lower():
         report.add(sid, "no-trigger-clause", "description has no 'Use when' trigger clause")
+
+    # --- provenance ----------------------------------------------------
+    if not skill.last_reviewed:
+        report.add(sid, "PROV001", "missing last_reviewed in frontmatter", "warning")
+    else:
+        try:
+            if not re.match(r"^\d{4}-\d{2}-\d{2}$", skill.last_reviewed):
+                raise ValueError("Format must be YYYY-MM-DD")
+            rev_date = datetime.date.fromisoformat(skill.last_reviewed)
+            if (datetime.date.today() - rev_date).days > 180:
+                report.add(sid, "PROV004", f"last_reviewed '{skill.last_reviewed}' is older than 180 days", "warning")
+        except ValueError:
+            report.add(sid, "PROV002", f"invalid last_reviewed date '{skill.last_reviewed}'; must be YYYY-MM-DD", "error")
+
+    if skill.tested_with:
+        if not re.match(r"^[a-z0-9-]+ [0-9][0-9A-Za-z.\-]*$", skill.tested_with):
+            report.add(sid, "PROV003", f"invalid tested_with format '{skill.tested_with}'; must match '<host> <version>'", "error")
 
     # --- body ----------------------------------------------------------
     body = skill.body

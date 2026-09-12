@@ -30,6 +30,21 @@ CATEGORIES = [
     "legal",
 ]
 
+LABELS = {
+    "skills-developer": "Developer",
+    "skills-marketing": "Marketing",
+    "skills-gamedev": "Game Dev",
+    "skills-business": "Business",
+    "skills-design": "Design",
+    "skills-education": "Education",
+    "skills-agents": "Agents",
+    "skills-personal": "Personal",
+    "skills-writing": "Writing",
+    "skills-sales": "Sales & Support",
+    "skills-finance": "Finance",
+    "skills-legal": "Legal",
+}
+
 # Claude truncates the description in the skill listing at roughly this length.
 # Anything past it is invisible to skill selection, so the trigger clause has to
 # land inside it.
@@ -84,6 +99,8 @@ class Skill:
     frontmatter: str
     deprecated: bool = False
     group: str | None = None
+    last_reviewed: str | None = None
+    tested_with: str | None = None
 
     @property
     def slug(self) -> str:
@@ -178,7 +195,23 @@ def load_skill(repo: str, path: Path) -> Skill:
     deprecated = bool(dep_match)
     group_match = re.search(r"^group:[ \t]*(.+)$", frontmatter, re.M)
     group = group_match.group(1).strip().strip("\"'") if group_match else None
-    return Skill(repo, path, name, parse_description(frontmatter), body, raw, frontmatter, deprecated, group)
+    last_reviewed_match = re.search(r"^last_reviewed:[ \t]*(.+)$", frontmatter, re.M)
+    last_reviewed = last_reviewed_match.group(1).strip().strip("\"'") if last_reviewed_match else None
+    tested_with_match = re.search(r"^tested_with:[ \t]*(.+)$", frontmatter, re.M)
+    tested_with = tested_with_match.group(1).strip().strip("\"'") if tested_with_match else None
+    return Skill(
+        repo,
+        path,
+        name,
+        parse_description(frontmatter),
+        body,
+        raw,
+        frontmatter,
+        deprecated,
+        group,
+        last_reviewed,
+        tested_with,
+    )
 
 
 def iter_skills(root: Path | None = None, include_deprecated: bool = False):

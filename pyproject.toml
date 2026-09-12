@@ -1,0 +1,24 @@
+[project]
+name = "skillary"
+version = "4.0.0"
+description = "Curated, verified skill catalog and toolset for AI agents."
+authors = [
+    { name = "Poorvith M P" }
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0.2",
+]
+
+[project.scripts]
+skillary = "scripts.skillary_cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

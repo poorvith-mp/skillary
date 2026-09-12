@@ -2,6 +2,28 @@
 
 Versioning note: earlier releases used two conflicting schemes (`v0.1`/`v0.2`/`v0.3` in changelogs and commits, `v2.0` in the README and on GitHub Releases). From v2.1.0 onward there is one scheme: semver, continuing from the published v2.0.
 
+## v4.0.0 — September 2026
+
+Release 4.0 turns "curated" into verifiable data: automated provenance frontmatter, `skillary find` with token scoring and domain synonyms, deterministic `skillary.lock` and verification, `skillary doctor` audit for installed skills, and public CI quality reporting.
+
+**Provenance Frontmatter & Verification**
+- **Provenance Tracking**: Added `last_reviewed: YYYY-MM-DD` and `tested_with: <host> <version>` frontmatter to all 277 skills; validated via new codes `PROV001` through `PROV004` in `validate.py`.
+- **Automated Backfill**: Spliced review timestamps from git history and host flags (`claude-code 2.1`) across all category repositories without corrupting multiline YAML block scalars.
+- **Reviewed Tables**: Category READMEs and hub README summarize verified freshness (`277 of 277 reviewed in the last 180 days`).
+
+**Skillary CLI Tooling (`skillary`)**
+- **`skillary find`**: Rapid local search over `dist/skills.json` (< 300 ms) using weighted token scoring (slug ×3, title ×2, description ×1) and domain synonym expansion from `taxonomy/domain_map.yaml`. Zero network access by default.
+- **`skillary lock`**: Generates deterministic `skillary.lock` recording sha256 checksums, repository sources, commits, and review dates for installed skills.
+- **`skillary verify`**: Verifies installed skill integrity against `skillary.lock`, detecting unmodified, locally modified, missing, and new skills.
+- **`skillary doctor`**: Deep audit for installed skills reporting trigger collisions, risky security patterns, stale review dates (> 180 days), and unknown skills.
+
+**Quality & Governance**
+- **Public Quality Report**: Shipped `scripts/quality_report.py` generating `docs/quality.md` with catalog-wide metrics, category breakdowns, and verified invariants without leaking skill instruction bodies.
+- **Agent Orchestration**: Role contracts in `skillary-agents` prefer locked skills from `skillary.lock` when present in the workspace.
+
+**Planned Roadmap**
+- **4.1 (planned)**: Remove 260 deprecated stubs across category repositories once dependent migration periods expire.
+
 ## v3.0.0 — September 2026
 
 Modernized architecture, 277 skills across 12 focused repositories, standalone `skillary-agents` multi-agent orchestrator, and strict 200-character description gates.

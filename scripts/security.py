@@ -101,16 +101,21 @@ def scan_skill(skill, findings: list[Finding]) -> None:
             findings.append(Finding(sid, "corrupt-bundle", f"failed to open zip bundle: {e}"))
 
 
+def scan_skills(skills: list) -> list[Finding]:
+    """Scan a list of Skill objects for security indicators."""
+    findings: list[Finding] = []
+    for skill in skills:
+        scan_skill(skill, findings)
+    return findings
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--json", action="store_true", help="emit findings as JSON")
     args = parser.parse_args()
 
     skills = list(iter_skills())
-    findings: list[Finding] = []
-
-    for skill in skills:
-        scan_skill(skill, findings)
+    findings = scan_skills(skills)
 
     if args.json:
         import json

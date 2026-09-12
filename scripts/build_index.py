@@ -83,13 +83,27 @@ def collect() -> dict[str, list]:
 
 
 def render_repos(grouped: dict[str, list]) -> str:
+    import datetime
     total = sum(len(v) for v in grouped.values())
     order = [r for r in LABELS if r in grouped]
     begin, end = REGIONS["REPOS"]
     out = [begin, "", "| Category | Repository | Skills |", "|----------|------------|--------|"]
     for repo in order:
         out.append(f"| {LABELS[repo]} | [{repo}](https://github.com/{OWNER}/{repo}) | {len(grouped[repo])} |")
-    out += ["", f"**Total: {total} skills across {len(order)} repositories.**", "", end]
+
+    cutoff = datetime.date.today() - datetime.timedelta(days=180)
+    reviewed_count = 0
+    for items in grouped.values():
+        for s in items:
+            if s.last_reviewed:
+                try:
+                    d = datetime.date.fromisoformat(s.last_reviewed)
+                    if d >= cutoff:
+                        reviewed_count += 1
+                except ValueError:
+                    pass
+
+    out += ["", f"**Total: {total} skills across {len(order)} repositories ({reviewed_count} of {total} reviewed in the last 180 days).**", "", end]
     return "\n".join(out)
 
 
@@ -151,6 +165,8 @@ def emit_json(grouped: dict[str, list], out_path: Path) -> None:
                 "group": s.group or "",
                 "description": s.description.strip(),
                 "url": f"https://github.com/{OWNER}/{repo}/tree/main/skills/{s.slug}",
+                "last_reviewed": s.last_reviewed,
+                "tested_with": s.tested_with,
             })
     out_path.write_text(json.dumps(records, indent=2), encoding="utf-8")
 

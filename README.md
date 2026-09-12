@@ -6,10 +6,11 @@
 
 Central index for the Claude skills multi-repo library by [@poorvith-mp](https://github.com/poorvith-mp).
 
-- Version: **v3.0.0**
+- Version: **v4.0.0**
 - Last updated: **September 2026**
 - License: **MIT**
 - Total skills (all category repos): **277**
+- Quality report: [277 of 277 pass validation, 277 reviewed in the last 180 days](docs/quality.md)
 
 Each category is its own repo and its own installable plugin, so you take only the domains you want.
 
@@ -34,7 +35,7 @@ Each category is its own repo and its own installable plugin, so you take only t
 | Finance | [skills-finance](https://github.com/poorvith-mp/skills-finance) | 12 |
 | Legal | [skills-legal](https://github.com/poorvith-mp/skills-legal) | 11 |
 
-**Total: 277 skills across 12 repositories.**
+**Total: 277 skills across 12 repositories (277 of 277 reviewed in the last 180 days).**
 
 <!-- END:REPOS -->
 
