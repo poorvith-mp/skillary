@@ -26,10 +26,13 @@ jobs:
 
       - name: Check out category repos and agents
         run: |
+          REF="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           for c in developer marketing gamedev business design education \
                    agents personal writing sales finance legal; do
+            git clone --depth 1 --branch "$REF" "https://github.com/poorvith-mp/skills-$c.git" "skills-$c" 2>/dev/null || \
             git clone --depth 1 "https://github.com/poorvith-mp/skills-$c.git" "skills-$c"
           done
+          git clone --depth 1 --branch "$REF" "https://github.com/poorvith-mp/skillary-agents.git" "skillary-agents" 2>/dev/null || \
           git clone --depth 1 "https://github.com/poorvith-mp/skillary-agents.git" "skillary-agents"
 
       - uses: astral-sh/setup-uv@v5
