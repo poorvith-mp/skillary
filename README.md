@@ -6,8 +6,8 @@
 
 Central index for the Claude skills multi-repo library by [@poorvith-mp](https://github.com/poorvith-mp).
 
-- Version: **v4.0.0**
-- Last updated: **September 2026**
+- Version: **v4.1.0**
+- Last updated: **October 2026**
 - License: **MIT**
 - Total skills (all category repos): **277**
 - Quality report: [277 of 277 pass validation, 277 reviewed in the last 180 days](docs/quality.md)
@@ -70,7 +70,7 @@ This repo is an index and a plugin marketplace. It contains no skills itself —
 /plugin install skills-finance@skillary
 ```
 
-### Codex, Cursor, Gemini CLI and 70+ other agents
+### Gemini CLI, Antigravity, Codex, Cursor, Cline, and 70+ other agents
 
 `npx skills` reads the manifests in these repos, so no custom installer is needed:
 
@@ -92,15 +92,26 @@ cp -R skills-finance/skills/fp-and-a-analyst ~/.claude/skills/
 | Agent | Personal | Project |
 |-------|----------|---------|
 | Claude Code | `~/.claude/skills/` | `.claude/skills/` |
-| Codex CLI | `~/.codex/skills/` | `.codex/skills/` |
+| Gemini App | Settings → Skills | — (cloud-based) |
 | Gemini CLI | `~/.gemini/skills/` | `.agents/skills/` |
+| Antigravity | — | `.agents/skills/` |
+| Codex CLI | `~/.codex/skills/` | `.codex/skills/` |
 | Cursor | `~/.cursor/skills/` | `.agents/skills/` |
+| Cline | `~/.cline/skills/` | `.cline/skills/` |
+| Roo Code | `~/.roo/rules/` | `.roo/rules/` |
 | VS Code / Copilot | `~/.copilot/skills/` | `.github/skills/` |
 
 `.agents/skills/` is the emerging vendor-neutral path that several agents read.
 
 ### Claude.ai
 Every skill ships a `<skill-id>.skill` bundle. Upload it via **Settings → Capabilities → Skills**.
+
+### Gemini App
+
+Gemini's Skills feature (replacing Gems) imports `SKILL.md` files and `.skill` bundles directly:
+- **Upload**: Drag a `.skill` bundle or `SKILL.md` file into **Settings → Skills → Import**
+- **URL Import**: Paste any GitHub `SKILL.md` URL into the import dialog
+- **Sharing**: Skills can be shared via generated links
 
 ---
 

@@ -1,6 +1,6 @@
 [project]
 name = "skillary"
-version = "4.0.0"
+version = "4.1.0"
 description = "Curated, verified skill catalog and toolset for AI agents."
 authors = [
     { name = "Poorvith M P" }
@@ -22,3 +22,4 @@ dev = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]

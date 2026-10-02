@@ -34,10 +34,30 @@ def default_index_path() -> Path:
     return Path("dist") / "skills.json"
 
 
-def default_skills_root() -> Path:
-    local_claude = Path.cwd() / ".claude" / "skills"
-    if local_claude.is_dir():
-        return local_claude
+AGENT_PATHS = {
+    "claude": (".claude/skills", ".claude/skills"),
+    "gemini": (".gemini/skills", ".gemini/skills"),
+    "antigravity": (".agents/skills", ".agents/skills"),
+    "codex": (".codex/skills", ".codex/skills"),
+    "cursor": (".cursor/skills", ".cursor/skills"),
+    "cline": (".cline/skills", ".cline/skills"),
+    "roo": (".roo/rules", ".roo/rules"),
+}
+
+
+def default_skills_root(agent: str | None = None) -> Path:
+    if agent and agent in AGENT_PATHS:
+        project_rel, user_rel = AGENT_PATHS[agent]
+        local = Path.cwd() / project_rel
+        if local.is_dir():
+            return local
+        return Path.home() / user_rel
+    # Auto-detect: try each known agent path
+    for project_rel, user_rel in AGENT_PATHS.values():
+        local = Path.cwd() / project_rel
+        if local.is_dir():
+            return local
+    # Fall back to claude
     return Path.home() / ".claude" / "skills"
 
 
@@ -201,7 +221,7 @@ def cmd_lock(args: argparse.Namespace) -> int:
     records = load_index(args.index)
     index_by_slug = {r["slug"]: r for r in records}
 
-    root_dir = Path(args.root) if args.root else default_skills_root()
+    root_dir = Path(args.root) if args.root else default_skills_root(getattr(args, 'agent', None))
     if not root_dir.is_dir():
         sys.stderr.write(f"Error: skills directory not found at {root_dir}\n")
         return 1
@@ -253,7 +273,7 @@ def cmd_verify(args: argparse.Namespace) -> int:
     lock_data = json.loads(lock_path.read_text(encoding="utf-8"))
     locked_skills = lock_data.get("skills", {})
 
-    root_dir = Path(args.root) if args.root else default_skills_root()
+    root_dir = Path(args.root) if args.root else default_skills_root(getattr(args, 'agent', None))
     index_records = []
     try:
         index_records = load_index(args.index)
@@ -310,7 +330,7 @@ def cmd_verify(args: argparse.Namespace) -> int:
 # --- Command: doctor ---
 
 def cmd_doctor(args: argparse.Namespace) -> int:
-    root_dir = Path(args.root) if args.root else default_skills_root()
+    root_dir = Path(args.root) if args.root else default_skills_root(getattr(args, 'agent', None))
     if not root_dir.is_dir():
         sys.stderr.write(f"Error: skills directory not found at {root_dir}\n")
         return 1
@@ -416,12 +436,14 @@ def main() -> int:
     p_find.add_argument("--limit", type=int, default=10, help="Max results to return (default 10)")
     p_find.add_argument("--json", action="store_true", help="Output results as JSON")
     p_find.add_argument("--index", help="Path or URL to skills.json")
+    p_find.add_argument("--agent", choices=list(AGENT_PATHS.keys()), help="Target agent for path resolution")
 
     # lock
     p_lock = subparsers.add_parser("lock", help="Generate skillary.lock from installed skills")
     p_lock.add_argument("--root", help="Installed skills directory")
     p_lock.add_argument("--out", default="skillary.lock", help="Lockfile output path (default skillary.lock)")
     p_lock.add_argument("--index", help="Path to skills.json")
+    p_lock.add_argument("--agent", choices=list(AGENT_PATHS.keys()), help="Target agent for path resolution")
 
     # verify
     p_verify = subparsers.add_parser("verify", help="Verify installed skills against skillary.lock")
@@ -429,12 +451,14 @@ def main() -> int:
     p_verify.add_argument("--lock", default="skillary.lock", help="Lockfile path (default skillary.lock)")
     p_verify.add_argument("--index", help="Path to skills.json")
     p_verify.add_argument("--json", action="store_true", help="Output verification as JSON")
+    p_verify.add_argument("--agent", choices=list(AGENT_PATHS.keys()), help="Target agent for path resolution")
 
     # doctor
     p_doc = subparsers.add_parser("doctor", help="Audit installed skills for collisions and risks")
     p_doc.add_argument("--root", help="Installed skills directory")
     p_doc.add_argument("--index", help="Path to skills.json")
     p_doc.add_argument("--json", action="store_true", help="Output audit report as JSON")
+    p_doc.add_argument("--agent", choices=list(AGENT_PATHS.keys()), help="Target agent for path resolution")
 
     args = parser.parse_args()
 
