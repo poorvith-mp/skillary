@@ -2,6 +2,12 @@
 
 Versioning note: earlier releases used two conflicting schemes (`v0.1`/`v0.2`/`v0.3` in changelogs and commits, `v2.0` in the README and on GitHub Releases). From v2.1.0 onward there is one scheme: semver, continuing from the published v2.0.
 
+## v4.1.0 — October 2026
+
+- **Agent Support**: Added Gemini App (Skills replacing Gems), Gemini CLI, Antigravity, Cline, and Roo Code as first-class supported agents in README and CLI.
+- **Skillary CLI**: Added `--agent` flag to `skillary find`, `lock`, `verify`, and `doctor` to explicitly specify the target agent environment.
+- **Auto-detection**: `default_skills_root()` now auto-detects the active agent environment from `.gemini/skills`, `.agents/skills`, `.codex/skills`, etc., before falling back to `~/.claude/skills`.
+
 ## v4.0.0 — September 2026
 
 Release 4.0 turns "curated" into verifiable data: automated provenance frontmatter, `skillary find` with token scoring and domain synonyms, deterministic `skillary.lock` and verification, `skillary doctor` audit for installed skills, and public CI quality reporting.
